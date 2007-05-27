@@ -1,3 +1,10 @@
 #! /usr/bin/make -f
 
 include debian/cdbs/kde.mk
+
+install/libqca2::
+	mkdir -p debian/man-out ;
+	docbook-to-man man/qcatool.docbook > debian/man-out/qcatool.1
+
+clean::
+	rm -rf debian/man-out
