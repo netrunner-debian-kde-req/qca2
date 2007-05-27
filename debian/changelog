@@ -1,3 +1,13 @@
+qca (2.0~beta2+svn20070527-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Update build-dependencies.
+  * Convert rules file to use the build system as used in kde4 packages,
+  * Add manpage for qcatool.
+  * Remove obsolete dirs files.
+
+ -- Sune Vuorela <debian@pusling.com>  Sun, 27 May 2007 21:15:09 +0200
+
 qca (2.0~beta2-1) experimental; urgency=low
 
   * New upstream release

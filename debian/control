@@ -2,7 +2,7 @@ Source: qca
 Priority: optional
 Section: libs
 Maintainer: Jan Niehusmann <jan@debian.org>
-Build-Depends: debhelper (>= 4.0.0), libqt4-dev (>= 4.1.0-3), libqt4-debug-dev (>= 4.1.0-3)
+Build-Depends: debhelper (>= 4.0.0), cdbs, quilt, cmake, libqt4-dev (>= 4.1.0-3), libsasl2-dev, libgcrypt11-dev
 Build-Conflicts: qca-dev
 Standards-Version: 3.7.2
 
