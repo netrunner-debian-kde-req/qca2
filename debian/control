@@ -1,0 +1,42 @@
+Source: qca
+Priority: optional
+Section: libs
+Maintainer: Jan Niehusmann <jan@debian.org>
+Build-Depends: debhelper (>= 4.0.0), libqt4-dev (>= 4.1.0-3), libqt4-debug-dev (>= 4.1.0-3)
+Build-Conflicts: qca-dev
+Standards-Version: 3.7.2
+
+Package: libqca2-dev
+Section: libdevel
+Architecture: any
+Depends: libqca2 (= ${Source-Version})
+Conflicts: qca-dev
+Description: Qt Cryptographic Architecture - development files
+ Taking a hint from the similarly-named Java Cryptography Architecture,
+ QCA aims to provide a straightforward and cross-platform crypto API,
+ using Qt datatypes and conventions. QCA separates the API from the
+ implementation, using plugins known as Providers. The advantage of
+ this model is to allow applications to avoid linking to or explicitly
+ depending on any particular cryptographic library. This allows one to
+ easily change or upgrade crypto implementations without even needing
+ to recompile the application!
+ .
+ This package contains the files necessary to compile applications
+ using qca.
+
+Package: libqca2
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt Cryptographic Architecture - shared library
+ Taking a hint from the similarly-named Java Cryptography Architecture,
+ QCA aims to provide a straightforward and cross-platform crypto API,
+ using Qt datatypes and conventions. QCA separates the API from the
+ implementation, using plugins known as Providers. The advantage of
+ this model is to allow applications to avoid linking to or explicitly
+ depending on any particular cryptographic library. This allows one to
+ easily change or upgrade crypto implementations without even needing
+ to recompile the application!
+ .
+ This package contains the files necessary to run applications
+ using qca.

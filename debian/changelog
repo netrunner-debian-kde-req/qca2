@@ -1,0 +1,55 @@
+qca (2.0~beta2-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Jan Niehusmann <jan@debian.org>  Wed,  9 Aug 2006 17:53:12 +0200
+
+qca (1.0-8) unstable; urgency=low
+
+  * Update control file with correct Depends, Conflicts and
+    Replaces statements. (Closes: Bug#326131, Bug#326607)
+
+ -- Jan Niehusmann <jan@debian.org>  Mon,  5 Sep 2005 18:41:10 +0200
+
+qca (1.0-7) unstable; urgency=low
+
+  * C++ ABI transition
+
+ -- Jan Niehusmann <jan@debian.org>  Tue, 16 Aug 2005 07:41:10 +0200
+
+qca (1.0-6) unstable; urgency=low
+
+  * Reupload to unstable (Closes: Bug#290326) to make psi happy
+
+ -- Jan Niehusmann <jan@debian.org>  Thu, 13 Jan 2005 17:07:09 +0100
+
+qca (1.0-5) experimental; urgency=low
+
+  * Remove conf.log in clean target
+
+ -- Jan Niehusmann <jan@debian.org>  Tue, 16 Nov 2004 13:28:38 +0100
+
+qca (1.0-4) experimental; urgency=low
+
+  * Fixed dependency of qca-dev on libqca1
+
+ -- Jan Niehusmann <jan@debian.org>  Tue, 16 Nov 2004 13:24:43 +0100
+
+qca (1.0-3) experimental; urgency=low
+
+  * Changed section of qca-dev to libdevel
+
+ -- Jan Niehusmann <jan@debian.org>  Mon, 15 Nov 2004 12:13:55 +0100
+
+qca (1.0-2) experimental; urgency=low
+
+  * Added build-dependency on libqt3-mt-dev (Closes: Bug#281338)
+
+ -- Jan Niehusmann <jan@debian.org>  Mon, 15 Nov 2004 11:26:18 +0100
+
+qca (1.0-1) experimental; urgency=low
+
+  * New upstream release
+  * First version uploaded to debian (Closes: Bug#223469)
+
+ -- Jan Niehusmann <jan@debian.org>  Tue,  6 Nov 2004 13:58:01 +0100
