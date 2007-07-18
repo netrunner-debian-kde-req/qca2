@@ -4,4 +4,4 @@ usr/lib/qt4/plugins/crypto/libqca-cyrus-sasl.so
 usr/lib/qt4/plugins/crypto/libqca-gcrypt.so
 usr/lib/qt4/plugins/crypto/libqca-gnupg.so
 usr/lib/qt4/plugins/crypto/libqca-logger.so
-usr/lib/qt4/plugins/crypto/libqca-openssl.so
+usr/lib/qt4/plugins/crypto/libqca-ossl.so
