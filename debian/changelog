@@ -1,12 +1,16 @@
-qca (2.0~beta2+svn20070527-1) experimental; urgency=low
+qca (2.0.0~beta7-1) experimental; urgency=low
 
-  * New upstream snapshot.
-  * Update build-dependencies.
-  * Convert rules file to use the build system as used in kde4 packages,
+  * New upstream release
+  * Some packaging cleanups (fixed lintian warnings etc.)
+  * Added libxss-dev build dependency (like Ubuntu did a while ago)
+  * removed libqt4-debug-dev from Build-Depends (Closes: Bug#407802, Bug#432619)
+ 
+  And a few changes by Sune Vuorela:
+
   * Add manpage for qcatool.
   * Remove obsolete dirs files.
 
- -- Sune Vuorela <debian@pusling.com>  Sun, 27 May 2007 21:15:09 +0200
+ -- Jan Niehusmann <jan@debian.org>  Tue, 24 Jul 2007 16:35:39 +0200
 
 qca (2.0~beta2-1) experimental; urgency=low
 

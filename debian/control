@@ -2,14 +2,14 @@ Source: qca
 Priority: optional
 Section: libs
 Maintainer: Jan Niehusmann <jan@debian.org>
-Build-Depends: debhelper (>= 4.0.0), cdbs, quilt, cmake, libqt4-dev (>= 4.1.0-3), libsasl2-dev, libgcrypt11-dev
-Build-Conflicts: qca-dev
+Build-Depends: debhelper (>= 4.0.0), cmake, libqt4-dev (>= 4.1.0-3), libxss-dev, docbook-to-man
+Build-Conflicts: qca-dev, libqca2-dev
 Standards-Version: 3.7.2
 
 Package: libqca2-dev
 Section: libdevel
 Architecture: any
-Depends: libqca2 (= ${Source-Version})
+Depends: libqca2 (= ${binary:Version})
 Conflicts: qca-dev
 Description: Qt Cryptographic Architecture - development files
  Taking a hint from the similarly-named Java Cryptography Architecture,
