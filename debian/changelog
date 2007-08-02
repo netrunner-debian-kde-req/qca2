@@ -1,3 +1,10 @@
+qca2 (2.0.0~beta7-2) experimental; urgency=low
+
+  * Renamed the source package to qca2, to allow qca version 1 to stay in the
+    archive in parallel to qca2. (Closes: Bug#435185)
+
+ -- Jan Niehusmann <jan@debian.org>  Thu, 02 Aug 2007 18:03:25 +0200
+
 qca (2.0.0~beta7-1) experimental; urgency=low
 
   * New upstream release

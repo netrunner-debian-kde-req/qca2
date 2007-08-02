@@ -1,8 +1,9 @@
-Source: qca
+Source: qca2
 Priority: optional
 Section: libs
-Maintainer: Jan Niehusmann <jan@debian.org>
-Build-Depends: debhelper (>= 4.0.0), cmake, libqt4-dev (>= 4.1.0-3), libxss-dev, docbook-to-man
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Jan Niehusmann <jan@debian.org>
+Build-Depends: debhelper (>= 4.0.0), libqt4-dev (>= 4.1.0-3), libxss-dev, docbook-to-man
 Build-Conflicts: qca-dev, libqca2-dev
 Standards-Version: 3.7.2
 
