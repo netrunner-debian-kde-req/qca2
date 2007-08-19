@@ -1,3 +1,9 @@
+qca2 (2.0.0~beta7-3) experimental; urgency=low
+
+  * updated debian/copyright to mention all copyright holders and licenses
+
+ -- Jan Niehusmann <jan@debian.org>  Tue, 14 Aug 2007 18:04:31 +0200
+
 qca2 (2.0.0~beta7-2) experimental; urgency=low
 
   * Renamed the source package to qca2, to allow qca version 1 to stay in the
