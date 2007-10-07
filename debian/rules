@@ -45,8 +45,6 @@ build-stamp:  config.status
 	# add here commands to compile the package.
 	$(MAKE)
 
-	docbook-to-man man/qcatool.docbook > man/qcatool2.1
-
 	touch build-stamp
 
 clean:
@@ -66,7 +64,6 @@ clean:
 	-rmdir lib
 	-rm makefile
 	-rm qca2.pc
-	-rm man/qcatool2.1
 
 #ifneq "$(wildcard /usr/share/misc/config.sub)" ""
 #	cp -f /usr/share/misc/config.sub config.sub

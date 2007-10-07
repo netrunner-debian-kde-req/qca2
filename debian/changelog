@@ -1,3 +1,12 @@
+qca2 (2.0.0-1) experimental; urgency=low
+
+  * New upstream release
+  * Remove the bogous dependency on libxss-dev. This should have gone to psi,
+    not qca2
+  * libqca2-dev now depends on libqt4-dev (Closes: Bug#441264, Bug#441266)
+
+ -- Jan Niehusmann <jan@debian.org>  Sun, 07 Oct 2007 15:02:41 +0200
+
 qca2 (2.0.0~beta7-3) experimental; urgency=low
 
   * updated debian/copyright to mention all copyright holders and licenses
