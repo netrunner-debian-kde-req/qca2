@@ -1,3 +1,9 @@
+qca2 (2.0.0-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- Jan Niehusmann <jan@debian.org>  Sat, 27 Oct 2007 18:51:54 +0200
+
 qca2 (2.0.0-1) experimental; urgency=low
 
   * New upstream release
