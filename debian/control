@@ -6,6 +6,7 @@ Uploaders: Jan Niehusmann <jan@debian.org>
 Build-Depends: debhelper (>= 4.0.0), libqt4-dev (>= 4.1.0-3), docbook-to-man
 Build-Conflicts: qca-dev, libqca2-dev
 Standards-Version: 3.7.2
+Homepage: http://delta.affinix.com/qca/
 
 Package: libqca2-dev
 Section: libdevel
