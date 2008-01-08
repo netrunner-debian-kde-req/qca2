@@ -1,3 +1,20 @@
+qca2 (2.0.0-4) unstable; urgency=low
+
+  * Add Homepage: to control.
+
+ -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Tue, 08 Jan 2008 12:54:11 -0500
+
+qca2 (2.0.0-3) unstable; urgency=low
+
+  * Disable compilation of unit tests. As the plugins necessary to actually
+    execute the tests are not available at compile time, and the compiled
+    tests are not included in the packages, it's not actually useful to
+    compile them in the first place. Additionally, some of the files need
+    a huge amount of memory to compile and therefore take excessively long
+    to compile on buildds with little memory.
+
+ -- Jan Niehusmann <jan@debian.org>  Tue, 20 Nov 2007 12:16:44 +0100
+
 qca2 (2.0.0-2) unstable; urgency=low
 
   * Upload to unstable

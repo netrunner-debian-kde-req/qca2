@@ -36,7 +36,7 @@ major=2
 config.status: configure
 	dh_testdir
 	# add here commands to configure the package.
-	cflags="$(cflags)" ./configure --prefix=/usr --qtdir=/usr/share/qt4/
+	cflags="$(cflags)" ./configure --prefix=/usr --qtdir=/usr/share/qt4/ --disable-tests
 
 build: build-stamp
 build-stamp:  config.status
