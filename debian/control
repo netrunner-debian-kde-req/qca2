@@ -3,8 +3,8 @@ Priority: optional
 Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jan Niehusmann <jan@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6.0.0), quilt, cmake,
- libqt4-dev (>= 4.1.0-3), docbook-to-man
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6.0.0), quilt, cmake, libqt4-dev,
+ ca-certificates
 Build-Conflicts: qca-dev, libqca2-dev
 Standards-Version: 3.7.3
 Homepage: http://delta.affinix.com/qca/
@@ -19,19 +19,6 @@ Description: libraries for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
-
-Package: libqca2-dbg
-Section: libdevel
-Architecture: any
-Depends: libqca2 (= ${binary:Version})
-Recommends: libqt4-debug
-Description: debugging symbols for the Qt Cryptographic Architecture
- The Qt Cryptographic Architecture provides a straightforward and cross-
- platform API for a range of cryptographic features, including SSL/TLS,
- X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
- .
- This package contains debugging files used to investigate problems with
- binaries included in the Qt Cryptographic Architecture packages.
 
 Package: libqca2-dev
 Section: libdevel

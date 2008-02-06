@@ -1,14 +1,25 @@
 #!/usr/bin/make -f
   
 include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/cmake.mk
-include /usr/share/cdbs/1/rules/patchsys-quilt.mk
 include /usr/share/cdbs/1/rules/utils.mk
+include /usr/share/cdbs/1/class/makefile.mk
 
-DEB_CMAKE_EXTRA_FLAGS += -DBUILD_TESTS:BOOL=OFF \
-			-DCMAKE_SHARED_LINKER_FLAGS="-Wl,--no-undefined -Wl,--as-needed" \
-			-DCMAKE_MODULE_LINKER_FLAGS="-Wl,--no-undefined -Wl,--as-needed" \
-			-DCMAKE_EXE_LINKER_FLAGS="-Wl,--no-undefined -Wl,--as-needed"
+# QMake targets
+DEB_MAKE_INSTALL_TARGET = install INSTALL_ROOT=$(DEB_DESTDIR)
+DEB_MAKE_CLEAN_TARGET = distclean
 
+# QConf breaks with CDBS default DEB_MAKE_INVOKE
+DEB_MAKE_INVOKE = $(DEB_MAKE_ENVVARS) make -C $(DEB_BUILDDIR)
+
+# QConf configure script
+# DEB_BUILD_OPTIONS is not supported!
+common-configure-arch::
+	./configure --prefix=/usr --qtdir=/usr/share/qt4 --disable-tests
+
+# Clean up QConf
+clean::
+	rm -rf confapp_unix.pri conf.log conf.pri crypto.prf lib/
+
+# Point links in API documentation towards qt4-doc
 build/libqca2-doc::
 	$(CURDIR)/apidocs/html/installdox -q -lqt.tag@/usr/share/qt4/doc/html $(CURDIR)/apidocs/html/*.html

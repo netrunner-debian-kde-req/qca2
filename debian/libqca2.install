@@ -1,3 +1,4 @@
 debian/tmp/usr/lib/libqca.so.2
+debian/tmp/usr/lib/libqca.so.2.0
 debian/tmp/usr/lib/libqca.so.2.0.0
 debian/tmp/usr/bin/qcatool2

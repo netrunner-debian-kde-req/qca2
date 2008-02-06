@@ -2,11 +2,9 @@ qca2 (2.0.0-4) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
-  * Switch rules to CMake with CDBS.
-  * Add patch separate_plugins.diff to ignore non-existant plugins directory.
+  * Switch rules to CDBS.
   * Create API documentation package.
-  * Create debug package.
-  * Install qmake mkspecs file in libqca2-dev.
+  * Install qmake data files in libqca2-dev.
   * Bump compat to 6.
   * Bump Standards-Version to 3.7.3.
   * Tweak package descriptions.
@@ -14,7 +12,7 @@ qca2 (2.0.0-4) UNRELEASED; urgency=low
   * Suggest qca2 plugins.
   * Add watch file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Feb 2008 12:25:10 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Feb 2008 02:43:55 -0500
 
 qca2 (2.0.0-3) unstable; urgency=low
 
