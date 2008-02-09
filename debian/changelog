@@ -12,7 +12,7 @@ qca2 (2.0.0-4) UNRELEASED; urgency=low
   * Suggest qca2 plugins.
   * Add watch file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Feb 2008 02:43:55 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Feb 2008 22:56:05 -0500
 
 qca2 (2.0.0-3) unstable; urgency=low
 

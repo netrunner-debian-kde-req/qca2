@@ -3,8 +3,7 @@ Priority: optional
 Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jan Niehusmann <jan@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6.0.0), quilt, cmake, libqt4-dev,
- ca-certificates
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, libqt4-dev, ca-certificates
 Build-Conflicts: qca-dev, libqca2-dev
 Standards-Version: 3.7.3
 Homepage: http://delta.affinix.com/qca/
@@ -13,7 +12,7 @@ Package: libqca2
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: libqca2-plugin-gnupg, libqca2-plugin-ossl
+Suggests: libqca2-plugin-cyrus-sasl, libqca2-plugin-gnupg, libqca2-plugin-ossl, libqca2-plugin-pkcs11
 Conflicts: libqca2-plugin-gnupg (<< 0.1~20070904-1), libqca2-plugin-ossl (<< 0.1~20070904-1)
 Description: libraries for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture provides a straightforward and cross-

@@ -11,10 +11,12 @@ DEB_MAKE_CLEAN_TARGET = distclean
 # QConf breaks with CDBS default DEB_MAKE_INVOKE
 DEB_MAKE_INVOKE = $(DEB_MAKE_ENVVARS) make -C $(DEB_BUILDDIR)
 
-# QConf configure script
+# QConf configure script rule derived from qmake.mk
 # DEB_BUILD_OPTIONS is not supported!
-common-configure-arch::
-	./configure --prefix=/usr --qtdir=/usr/share/qt4 --disable-tests
+common-configure-arch common-configure-indep:: common-configure-impl
+common-configure-impl:: $(DEB_BUILDDIR)/Makefile
+$(DEB_BUILDDIR)/Makefile:
+	cd $(DEB_BUILDDIR) && ./configure --prefix=/usr --qtdir=/usr/share/qt4 --disable-tests
 
 # Clean up QConf
 clean::
