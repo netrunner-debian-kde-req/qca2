@@ -15,7 +15,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: libqca2-plugin-cyrus-sasl, libqca2-plugin-gnupg, libqca2-plugin-ossl, libqca2-plugin-pkcs11
 Conflicts: libqca2-plugin-gnupg (<< 0.1~20070904-1), libqca2-plugin-ossl (<< 0.1~20070904-1)
 Description: libraries for the Qt Cryptographic Architecture
- The Qt Cryptographic Architecture provides a straightforward and cross-
+ The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
 
@@ -26,7 +26,7 @@ Depends: libqca2 (= ${binary:Version}), libqt4-dev
 Suggests: libqca2-doc (= ${source:Version})
 Conflicts: qca-dev
 Description: development files for the Qt Cryptographic Architecture
- The Qt Cryptographic Architecture provides a straightforward and cross-
+ The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
  .
@@ -40,7 +40,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: qt4-doc
 Suggests: libqca2-dev (= ${source:Version})
 Description: API documentation for the Qt Cryptographic Architecture
- The Qt Cryptographic Architecture provides a straightforward and cross-
+ The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
  .
