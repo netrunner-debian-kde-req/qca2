@@ -2,7 +2,7 @@ qca2 (2.0.0-5) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
  
- * Build against Qt 4.4 in experimental. 
+  * Build against Qt 4.4 in experimental. 
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Feb 2008 05:40:45 +0100
 
