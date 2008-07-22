@@ -24,4 +24,13 @@ clean::
 
 # Point links in API documentation towards qt4-doc
 build/libqca2-doc::
-	$(CURDIR)/apidocs/html/installdox -q -lqt.tag@/usr/share/qt4/doc/html $(CURDIR)/apidocs/html/*.html
+	if test ! -d apidocs.orig; then \
+	  cp -a apidocs apidocs.orig; \
+	fi
+	apidocs/html/installdox -q -lqt.tag@/usr/share/qt4/doc/html apidocs/html/*.html
+
+cleanbuilddir/libqca2-doc::
+	if test -d apidocs.orig; then \
+	  rm -rf apidocs; \
+	  mv apidocs.orig apidocs; \
+	fi
