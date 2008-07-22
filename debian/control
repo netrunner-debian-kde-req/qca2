@@ -11,6 +11,8 @@ Build-Depends: ca-certificates,
 Build-Conflicts: libqca2-dev, qca-dev
 Standards-Version: 3.8.0
 Homepage: http://delta.affinix.com/qca/
+Vcs-Svn: svn://svn.debian.org/svn/pkg-kde/trunk/packages/qca/qca2
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/qca/qca2
 
 Package: libqca2
 Section: libs
