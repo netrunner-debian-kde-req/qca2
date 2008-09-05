@@ -6,7 +6,6 @@ Uploaders: Jan Niehusmann <jan@debian.org>, Matthew Rosewarne <mrosewarne@inoutb
 Build-Depends: ca-certificates,
  cdbs (>= 0.4.51),
  debhelper (>= 6),
- quilt,
  libqt4-dev (>= 4.4.0)
 Build-Conflicts: libqca2-dev, qca-dev
 Standards-Version: 3.8.0
