@@ -8,10 +8,8 @@ Build-Depends: ca-certificates,
  debhelper (>= 6),
  libqt4-dev (>= 4.4.0)
 Build-Conflicts: libqca2-dev, qca-dev
-Standards-Version: 3.8.0
+Standards-Version: 3.8.1
 Homepage: http://delta.affinix.com/qca/
-Vcs-Svn: svn://svn.debian.org/svn/pkg-kde/trunk/packages/qca/qca2
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/qca/qca2
 
 Package: libqca2
 Section: libs
@@ -26,7 +24,7 @@ Description: libraries for the Qt Cryptographic Architecture
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
 
 Package: libqca2-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Depends: libqca2 (= ${binary:Version})
 Priority: extra

@@ -1,5 +1,5 @@
 libqca2-dbg: binary-without-manpage usr/bin/qcatool2.debug
-libqca2-dbg: sharedobject-in-library-directory-missing-soname usr/lib/libqca.so.2.0.1.debug
-libqca2-dbg: binary-with-bad-dynamic-table ./usr/lib/libqca.so.2.0.1.debug
+libqca2-dbg: sharedobject-in-library-directory-missing-soname usr/lib/libqca.so.2.0.2.debug
+libqca2-dbg: binary-with-bad-dynamic-table ./usr/lib/libqca.so.2.0.2.debug
 libqca2-dbg: statically-linked-binary ./usr/bin/qcatool2.debug
-libqca2-dbg: shared-lib-without-dependency-information ./usr/lib/libqca.so.2.0.1.debug
+libqca2-dbg: shared-lib-without-dependency-information ./usr/lib/libqca.so.2.0.2.debug

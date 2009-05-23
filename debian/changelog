@@ -1,3 +1,11 @@
+qca2 (2.0.2-1) unstable; urgency=low
+
+  * New Upstream Version (Closes: Bug#529532)
+  * Remove out-of-date VCS fields from debian/control
+  * Move -dbg package to section 'debug'
+
+ -- Jan Niehusmann <jan@debian.org>  Sat, 23 May 2009 16:20:39 +0200
+
 qca2 (2.0.1-1) experimental; urgency=low
 
   * New upstream release.
