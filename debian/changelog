@@ -19,6 +19,9 @@ qca2 (2.0.3-1) UNRELEASED; urgency=low
   * libqca2-dbg: recommend libqt4-dbg.
   * Build with -fvisibility=hidden -fvisibility-inlines-hidden.
     - Add define_qca_export.diff to define QCA_EXPORT as Q_DECL_EXPORT.
+  * Disable broken unit test that fails if two subsequent random numbers are
+    the same.
+    - Add disable_randomunittest.diff
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 17:30:46 +0200
 
