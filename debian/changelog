@@ -9,6 +9,7 @@ qca2 (2.0.3-1) UNRELEASED; urgency=low
     the debug symbol seperation.
   * Switch to debhelper compat level 7.
   * Simplify install files.
+  * Don't install the TODO file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 17:30:46 +0200
 
