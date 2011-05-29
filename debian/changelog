@@ -24,6 +24,9 @@ qca2 (2.0.3-1) UNRELEASED; urgency=low
     - Add disable_randomunittest.diff
   * Add a symbols file.
 
+  [ Modestas Vainius ]
+  * Remove Matthew Rosewarne from Uploaders, R.I.P.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 17:30:46 +0200
 
 qca2 (2.0.2-1) unstable; urgency=low
