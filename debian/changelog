@@ -17,6 +17,8 @@ qca2 (2.0.3-1) UNRELEASED; urgency=low
   * Fix short description of libqca2-dbg.
   * Add missing ${misc:Depends}.
   * libqca2-dbg: recommend libqt4-dbg.
+  * Build with -fvisibility=hidden.
+    - Add define_qca_export.diff to define QCA_EXPORT as Q_DECL_EXPORT.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 17:30:46 +0200
 
