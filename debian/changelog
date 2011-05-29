@@ -22,6 +22,7 @@ qca2 (2.0.3-1) UNRELEASED; urgency=low
   * Disable broken unit test that fails if two subsequent random numbers are
     the same.
     - Add disable_randomunittest.diff
+  * Add a symbols file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 17:30:46 +0200
 
