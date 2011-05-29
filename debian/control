@@ -6,7 +6,7 @@ Uploaders: Jan Niehusmann <jan@debian.org>, Matthew Rosewarne <mrosewarne@inoutb
 Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  libqt4-dev (>= 4.4.0), ca-certificates
 Build-Conflicts: libqca2-dev, qca-dev
-Standards-Version: 3.8.1
+Standards-Version: 3.9.2
 Homepage: http://delta.affinix.com/qca/
 
 Package: libqca2
@@ -15,7 +15,6 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: ca-certificates
 Suggests: libqca2-plugin-cyrus-sasl, libqca2-plugin-gnupg, libqca2-plugin-ossl, libqca2-plugin-pkcs11
-Conflicts: libqca2-plugin-gnupg (<< 0.1~20070904-1), libqca2-plugin-ossl (<< 0.1~20070904-1)
 Description: libraries for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
