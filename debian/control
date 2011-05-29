@@ -23,7 +23,7 @@ Description: libraries for the Qt Cryptographic Architecture
 Package: libqca2-dbg
 Section: debug
 Architecture: any
-Depends: libqca2 (= ${binary:Version})
+Depends: ${misc:Depends}, libqca2 (= ${binary:Version})
 Priority: extra
 Description: debug symbols for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
@@ -36,7 +36,7 @@ Description: debug symbols for the Qt Cryptographic Architecture
 Package: libqca2-dev
 Section: libdevel
 Architecture: any
-Depends: libqca2 (= ${binary:Version}), libqt4-dev (>= 4.4.0~)
+Depends: ${misc:Depends}, libqca2 (= ${binary:Version}), libqt4-dev (>= 4.4.0~)
 Suggests: libqca2-doc (= ${source:Version})
 Conflicts: qca-dev
 Description: development files for the Qt Cryptographic Architecture
@@ -50,7 +50,7 @@ Description: development files for the Qt Cryptographic Architecture
 Package: libqca2-doc
 Section: doc
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}
 Recommends: qt4-doc
 Suggests: libqca2-dev (= ${source:Version})
 Description: API documentation for the Qt Cryptographic Architecture
