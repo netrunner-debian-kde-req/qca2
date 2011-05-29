@@ -25,7 +25,7 @@ Section: debug
 Architecture: any
 Depends: libqca2 (= ${binary:Version})
 Priority: extra
-Description: development files for the Qt Cryptographic Architecture
+Description: debug symbols for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
