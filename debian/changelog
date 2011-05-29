@@ -7,6 +7,7 @@ qca2 (2.0.3-1) UNRELEASED; urgency=low
   * Switch debian/rules engine to dhmk.
   * Pass --no-separate-debug-info to configure and let dh_strip handle
     the debug symbol seperation.
+  * Switch to debhelper compat level 7.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 17:30:46 +0200
 

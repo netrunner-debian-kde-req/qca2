@@ -3,10 +3,8 @@ Priority: optional
 Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jan Niehusmann <jan@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: ca-certificates,
- pkg-kde-tools (>= 0.12),
- debhelper (>= 6),
- libqt4-dev (>= 4.4.0)
+Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ libqt4-dev (>= 4.4.0), ca-certificates
 Build-Conflicts: libqca2-dev, qca-dev
 Standards-Version: 3.8.1
 Homepage: http://delta.affinix.com/qca/
