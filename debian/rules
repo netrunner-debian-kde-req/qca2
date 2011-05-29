@@ -1,36 +1,22 @@
 #!/usr/bin/make -f
-  
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/rules/utils.mk
-include /usr/share/cdbs/1/class/makefile.mk
 
-# QMake targets
-DEB_MAKE_INSTALL_TARGET = install INSTALL_ROOT=$(DEB_DESTDIR)
-DEB_MAKE_CLEAN_TARGET = distclean
+CFLAGS := $(shell dpkg-buildflags --get CFLAGS)
+CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS)
+LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS)
 
-# QConf breaks with CDBS default DEB_MAKE_INVOKE
-DEB_MAKE_INVOKE = $(DEB_MAKE_ENVVARS) make -C $(DEB_BUILDDIR)
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-# QConf configure script rule derived from qmake.mk
-# DEB_BUILD_OPTIONS is not supported!
-common-configure-arch common-configure-indep:: common-configure-impl
-common-configure-impl:: $(DEB_BUILDDIR)/Makefile
-$(DEB_BUILDDIR)/Makefile:
-	cd $(DEB_BUILDDIR) && ./configure --prefix=/usr --qtdir=/usr/share/qt4 --disable-tests
+dh += --buildsystem=qmake
 
-# Clean up QConf
-clean::
+override_dh_auto_configure:
+	./configure --verbose --prefix=/usr --qtdir=/usr/share/qt4 --debug --no-separate-debug-info
+	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS)" >> conf.pri
+	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS)" >> conf.pri
+	echo QMAKE_LDFLAGS_DEBUG="$(LDFLAGS)" >> conf.pri
+
+override_dh_strip:
+	$(overridden_command) --dbg-package=libqca2-dbg
+
+override_dh_clean:
+	$(overridden_command)
 	rm -rf confapp_unix.pri conf.log conf.pri crypto.prf lib/
-
-# Point links in API documentation towards qt4-doc
-build/libqca2-doc::
-	if test ! -d apidocs.orig; then \
-	  cp -a apidocs apidocs.orig; \
-	fi
-	apidocs/html/installdox -q -lqt.tag@/usr/share/qt4/doc/html apidocs/html/*.html
-
-cleanbuilddir/libqca2-doc::
-	if test -d apidocs.orig; then \
-	  rm -rf apidocs; \
-	  mv apidocs.orig apidocs; \
-	fi

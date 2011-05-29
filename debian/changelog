@@ -4,6 +4,9 @@ qca2 (2.0.3-1) UNRELEASED; urgency=low
 
   [ Felix Geyer ]
   * Switch to source format 3.0 (quilt).
+  * Switch debian/rules engine to dhmk.
+  * Pass --no-separate-debug-info to configure and let dh_strip handle
+    the debug symbol seperation.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 17:30:46 +0200
 

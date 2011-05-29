@@ -4,7 +4,7 @@ Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jan Niehusmann <jan@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: ca-certificates,
- cdbs (>= 0.4.51),
+ pkg-kde-tools (>= 0.12),
  debhelper (>= 6),
  libqt4-dev (>= 4.4.0)
 Build-Conflicts: libqca2-dev, qca-dev
