@@ -24,6 +24,7 @@ Package: libqca2-dbg
 Section: debug
 Architecture: any
 Depends: ${misc:Depends}, libqca2 (= ${binary:Version})
+Recommends: libqt4-dbg
 Priority: extra
 Description: debug symbols for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-

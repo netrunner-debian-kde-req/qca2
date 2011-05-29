@@ -16,6 +16,7 @@ qca2 (2.0.3-1) UNRELEASED; urgency=low
   * Add myself as uploader.
   * Fix short description of libqca2-dbg.
   * Add missing ${misc:Depends}.
+  * libqca2-dbg: recommend libqt4-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 May 2011 17:30:46 +0200
 
