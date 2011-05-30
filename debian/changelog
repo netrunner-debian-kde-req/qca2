@@ -3,6 +3,9 @@ qca2 (2.0.3-2) UNRELEASED; urgency=low
   [ Felix Geyer ]
   * Add Vcs-* fields.
 
+  [ Modestas Vainius ]
+  * Add myself to Uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 30 May 2011 01:51:28 +0200
 
 qca2 (2.0.3-1) unstable; urgency=low
