@@ -55,7 +55,7 @@ Section: doc
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: qt4-doc
-Suggests: libqca2-dev (= ${source:Version})
+Suggests: libqca2-dev (>= ${source:Version})
 Description: API documentation for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
