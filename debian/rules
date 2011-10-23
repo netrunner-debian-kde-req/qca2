@@ -9,8 +9,8 @@ dh += --buildsystem=qmake
 
 override_dh_auto_configure:
 	./configure --verbose --prefix=/usr --qtdir=/usr/share/qt4 --debug --no-separate-debug-info
-	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS)" >> conf.pri
-	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS)" >> conf.pri
+	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS) $(CPPFLAGS)" >> conf.pri
+	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS) $(CPPFLAGS)" >> conf.pri
 	echo QMAKE_LDFLAGS_DEBUG="$(LDFLAGS)" >> conf.pri
 
 override_dh_strip:
