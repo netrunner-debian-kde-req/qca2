@@ -1,5 +1,8 @@
 qca2 (2.0.3-3) UNRELEASED; urgency=low
 
+  [ Felix Geyer ]
+  * Modify CFLAGS and CXXFLAGS after including debian-qt-kde.mk so the
+    changes are not overwritten.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
 
