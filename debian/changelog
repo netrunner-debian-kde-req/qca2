@@ -1,3 +1,8 @@
+qca2 (2.0.3-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
+
 qca2 (2.0.3-2) unstable; urgency=low
 
   [ Felix Geyer ]
