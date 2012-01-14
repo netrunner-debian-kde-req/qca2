@@ -5,6 +5,8 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
     changes are not overwritten.
   * Pass $CPPFLAGS to the build system.
   * Update symbols file.
+  * Convert to multiarch.
+    - Move qcatool2 into an own package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
 
