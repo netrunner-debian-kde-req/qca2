@@ -5,6 +5,8 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
     changes are not overwritten.
   * Pass $CPPFLAGS to the build system.
   * Update symbols file.
+  * Fix FTBFS with gcc 4.7.
+    - Add fix_build_gcc4.7.diff, cherry-picked from upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
 
