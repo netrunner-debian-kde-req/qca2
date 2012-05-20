@@ -9,6 +9,7 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
     - Add fix_build_gcc4.7.diff, cherry-picked from upstream.
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Convert to multiarch.
+    - Bump debhelper compat level to v9.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
 
