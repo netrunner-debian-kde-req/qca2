@@ -12,6 +12,7 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
     - Bump debhelper compat level to v9.
     - Move qcatool2 into an own package.
     - Mark libqca2 and libqca2-dbg as Multi-Arch: same.
+  * Fix passing $LDFLAGS to the build system.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
 
