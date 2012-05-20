@@ -10,6 +10,7 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Convert to multiarch.
     - Bump debhelper compat level to v9.
+    - Move qcatool2 into an own package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
 
