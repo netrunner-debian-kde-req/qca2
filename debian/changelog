@@ -8,6 +8,7 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
   * Fix FTBFS with gcc 4.7. (Closes: #667339)
     - Add fix_build_gcc4.7.diff, cherry-picked from upstream.
   * Bump Standards-Version to 3.9.3, no changes needed.
+  * Convert to multiarch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
 

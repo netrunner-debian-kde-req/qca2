@@ -1,2 +1,2 @@
-usr/lib/libqca.so.2*
+usr/lib/*/libqca.so.2*
 usr/bin/qcatool2
