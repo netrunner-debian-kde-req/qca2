@@ -15,6 +15,9 @@ override_dh_auto_configure:
 	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS) $(CPPFLAGS)" >> conf.pri
 	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS) $(CPPFLAGS)" >> conf.pri
 	echo QMAKE_LFLAGS_DEBUG="$(LDFLAGS)" >> conf.pri
+	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS) $(CPPFLAGS)" >> confapp.pri
+	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS) $(CPPFLAGS)" >> confapp.pri
+	echo QMAKE_LFLAGS_DEBUG="$(LDFLAGS)" >> confapp.pri
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=libqca2-dbg
