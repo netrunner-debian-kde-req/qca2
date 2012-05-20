@@ -14,6 +14,7 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
     - Mark libqca2 and libqca2-dbg as Multi-Arch: same.
   * Fix passing $LDFLAGS to the build system.
   * Pass build flags to qcatool2.
+  * Remove confapp.pri in clean target.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
 

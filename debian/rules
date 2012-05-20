@@ -24,4 +24,4 @@ override_dh_strip:
 
 override_dh_clean:
 	$(overridden_command)
-	rm -rf confapp_unix.pri conf.log conf.pri crypto.prf lib/
+	rm -rf confapp.pri confapp_unix.pri conf.log conf.pri crypto.prf lib/
