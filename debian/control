@@ -24,7 +24,7 @@ Description: libraries for the Qt Cryptographic Architecture
  platform API for a range of cryptographic features, including SSL/TLS,
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
 
-Package: qcatool2
+Package: qca2-utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqca2 (= ${binary:Version})
 Breaks: libqca2 (<< 2.0.3-3~)

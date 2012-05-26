@@ -10,7 +10,7 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Convert to multiarch.
     - Bump debhelper compat level to v9.
-    - Move qcatool2 into an own package.
+    - Move qcatool2 into the new binary package qca2-utils.
     - Mark libqca2 and libqca2-dbg as Multi-Arch: same.
   * Fix passing $LDFLAGS to the build system.
   * Pass build flags to qcatool2.
