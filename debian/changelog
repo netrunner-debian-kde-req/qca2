@@ -1,4 +1,4 @@
-qca2 (2.0.3-3) UNRELEASED; urgency=low
+qca2 (2.0.3-3) unstable; urgency=low
 
   [ Felix Geyer ]
   * Modify CFLAGS and CXXFLAGS after including debian-qt-kde.mk so the
@@ -16,7 +16,7 @@ qca2 (2.0.3-3) UNRELEASED; urgency=low
   * Pass build flags to qcatool2.
   * Remove confapp.pri in clean target.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Oct 2011 16:03:44 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 May 2012 18:30:41 +0200
 
 qca2 (2.0.3-2) unstable; urgency=low
 
