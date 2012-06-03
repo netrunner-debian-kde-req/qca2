@@ -2,6 +2,8 @@ qca2 (2.0.3-4) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Fix the symbols file.
+  * Add pipeunittest_more_wait.diff to increase times of qWait() in the
+    pipeunittest test (helps with Hurd).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jun 2012 13:28:53 +0200
 
