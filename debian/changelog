@@ -1,5 +1,7 @@
 qca2 (2.0.3-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix the symbols file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jun 2012 13:28:53 +0200
 
