@@ -1,13 +1,13 @@
-qca2 (2.0.3-4) UNRELEASED; urgency=low
+qca2 (2.0.3-4) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Fix the symbols file.
   * Add pipeunittest_more_wait.diff to increase times of qWait() in the
     pipeunittest test (helps with Hurd).
   * Add patch hurd_msync.diff to temporarly ignore ENOSYS errors for Hurd's
     msync().
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jun 2012 13:28:53 +0200
+ -- Pino Toscano <pino@debian.org>  Mon, 04 Jun 2012 11:49:16 +0200
 
 qca2 (2.0.3-3) unstable; urgency=low
 
