@@ -25,6 +25,7 @@ Description: libraries for the Qt Cryptographic Architecture
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
 
 Package: qca2-utils
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqca2 (= ${binary:Version})
 Breaks: libqca2 (<< 2.0.3-3~)
