@@ -2,6 +2,7 @@ qca2 (2.0.3-5) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Change the section of qca2-utils from libs to utils.
+  * Bump Standards-Version to 3.9.4, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Jul 2013 13:15:05 +0200
 
