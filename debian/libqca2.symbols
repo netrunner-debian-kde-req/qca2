@@ -1338,6 +1338,7 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA9providersEv@Base 2.0.2
  _ZN3QCAlsER11QTextStreamRKNS_10BigIntegerE@Base 2.0.2
  _ZN3QCAplERKNS_11SecureArrayES2_@Base 2.0.2
+ (optional=templinst)_ZN9QHashData9hasShrunkEv@Base 2.0.2
  _ZNK3QCA10BigInteger7compareERKS0_@Base 2.0.2
  _ZNK3QCA10BigInteger7toArrayEv@Base 2.0.2
  _ZNK3QCA10BigInteger8toStringEv@Base 2.0.2
