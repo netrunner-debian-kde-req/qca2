@@ -1,11 +1,11 @@
-qca2 (2.0.3-5) UNRELEASED; urgency=low
+qca2 (2.0.3-5) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Change the section of qca2-utils from libs to utils.
   * Bump Standards-Version to 3.9.5, no changes required.
   * Update symbols file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Jul 2013 13:15:05 +0200
+ -- Pino Toscano <pino@debian.org>  Sun, 08 Dec 2013 22:54:54 +0100
 
 qca2 (2.0.3-4) unstable; urgency=low
 
