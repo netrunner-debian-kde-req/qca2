@@ -1,9 +1,9 @@
-qca2 (2.0.3-6) UNRELEASED; urgency=medium
+qca2 (2.0.3-6) unstable; urgency=medium
 
   * Update the symbols file for gcc 4.9. Thanks to Sphinx Jiang for the
     initial patch. (Closes: #746895)
 
- -- Felix Geyer <fgeyer@debian.org>  Wed, 11 Jun 2014 14:29:03 +0200
+ -- Felix Geyer <fgeyer@debian.org>  Wed, 11 Jun 2014 16:54:40 +0200
 
 qca2 (2.0.3-5) unstable; urgency=low
 
