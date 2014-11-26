@@ -21,6 +21,9 @@ qca2 (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
       - libqca2-plugin-gnupg
       - libqca2-plugin-cyrus-sasl
     + Added transitional packages for old plugins
+  * Add kubuntu_ignore_filewatch_test.diff to ignore a test which fails in
+    buildds but not for local build
+  * Add kubuntu_mkspecs-dir.diff to install mkspecs to correct place
 
  -- Harald Sitter <apachelogger@kubuntu.org>  Sat, 22 Nov 2014 15:46:56 +0100
 
