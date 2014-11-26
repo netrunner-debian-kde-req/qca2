@@ -1,4 +1,4 @@
-qca2 (2.1.0-0ubuntu1) vivid; urgency=medium
+qca2 (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
     + This release merges the official plugins into the main package.
