@@ -1,3 +1,29 @@
+qca2 (2.1.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+    + This release merges the official plugins into the main package.
+    + Deprecating these sources and their binaries:
+      - qca2-plugin-gnupg
+      - qca2-plugin-ossl
+      - qca-cyrus-sasl
+    + Build system was changed to git
+    + Docs packages was removed as the source does not build documentation
+    + Introduces qt5 build.
+      - All packages have a qt5 version.
+      - The qt5 build uses a differnet suffix to lead to a different
+        soname
+      - Since the qt5 artifacts partially conflict with the qt4 bits
+        additional measures were taken to make sure dh_install and dh_strip
+        work on the resepectively correct package set
+    + New binary packages (excluding qt5):
+      - libqca2-plugins containing all plugins
+      - libqca2-plugin-ossl
+      - libqca2-plugin-gnupg
+      - libqca2-plugin-cyrus-sasl
+    + Added transitional packages for old plugins
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Sat, 22 Nov 2014 15:46:56 +0100
+
 qca2 (2.0.3-6) unstable; urgency=medium
 
   * Update the symbols file for gcc 4.9. Thanks to Sphinx Jiang for the

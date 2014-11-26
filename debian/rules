@@ -1,27 +1,37 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
-
-CFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
-CXXFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+# Enable strict interdependencies
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
+include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+QT5_BUILD_DIR = "obj-$(DEB_HOST_MULTIARCH)-qt5"
+QT5_PACKAGES = $(shell grep Package: debian/control | grep qt5 | grep -v '\-dbg' | sed -e 's/Package: //g')
+QT5_DH_EXCLUDE := $(foreach package, $(QT5_PACKAGES), -N $(package))
+QT5_DH_INCLUDE := $(foreach package, $(QT5_PACKAGES), -p $(package))
 
-dh += --buildsystem=qmake
+override_dh_auto_clean:
+	$(overridden_command)
+	rm -rf $(QT5_BUILD_DIR)
 
 override_dh_auto_configure:
-	./configure --verbose --prefix=/usr --libdir=/usr/lib/$(DEB_HOST_MULTIARCH) --qtdir=/usr/share/qt4 \
-	  --debug --no-separate-debug-info
-	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS) $(CPPFLAGS)" >> conf.pri
-	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS) $(CPPFLAGS)" >> conf.pri
-	echo QMAKE_LFLAGS_DEBUG="$(LDFLAGS)" >> conf.pri
-	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS) $(CPPFLAGS)" >> confapp.pri
-	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS) $(CPPFLAGS)" >> confapp.pri
-	echo QMAKE_LFLAGS_DEBUG="$(LDFLAGS)" >> confapp.pri
+	$(overridden_command)                                   -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
+	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR) -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" -DQCA_SUFFIX="qt5"
+
+override_dh_auto_build:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR)
+
+override_dh_auto_install:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR) --destdir=debian/tmp-qt5
+
+override_dh_install:
+	$(overridden_command) $(QT5_DH_EXCLUDE)
+	# Qt 5 needs to fail missing as it won't be covered in regular list-missing magic :'<
+	$(overridden_command) $(QT5_DH_INCLUDE) --sourcedir=debian/tmp-qt5 --fail-missing
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=libqca2-dbg
-
-override_dh_clean:
-	$(overridden_command)
-	rm -rf confapp.pri confapp_unix.pri conf.log conf.pri crypto.prf lib/
+	$(overridden_command) $(QT5_DH_EXCLUDE) --dbg-package=libqca2-dbg
+	$(overridden_command) $(QT5_DH_INCLUDE) --dbg-package=libqca-qt5-2-dbg

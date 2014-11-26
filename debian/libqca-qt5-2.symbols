@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 2.0.3 alpha amd64 armel armhf i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390 s390x sh4 sparc
-libqca.so.2 libqca2 #MINVER#
+libqca-qt5.so.2 libqca-qt5-2 #MINVER#
 * Build-Depends-Package: libqca2-dev
  _Z10qcaVersionv@Base 2.0.2
  (arch=amd64)_Z13qcaVersionStrv@Base 2.0.3
