@@ -13,10 +13,10 @@ QT5_DH_INCLUDE := $(foreach package, $(QT5_PACKAGES), -p $(package))
 
 override_dh_auto_clean:
 	$(overridden_command)
-	rm -rf $(QT5_BUILD_DIR)
+	rm -rf $(QT5_BUILD_DIR) debian/tmp-qt5
 
 override_dh_auto_configure:
-	$(overridden_command)                                   -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
+	$(overridden_command)                                   -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" -DQT4_BUILD=true
 	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR) -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" -DQCA_SUFFIX="qt5"
 
 override_dh_auto_build:

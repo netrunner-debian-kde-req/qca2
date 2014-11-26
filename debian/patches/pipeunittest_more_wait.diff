@@ -7,9 +7,11 @@ Description: pipeunittest: raise the qWait() times to 100ms
 Last-Update: 2012-06-03
 Forwarded: no
 
---- a/unittest/pipeunittest/pipeunittest.cpp
-+++ b/unittest/pipeunittest/pipeunittest.cpp
-@@ -106,17 +106,17 @@ void PipeUnitTest::readWrite()
+Index: qca-2.1.0/unittest/pipeunittest/pipeunittest.cpp
+===================================================================
+--- qca-2.1.0.orig/unittest/pipeunittest/pipeunittest.cpp
++++ qca-2.1.0/unittest/pipeunittest/pipeunittest.cpp
+@@ -109,17 +109,17 @@ void PipeUnitTest::readWrite()
      pipe1.readEnd().enable();
  
      pipe1.writeEnd().write( testData1 );
@@ -31,7 +33,7 @@ Forwarded: no
      QCOMPARE( pipe1.readEnd().bytesAvailable(), testData1.size() + testData2.size() );
      QByteArray thisRead = pipe1.readEnd().read(1);
      QCOMPARE( thisRead, QByteArray("D") );
-@@ -141,17 +141,17 @@ void PipeUnitTest::readWriteSecure()
+@@ -144,17 +144,17 @@ void PipeUnitTest::readWriteSecure()
      pipe1.readEnd().enable();
  
      pipe1.writeEnd().writeSecure( testData1 );
@@ -53,7 +55,7 @@ Forwarded: no
      QCOMPARE( pipe1.readEnd().bytesAvailable(), testData1.size() + testData2.size() );
      QCA::SecureArray thisRead = pipe1.readEnd().readSecure(1);
      QCOMPARE( thisRead, QCA::SecureArray("D") );
-@@ -187,8 +187,8 @@ void PipeUnitTest::signalTests()
+@@ -190,8 +190,8 @@ void PipeUnitTest::signalTests()
  
      QByteArray data("Far better, it is, to dare mighty things");
      pipe->writeEnd().write( data );
@@ -64,7 +66,7 @@ Forwarded: no
      QCOMPARE( readyReadSpy.count(), 1 );
      QCOMPARE( bytesWrittenSpy.count(), 1 );    
      // this pulls out the first argument to the first signal as an integer
-@@ -199,11 +199,11 @@ void PipeUnitTest::signalTests()
+@@ -202,11 +202,11 @@ void PipeUnitTest::signalTests()
      QCOMPARE( closedReadSpy.count(), 0 );
   
      pipe->readEnd().close();
@@ -78,7 +80,7 @@ Forwarded: no
      QCOMPARE( closedWriteSpy.count(), 1 );
      QCOMPARE( closedReadSpy.count(), 1 );
  }
-@@ -234,8 +234,8 @@ void PipeUnitTest::signalTestsSecure()
+@@ -237,8 +237,8 @@ void PipeUnitTest::signalTestsSecure()
  
      QCA::SecureArray data("Far better, it is, to dare mighty things");
      pipe->writeEnd().writeSecure( data );
@@ -89,7 +91,7 @@ Forwarded: no
      QCOMPARE( readyReadSpy.count(), 1 );
      QCOMPARE( bytesWrittenSpy.count(), 1 );    
      // this pulls out the first argument to the first signal as an integer
-@@ -246,11 +246,11 @@ void PipeUnitTest::signalTestsSecure()
+@@ -249,11 +249,11 @@ void PipeUnitTest::signalTestsSecure()
      QCOMPARE( closedReadSpy.count(), 0 );
   
      pipe->readEnd().close();

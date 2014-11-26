@@ -1,11 +1,12 @@
 Source: qca2
 Priority: optional
 Section: libs
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jan Niehusmann <jan@debian.org>, Felix Geyer <fgeyer@debian.org>,
  Modestas Vainius <modax@debian.org>
-Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.12),
- libqt4-dev (>= 4.4.0), ca-certificates, libsasl2-dev, libssl-dev, doxygen
+Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.12), cmake, pkg-config,
+ libqt4-dev (>= 4.4.0), ca-certificates, libsasl2-dev, libssl-dev, doxygen,
+ qtbase5-dev
 Build-Conflicts: libqca-qt5-2-dev, qca-dev
 Standards-Version: 3.9.6
 Homepage: http://delta.affinix.com/qca/
@@ -64,7 +65,7 @@ Package: libqca2-dev
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, libqca2 (= ${binary:Version}), libqt4-dev (>= 4.4.0~)
-Conflicts: qca-dev
+Conflicts: qca-dev, libqca-qt5-2-dev
 Description: development files for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
@@ -122,6 +123,7 @@ Package: libqca-qt5-2-dev
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, libqca-qt5-2 (= ${binary:Version}), qtbase5-dev
+Conflicts: libqca2-dev
 Description: development files for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,

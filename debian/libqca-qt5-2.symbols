@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.0.3 alpha amd64 armel armhf i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390 s390x sh4 sparc
+# SymbolsHelper-Confirmed: 2.1.0 amd64
 libqca-qt5.so.2 libqca-qt5-2 #MINVER#
 * Build-Depends-Package: libqca2-dev
  _Z10qcaVersionv@Base 2.0.2
@@ -12,107 +12,107 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_Z16qVariantSetValueIN3QCA6PGPKeyEEvR8QVariantRKT_@Base 2.0.3
  (optional=templinst|arch=amd64)_Z16qVariantSetValueIN3QCA9KeyBundleEEvR8QVariantRKT_@Base 2.0.3
  _Z16qca_secure_alloci@Base 2.0.2
- (optional=templinst|arch=amd64)_Z17qRegisterMetaTypeIN17QtMetaTypePrivate23QSequentialIterableImplEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 2.0.3
- (optional=templinst|arch=amd64)_Z17qRegisterMetaTypeIN3QCA11SecureArrayEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 2.0.3
- (optional=templinst|arch=amd64)_Z17qRegisterMetaTypeIN3QCA13KeyStoreEntryEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 2.0.3
+ (optional=templinst)_Z17qRegisterMetaTypeIN17QtMetaTypePrivate23QSequentialIterableImplEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 2.1.0
+ (optional=templinst)_Z17qRegisterMetaTypeIN3QCA11SecureArrayEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 2.1.0
+ (optional=templinst)_Z17qRegisterMetaTypeIN3QCA13KeyStoreEntryEEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 2.1.0
  _Z18qca_secure_reallocPvi@Base 2.0.2
- (optional=templinst|arch=amd64)_Z27qRegisterNormalizedMetaTypeI5QListIN3QCA13KeyStoreEntryEEEiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS7_Xaasr12QMetaTypeId2IS7_E7DefinedntsrSC_9IsBuiltInEE11DefinedTypeE@Base 2.0.3
- (arch=amd64)_ZGVZN9QtPrivate19ValueTypeIsMetaTypeI5QListI8QVariantELb1EE17registerConverterEiE1f@Base 2.0.3
- (arch=amd64)_ZGVZN9QtPrivate19ValueTypeIsMetaTypeI5QListIN3QCA13KeyStoreEntryEELb1EE17registerConverterEiE1f@Base 2.0.3
+ (optional=templinst)_Z27qRegisterNormalizedMetaTypeI5QListIN3QCA13KeyStoreEntryEEEiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS7_Xaasr12QMetaTypeId2IS7_E7DefinedntsrSC_9IsBuiltInEE11DefinedTypeE@Base 2.1.0
+ _ZGVZN9QtPrivate19ValueTypeIsMetaTypeI5QListI8QVariantELb1EE17registerConverterEiE1f@Base 2.1.0
+ _ZGVZN9QtPrivate19ValueTypeIsMetaTypeI5QListIN3QCA13KeyStoreEntryEELb1EE17registerConverterEiE1f@Base 2.1.0
  (arch=amd64)_ZN10QByteArrayD1Ev@Base 2.0.3
  (arch=amd64)_ZN10QByteArrayD2Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdI5QListIN3QCA13KeyStoreEntryEEE14qt_metatype_idEv@Base 2.0.3
+ (optional=templinst)_ZN11QMetaTypeIdI5QListIN3QCA13KeyStoreEntryEEE14qt_metatype_idEv@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN3QCA11CertificateEE14qt_metatype_idEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN3QCA3CRLEE14qt_metatype_idEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN3QCA6PGPKeyEE14qt_metatype_idEv@Base 2.0.3
+ (optional=templinst)_ZN11QMetaTypeIdIN3QCA6PGPKeyEE14qt_metatype_idEv@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN11QMetaTypeIdIN3QCA9KeyBundleEE14qt_metatype_idEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN12QWeakPointerI7QObjectED1Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN12QWeakPointerI7QObjectED2Ev@Base 2.0.3
+ (optional=templinst)_ZN12QWeakPointerI7QObjectED1Ev@Base 2.1.0
+ (optional=templinst)_ZN12QWeakPointerI7QObjectED2Ev@Base 2.1.0
  (optional=external|arch=!amd64)_ZN15QBasicAtomicInt3refEv@Base 2.0.3
  (optional=external|arch=!amd64)_ZN15QBasicAtomicInt5derefEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE5equalEPKPvS8_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE6assignEPPvPKS6_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE7advanceEPPvi@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE7destroyEPPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListIN3QCA13KeyStoreEntryEE14const_iteratorEE5equalEPKPvS9_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListIN3QCA13KeyStoreEntryEE14const_iteratorEE6assignEPPvPKS7_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListIN3QCA13KeyStoreEntryEE14const_iteratorEE7advanceEPPvi@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListIN3QCA13KeyStoreEntryEE14const_iteratorEE7destroyEPPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListI8QVariantELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListI8QVariantELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListI8QVariantELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListI8QVariantELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntry4TypeEELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntry4TypeEELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntry4TypeEELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntry4TypeEELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntryEELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntryEELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntryEELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntryEELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI8QVariantLb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI8QVariantLb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI8QVariantLb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI8QVariantLb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11CertificateELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11CertificateELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11CertificateELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11CertificateELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11SecureArrayELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11SecureArrayELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11SecureArrayELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11SecureArrayELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA13KeyStoreEntryELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA13KeyStoreEntryELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA13KeyStoreEntryELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA13KeyStoreEntryELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA3CRLELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA3CRLELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA3CRLELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA3CRLELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA5EventELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA5EventELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA5EventELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA5EventELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA6PGPKeyELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA6PGPKeyELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA6PGPKeyELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA6PGPKeyELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA9KeyBundleELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA9KeyBundleELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA9KeyBundleELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA9KeyBundleELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE6CreateEPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE6DeleteEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE8DestructEPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE9ConstructEPvPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl13moveToEndImplI5QListI8QVariantEEEvPKvPPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl13moveToEndImplI5QListIN3QCA13KeyStoreEntryEEEEvPKvPPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl15moveToBeginImplI5QListI8QVariantEEEvPKvPPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl15moveToBeginImplI5QListIN3QCA13KeyStoreEntryEEEEvPKvPPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl6atImplI5QListI8QVariantEEEPKvS6_i@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl6atImplI5QListIN3QCA13KeyStoreEntryEEEEPKvS7_i@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl7getImplI5QListI8QVariantEEENS_11VariantDataEPKPvij@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl7getImplI5QListIN3QCA13KeyStoreEntryEEEENS_11VariantDataEPKPvij@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl8sizeImplI5QListI8QVariantEEEiPKv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN17QtMetaTypePrivate23QSequentialIterableImpl8sizeImplI5QListIN3QCA13KeyStoreEntryEEEEiPKv@Base 2.0.3
+ (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE5equalEPKPvS8_@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE6assignEPPvPKS6_@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE7advanceEPPvi@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE7destroyEPPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListIN3QCA13KeyStoreEntryEE14const_iteratorEE5equalEPKPvS9_@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListIN3QCA13KeyStoreEntryEE14const_iteratorEE6assignEPPvPKS7_@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListIN3QCA13KeyStoreEntryEE14const_iteratorEE7advanceEPPvi@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListIN3QCA13KeyStoreEntryEE14const_iteratorEE7destroyEPPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListI8QVariantELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListI8QVariantELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListI8QVariantELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListI8QVariantELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntry4TypeEELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntry4TypeEELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntry4TypeEELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntry4TypeEELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntryEELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntryEELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntryEELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI5QListIN3QCA13KeyStoreEntryEELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI8QVariantLb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI8QVariantLb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI8QVariantLb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI8QVariantLb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11CertificateELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11CertificateELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11CertificateELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11CertificateELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11SecureArrayELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11SecureArrayELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11SecureArrayELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA11SecureArrayELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA13KeyStoreEntryELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA13KeyStoreEntryELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA13KeyStoreEntryELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA13KeyStoreEntryELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA3CRLELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA3CRLELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA3CRLELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA3CRLELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA5EventELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA5EventELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA5EventELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA5EventELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA6PGPKeyELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA6PGPKeyELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA6PGPKeyELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA6PGPKeyELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA9KeyBundleELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA9KeyBundleELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA9KeyBundleELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperIN3QCA9KeyBundleELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE6CreateEPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE6DeleteEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE8DestructEPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperINS_23QSequentialIterableImplELb1EE9ConstructEPvPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl13moveToEndImplI5QListI8QVariantEEEvPKvPPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl13moveToEndImplI5QListIN3QCA13KeyStoreEntryEEEEvPKvPPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl15moveToBeginImplI5QListI8QVariantEEEvPKvPPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl15moveToBeginImplI5QListIN3QCA13KeyStoreEntryEEEEvPKvPPv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl6atImplI5QListI8QVariantEEEPKvS6_i@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl6atImplI5QListIN3QCA13KeyStoreEntryEEEEPKvS7_i@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl7getImplI5QListI8QVariantEEENS_11VariantDataEPKPvij@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl7getImplI5QListIN3QCA13KeyStoreEntryEEEENS_11VariantDataEPKPvij@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl8sizeImplI5QListI8QVariantEEEiPKv@Base 2.1.0
+ (optional=templinst)_ZN17QtMetaTypePrivate23QSequentialIterableImpl8sizeImplI5QListIN3QCA13KeyStoreEntryEEEEiPKv@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA10BigInteger7PrivateEE13detach_helperEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA10BigInteger7PrivateEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA10BigInteger7PrivateEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA11Certificate7PrivateEE13detach_helperEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA11Certificate7PrivateEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA11Certificate7PrivateEED2Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA12KeyStoreInfo7PrivateEE13detach_helperEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA14ConstraintType7PrivateEE13detach_helperEv@Base 2.0.3
+ (optional=templinst)_ZN18QSharedDataPointerIN3QCA12KeyStoreInfo7PrivateEE13detach_helperEv@Base 2.1.0
+ (optional=templinst)_ZN18QSharedDataPointerIN3QCA14ConstraintType7PrivateEE13detach_helperEv@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA14ConstraintType7PrivateEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA14ConstraintType7PrivateEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA16SecureMessageKey7PrivateEE13detach_helperEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA18CertificateRequest7PrivateEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA18CertificateRequest7PrivateEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA19CertificateInfoPair7PrivateEE13detach_helperEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA19CertificateInfoPair7PrivateEED1Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA19CertificateInfoPair7PrivateEED2Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA19CertificateInfoType7PrivateEE13detach_helperEv@Base 2.0.3
+ (optional=templinst)_ZN18QSharedDataPointerIN3QCA19CertificateInfoPair7PrivateEED1Ev@Base 2.1.0
+ (optional=templinst)_ZN18QSharedDataPointerIN3QCA19CertificateInfoPair7PrivateEED2Ev@Base 2.1.0
+ (optional=templinst)_ZN18QSharedDataPointerIN3QCA19CertificateInfoType7PrivateEE13detach_helperEv@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA19CertificateInfoType7PrivateEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA19CertificateInfoType7PrivateEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN18QSharedDataPointerIN3QCA21CertificateCollection7PrivateEE13detach_helperEv@Base 2.0.3
@@ -794,8 +794,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (arch=amd64)_ZN3QCA15KeyLoaderThread16staticMetaObjectE@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyLoaderThread2InD1Ev@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyLoaderThread2InD2Ev@Base 2.0.3
- (arch=amd64)_ZN3QCA15KeyLoaderThread3OutD1Ev@Base 2.0.3
- (arch=amd64)_ZN3QCA15KeyLoaderThread3OutD2Ev@Base 2.0.3
+ _ZN3QCA15KeyLoaderThread3OutD1Ev@Base 2.1.0
+ _ZN3QCA15KeyLoaderThread3OutD2Ev@Base 2.1.0
  (arch=amd64)_ZN3QCA15KeyLoaderThread3runEv@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyLoaderThreadD0Ev@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyLoaderThreadD1Ev@Base 2.0.3
@@ -832,21 +832,21 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (arch=amd64)_ZN3QCA15KeyStorePrivateD1Ev@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStorePrivateD2Ev@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker10writeEntryEiRK8QVariant@Base 2.0.3
- (arch=amd64)_ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_11CertificateE@Base 2.0.3
- (arch=amd64)_ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_3CRLE@Base 2.0.3
- (arch=amd64)_ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_6PGPKeyE@Base 2.0.3
- (arch=amd64)_ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_9KeyBundleE@Base 2.0.3
+ _ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_11CertificateE@Base 2.1.0
+ _ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_3CRLE@Base 2.1.0
+ _ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_6PGPKeyE@Base 2.1.0
+ _ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_9KeyBundleE@Base 2.1.0
  (arch=amd64)_ZN3QCA15KeyStoreTracker11ksl_busyEndEv@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker11qt_metacastEPKc@Base 2.0.3
- (arch=amd64)_ZN3QCA15KeyStoreTracker11removeEntryEiRK7QString@Base 2.0.3
+ _ZN3QCA15KeyStoreTracker11removeEntryEiRK7QString@Base 2.1.0
  (arch=amd64)_ZN3QCA15KeyStoreTracker12entryPassiveERK7QString@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker12updateStoresEPNS_19KeyStoreListContextE@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker13ksl_busyStartEv@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker13startProviderEPNS_8ProviderE@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker16ksl_storeUpdatedEi@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker16staticMetaObjectE@Base 2.0.3
- (arch=amd64)_ZN3QCA15KeyStoreTracker18ksl_diagnosticTextERK7QString@Base 2.0.3
+ _ZN3QCA15KeyStoreTracker18ksl_diagnosticTextERK7QString@Base 2.1.0
  (arch=amd64)_ZN3QCA15KeyStoreTracker4ItemD1Ev@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker4ItemD2Ev@Base 2.0.3
  (arch=amd64)_ZN3QCA15KeyStoreTracker4selfE@Base 2.0.3
@@ -1268,8 +1268,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA3TLS11startClientERK7QString@Base 2.0.2
  _ZN3QCA3TLS11startServerEv@Base 2.0.2
  _ZN3QCA3TLS12readOutgoingEPi@Base 2.0.2
- (arch=!amd64)_ZN3QCA3TLS13connectNotifyEPKc@Base 2.0.3
- (arch=amd64)_ZN3QCA3TLS13connectNotifyERK11QMetaMethod@Base 2.0.3
+ (arch=)_ZN3QCA3TLS13connectNotifyEPKc@Base 2.1.0
+ _ZN3QCA3TLS13connectNotifyERK11QMetaMethod@Base 2.1.0
  _ZN3QCA3TLS13setIssuerListERK5QListINS_22CertificateInfoOrderedEE@Base 2.0.2
  _ZN3QCA3TLS13writeIncomingERK10QByteArray@Base 2.0.2
  _ZN3QCA3TLS14setCertificateERKNS_16CertificateChainERKNS_10PrivateKeyE@Base 2.0.2
@@ -1278,8 +1278,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA3TLS14setConstraintsERK11QStringList@Base 2.0.2
  _ZN3QCA3TLS14setConstraintsEii@Base 2.0.2
  _ZN3QCA3TLS15readUnprocessedEv@Base 2.0.2
- (arch=!amd64)_ZN3QCA3TLS16disconnectNotifyEPKc@Base 2.0.3
- (arch=amd64)_ZN3QCA3TLS16disconnectNotifyERK11QMetaMethod@Base 2.0.3
+ (arch=)_ZN3QCA3TLS16disconnectNotifyEPKc@Base 2.1.0
+ _ZN3QCA3TLS16disconnectNotifyERK11QMetaMethod@Base 2.1.0
  _ZN3QCA3TLS16hostNameReceivedEv@Base 2.0.2
  _ZN3QCA3TLS16staticMetaObjectE@Base 2.0.2
  _ZN3QCA3TLS17continueAfterStepEv@Base 2.0.2
@@ -1976,8 +1976,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCAlsER11QTextStreamRKNS_10BigIntegerE@Base 2.0.2
  _ZN3QCAplERKNS_11SecureArrayES2_@Base 2.0.2
  (optional=templinst|arch=amd64)_ZN4QMapI7QString8QVariantE13detach_helperEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN4QMapI7QString8QVariantEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN4QMapI7QString8QVariantEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN4QMapI7QString8QVariantEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN4QMapI7QString8QVariantEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN4QMapI7QString8QVariantED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN4QMapI7QString8QVariantED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN4QMapI7QString8QVariantEixERKS0_@Base 2.0.3
@@ -1987,7 +1987,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN4QMapIN3QCA19CertificateInfoTypeE7QStringE13detach_helperEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN4QMapIN3QCA19CertificateInfoTypeE7QStringED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN4QMapIN3QCA19CertificateInfoTypeE7QStringED2Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN4QMapIN3QCA19CertificateInfoTypeE7QStringEaSERKS3_@Base 2.0.3
+ (optional=templinst)_ZN4QMapIN3QCA19CertificateInfoTypeE7QStringEaSERKS3_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QHashIPN3QCA19KeyStoreListContextE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QHashIPN3QCA19KeyStoreListContextE15QHashDummyValueE13detach_helperEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QHashIPN3QCA19KeyStoreListContextE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.0.3
@@ -2005,7 +2005,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QHashIiPN3QCA8KeyStoreEE6removeERKi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListI10QByteArrayE5clearEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListI10QByteArrayE6appendERKS0_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListI10QByteArrayE9takeFirstEv@Base 2.0.3
+ (optional=templinst)_ZN5QListI10QByteArrayE9takeFirstEv@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListI10QByteArrayED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListI10QByteArrayED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListI7QStringE13detach_helperEi@Base 2.0.3
@@ -2020,20 +2020,20 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListI8QVariantE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListI8QVariantE6appendERKS0_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListI8QVariantE9node_copyEPNS1_4NodeES3_S3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListI8QVariantEC1ERKS1_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListI8QVariantEC2ERKS1_@Base 2.0.3
+ (optional=templinst)_ZN5QListI8QVariantEC1ERKS1_@Base 2.1.0
+ (optional=templinst)_ZN5QListI8QVariantEC2ERKS1_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListI8QVariantED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListI8QVariantED2Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEE13detach_helperEi@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEEC2ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEED1Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEED2Ev@Base 2.0.3
+ (optional=templinst)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEE13detach_helperEi@Base 2.1.0
+ (optional=templinst)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEEC2ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEED1Ev@Base 2.1.0
+ (optional=templinst)_ZN5QListIN24QAbstractEventDispatcher9TimerInfoEED2Ev@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA10DLGroupSetEE13detach_helperEi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA10DLGroupSetEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA10DLGroupSetEE6appendERKS1_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA10DLGroupSetEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA10DLGroupSetEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA10DLGroupSetEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA10DLGroupSetEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA10DLGroupSetEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA10DLGroupSetEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA10TimerFixer9TimerInfoEE13detach_helperEi@Base 2.0.3
@@ -2045,8 +2045,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA11CertificateEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA11CertificateEE6appendERKS1_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA11CertificateEE9node_copyEPNS2_4NodeES4_S4_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA11CertificateEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA11CertificateEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA11CertificateEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA11CertificateEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA11CertificateEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA11CertificateEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA11CertificateEEpLERKS2_@Base 2.0.3
@@ -2065,33 +2065,33 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12LayerTracker4ItemEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12LayerTracker4ItemEE5clearEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12LayerTracker4ItemEE6appendERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA12LayerTracker4ItemEEC1ERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA12LayerTracker4ItemEEC2ERKS3_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA12LayerTracker4ItemEEC1ERKS3_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA12LayerTracker4ItemEEC2ERKS3_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12LayerTracker4ItemEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12LayerTracker4ItemEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12PBEAlgorithmEE13detach_helperEi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12PBEAlgorithmEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12PBEAlgorithmEE6appendERKS1_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA12PBEAlgorithmEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA12PBEAlgorithmEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA12PBEAlgorithmEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA12PBEAlgorithmEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12PBEAlgorithmEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA12PBEAlgorithmEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntry4TypeEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntry4TypeEE6appendERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntry4TypeEEC1ERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntry4TypeEEC2ERKS3_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA13KeyStoreEntry4TypeEEC1ERKS3_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA13KeyStoreEntry4TypeEEC2ERKS3_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntry4TypeEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntry4TypeEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntryEE13detach_helperEi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntryEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntryEE6appendERKS1_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntryEE9node_copyEPNS2_4NodeES4_S4_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntryEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntryEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA13KeyStoreEntryEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA13KeyStoreEntryEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntryEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA13KeyStoreEntryEED2Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA14ConstraintTypeEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA14ConstraintTypeEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA14ConstraintTypeEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA14ConstraintTypeEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA14ConstraintTypeEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA14ConstraintTypeEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA15KeyStoreTracker4ItemEE13detach_helperEi@Base 2.0.3
@@ -2099,21 +2099,21 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA15KeyStoreTracker4ItemEE6appendERKS2_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA15KeyStoreTracker4ItemEE6detachEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA15KeyStoreTracker4ItemEE9node_copyEPNS3_4NodeES5_S5_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA15KeyStoreTracker4ItemEEC1ERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA15KeyStoreTracker4ItemEEC2ERKS3_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA15KeyStoreTracker4ItemEEC1ERKS3_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA15KeyStoreTracker4ItemEEC2ERKS3_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA15KeyStoreTracker4ItemEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA15KeyStoreTracker4ItemEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA16SecureMessageKeyEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA16SecureMessageKeyEE5clearEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA16SecureMessageKeyEE6appendERKS1_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA16SecureMessageKeyEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA16SecureMessageKeyEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA16SecureMessageKeyEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA16SecureMessageKeyEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA16SecureMessageKeyEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA16SecureMessageKeyEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoPairEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoPairEE6appendERKS1_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoPairEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoPairEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA19CertificateInfoPairEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA19CertificateInfoPairEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoPairEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoPairEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoTypeEE13detach_helperEi@Base 2.0.3
@@ -2122,48 +2122,48 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoTypeEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA19CertificateInfoTypeEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA22CertificateInfoOrderedEE5clearEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA22CertificateInfoOrderedEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA22CertificateInfoOrderedEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA22CertificateInfoOrderedEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA22CertificateInfoOrderedEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA22CertificateInfoOrderedEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA22CertificateInfoOrderedEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA22SecureMessageSignatureEE13detach_helperEi@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA22SecureMessageSignatureEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA22SecureMessageSignatureEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA22SecureMessageSignatureEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA22SecureMessageSignatureEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA22SecureMessageSignatureEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA22SecureMessageSignatureEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEE13detach_helperEi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEE6appendERKS1_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEE9node_copyEPNS2_4NodeES4_S4_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA3CRLEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA3CRLEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3CRLEEpLERKS2_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3TLS7Private6ActionEE13detach_helperEi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3TLS7Private6ActionEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3TLS7Private6ActionEE6appendERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA3TLS7Private6ActionEEC1ERKS4_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA3TLS7Private6ActionEEC2ERKS4_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA3TLS7Private6ActionEEC1ERKS4_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA3TLS7Private6ActionEEC2ERKS4_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3TLS7Private6ActionEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA3TLS7Private6ActionEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4PKey4TypeEE13detach_helperEi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4PKey4TypeEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4PKey4TypeEE6appendERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA4PKey4TypeEEC1ERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA4PKey4TypeEEC2ERKS3_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA4PKey4TypeEEC1ERKS3_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA4PKey4TypeEEC2ERKS3_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4PKey4TypeEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4PKey4TypeEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4PKey4TypeEEaSERKS3_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4SASL7Private6ActionEE13detach_helperEi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4SASL7Private6ActionEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4SASL7Private6ActionEE6appendERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA4SASL7Private6ActionEEC1ERKS4_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA4SASL7Private6ActionEEC2ERKS4_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA4SASL7Private6ActionEEC1ERKS4_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA4SASL7Private6ActionEEC2ERKS4_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4SASL7Private6ActionEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIN3QCA4SASL7Private6ActionEED2Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA8CRLEntryEEC1ERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIN3QCA8CRLEntryEEC2ERKS2_@Base 2.0.3
+ (optional=templinst)_ZN5QListIN3QCA8CRLEntryEEC1ERKS2_@Base 2.1.0
+ (optional=templinst)_ZN5QListIN3QCA8CRLEntryEEC2ERKS2_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIP7QObjectE13detach_helperEi@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIP7QObjectED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIP7QObjectED2Ev@Base 2.0.3
@@ -2178,8 +2178,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA10TimerFixerEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA10TimerFixerEE6appendERKS2_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA10TimerFixerEE9removeAllERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIPN3QCA10TimerFixerEEC1ERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIPN3QCA10TimerFixerEEC2ERKS3_@Base 2.0.3
+ (optional=templinst)_ZN5QListIPN3QCA10TimerFixerEEC1ERKS3_@Base 2.1.0
+ (optional=templinst)_ZN5QListIPN3QCA10TimerFixerEEC2ERKS3_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA10TimerFixerEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA10TimerFixerEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA11CertContextEE13detach_helperEi@Base 2.0.3
@@ -2189,8 +2189,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA11CertContextEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA12ProviderItemEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA12ProviderItemEE6appendERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIPN3QCA12ProviderItemEEC1ERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIPN3QCA12ProviderItemEEC2ERKS3_@Base 2.0.3
+ (optional=templinst)_ZN5QListIPN3QCA12ProviderItemEEC1ERKS3_@Base 2.1.0
+ (optional=templinst)_ZN5QListIPN3QCA12ProviderItemEEC2ERKS3_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA12ProviderItemEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA12ProviderItemEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA17AbstractLogDeviceEE18detach_helper_growEii@Base 2.0.3
@@ -2208,8 +2208,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8KeyStoreEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8KeyStoreEE6appendERKS2_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8KeyStoreEE9removeAllERKS2_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8KeyStoreEEC1ERKS3_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8KeyStoreEEC2ERKS3_@Base 2.0.3
+ (optional=templinst)_ZN5QListIPN3QCA8KeyStoreEEC1ERKS3_@Base 2.1.0
+ (optional=templinst)_ZN5QListIPN3QCA8KeyStoreEEC2ERKS3_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8KeyStoreEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8KeyStoreEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8ProviderEE18detach_helper_growEii@Base 2.0.3
@@ -2218,8 +2218,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIPN3QCA8ProviderEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIS_IiEE18detach_helper_growEii@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIS_IiEE6appendERKS0_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIS_IiEEC1ERKS1_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN5QListIS_IiEEC2ERKS1_@Base 2.0.3
+ (optional=templinst)_ZN5QListIS_IiEEC1ERKS1_@Base 2.1.0
+ (optional=templinst)_ZN5QListIS_IiEEC2ERKS1_@Base 2.1.0
  (optional=templinst|arch=amd64)_ZN5QListIS_IiEED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIS_IiEED2Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIiE18detach_helper_growEii@Base 2.0.3
@@ -2230,23 +2230,23 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst|arch=amd64)_ZN5QListIiEC2ERKS0_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIiED1Ev@Base 2.0.3
  (optional=templinst|arch=amd64)_ZN5QListIiED2Ev@Base 2.0.3
- (arch=amd64)_ZN7QStringC1EPKc@Base 2.0.3
- (arch=amd64)_ZN7QStringC2EPKc@Base 2.0.3
+ _ZN7QStringC1EPKc@Base 2.1.0
+ _ZN7QStringC2EPKc@Base 2.1.0
  (arch=amd64)_ZN7QStringD1Ev@Base 2.0.3
  (arch=amd64)_ZN7QStringD2Ev@Base 2.0.3
- (arch=amd64)_ZN8QByteRefaSERKS_@Base 2.0.3
+ _ZN8QByteRefaSERKS_@Base 2.1.0
  (arch=amd64)_ZN8QByteRefaSEc@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN8QMapDataI7QString8QVariantE10createNodeERKS0_RKS1_P8QMapNodeIS0_S1_Eb@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN8QMapNodeI7QString4QMapIS0_8QVariantEE14destroySubTreeEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN8QMapNodeI7QString8QVariantE14destroySubTreeEv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN8QMapNodeIN3QCA19CertificateInfoTypeE7QStringE14destroySubTreeEv@Base 2.0.3
+ (optional=templinst)_ZN8QMapDataI7QString8QVariantE10createNodeERKS0_RKS1_P8QMapNodeIS0_S1_Eb@Base 2.1.0
+ (optional=templinst)_ZN8QMapNodeI7QString4QMapIS0_8QVariantEE14destroySubTreeEv@Base 2.1.0
+ (optional=templinst)_ZN8QMapNodeI7QString8QVariantE14destroySubTreeEv@Base 2.1.0
+ (optional=templinst)_ZN8QMapNodeIN3QCA19CertificateInfoTypeE7QStringE14destroySubTreeEv@Base 2.1.0
  (optional=templinst|arch=!amd64)_ZN9QHashData9hasShrunkEv@Base 2.0.2
- (optional=templinst|arch=amd64)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEE7convertEPKNS_25AbstractConverterFunctionEPKvPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEED1Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEED2Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN9QtPrivate16ConverterFunctorI5QListIN3QCA13KeyStoreEntryEEN17QtMetaTypePrivate23QSequentialIterableImplENS5_33QSequentialIterableConvertFunctorIS4_EEE7convertEPKNS_25AbstractConverterFunctionEPKvPv@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN9QtPrivate16ConverterFunctorI5QListIN3QCA13KeyStoreEntryEEN17QtMetaTypePrivate23QSequentialIterableImplENS5_33QSequentialIterableConvertFunctorIS4_EEED1Ev@Base 2.0.3
- (optional=templinst|arch=amd64)_ZN9QtPrivate16ConverterFunctorI5QListIN3QCA13KeyStoreEntryEEN17QtMetaTypePrivate23QSequentialIterableImplENS5_33QSequentialIterableConvertFunctorIS4_EEED2Ev@Base 2.0.3
+ (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEE7convertEPKNS_25AbstractConverterFunctionEPKvPv@Base 2.1.0
+ (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEED1Ev@Base 2.1.0
+ (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEED2Ev@Base 2.1.0
+ (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListIN3QCA13KeyStoreEntryEEN17QtMetaTypePrivate23QSequentialIterableImplENS5_33QSequentialIterableConvertFunctorIS4_EEE7convertEPKNS_25AbstractConverterFunctionEPKvPv@Base 2.1.0
+ (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListIN3QCA13KeyStoreEntryEEN17QtMetaTypePrivate23QSequentialIterableImplENS5_33QSequentialIterableConvertFunctorIS4_EEED1Ev@Base 2.1.0
+ (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListIN3QCA13KeyStoreEntryEEN17QtMetaTypePrivate23QSequentialIterableImplENS5_33QSequentialIterableConvertFunctorIS4_EEED2Ev@Base 2.1.0
  _ZNK3QCA10BigInteger7compareERKS0_@Base 2.0.2
  _ZNK3QCA10BigInteger7toArrayEv@Base 2.0.2
  _ZNK3QCA10BigInteger8toStringEv@Base 2.0.2
@@ -2789,17 +2789,17 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (arch=amd64)_ZNK3QCA9SafeTimer8intervalEv@Base 2.0.3
  (arch=amd64)_ZNK3QCA9SafeTimer8isActiveEv@Base 2.0.3
  (optional=templinst|arch=amd64)_ZNK4QMapIN3QCA19CertificateInfoTypeE7QStringE6valuesERKS1_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK5QHashIPN3QCA19KeyStoreListContextE15QHashDummyValueE8findNodeERKS2_Pj@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK5QHashIPN3QCA8KeyStoreEiE8findNodeERKS2_Pj@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK5QHashIiPN3QCA8KeyStoreEE8findNodeERKiPj@Base 2.0.3
+ (optional=templinst)_ZNK5QHashIPN3QCA19KeyStoreListContextE15QHashDummyValueE8findNodeERKS2_Pj@Base 2.1.0
+ (optional=templinst)_ZNK5QHashIPN3QCA8KeyStoreEiE8findNodeERKS2_Pj@Base 2.1.0
+ (optional=templinst)_ZNK5QHashIiPN3QCA8KeyStoreEE8findNodeERKiPj@Base 2.1.0
  (optional=templinst|arch=amd64)_ZNK5QListIN3QCA14ConstraintTypeEE8containsERKS1_@Base 2.0.3
- (arch=amd64)_ZNK7QStringeqEPKc@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK8QMapDataI7QString4QMapIS0_8QVariantEE8findNodeERKS0_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK8QMapDataI7QString8QVariantE8findNodeERKS0_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK8QMapDataIN3QCA19CertificateInfoTypeE7QStringE8findNodeERKS1_@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK8QMapNodeI7QString4QMapIS0_8QVariantEE4copyEP8QMapDataIS0_S3_E@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK8QMapNodeI7QString8QVariantE4copyEP8QMapDataIS0_S1_E@Base 2.0.3
- (optional=templinst|arch=amd64)_ZNK8QMapNodeIN3QCA19CertificateInfoTypeE7QStringE4copyEP8QMapDataIS1_S2_E@Base 2.0.3
+ _ZNK7QStringeqEPKc@Base 2.1.0
+ (optional=templinst)_ZNK8QMapDataI7QString4QMapIS0_8QVariantEE8findNodeERKS0_@Base 2.1.0
+ (optional=templinst)_ZNK8QMapDataI7QString8QVariantE8findNodeERKS0_@Base 2.1.0
+ (optional=templinst)_ZNK8QMapDataIN3QCA19CertificateInfoTypeE7QStringE8findNodeERKS1_@Base 2.1.0
+ (optional=templinst)_ZNK8QMapNodeI7QString4QMapIS0_8QVariantEE4copyEP8QMapDataIS0_S3_E@Base 2.1.0
+ (optional=templinst)_ZNK8QMapNodeI7QString8QVariantE4copyEP8QMapDataIS0_S1_E@Base 2.1.0
+ (optional=templinst)_ZNK8QMapNodeIN3QCA19CertificateInfoTypeE7QStringE4copyEP8QMapDataIS1_S2_E@Base 2.1.0
  (optional=templinst|arch=amd64)_ZNKSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE4findERS1_@Base 2.0.3
  (optional=templinst)_ZNSt6vectorIN3QCA5Botan17Pooling_Allocator12Memory_BlockESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 2.0.3
  (optional=templinst)_ZNSt6vectorIPN3QCA5Botan9AllocatorESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 2.0.3
@@ -3292,15 +3292,15 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (arch=amd64)_ZTVN3QCA9SafeTimerE@Base 2.0.3
  (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdI5QListIN3QCA13KeyStoreEntry4TypeEEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdI5QListIN3QCA13KeyStoreEntryEEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
- (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdIN17QtMetaTypePrivate23QSequentialIterableImplEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
+ (optional=templinst)_ZZN11QMetaTypeIdIN17QtMetaTypePrivate23QSequentialIterableImplEE14qt_metatype_idEvE11metatype_id@Base 2.1.0
  (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdIN3QCA11CertificateEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdIN3QCA11SecureArrayEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdIN3QCA13KeyStoreEntryEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdIN3QCA3CRLEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdIN3QCA6PGPKeyEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst|arch=amd64)_ZZN11QMetaTypeIdIN3QCA9KeyBundleEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
- (optional=templinst|arch=amd64)_ZZN9QtPrivate19ValueTypeIsMetaTypeI5QListI8QVariantELb1EE17registerConverterEiE1f@Base 2.0.3
- (optional=templinst|arch=amd64)_ZZN9QtPrivate19ValueTypeIsMetaTypeI5QListIN3QCA13KeyStoreEntryEELb1EE17registerConverterEiE1f@Base 2.0.3
+ (optional=templinst)_ZZN9QtPrivate19ValueTypeIsMetaTypeI5QListI8QVariantELb1EE17registerConverterEiE1f@Base 2.1.0
+ (optional=templinst)_ZZN9QtPrivate19ValueTypeIsMetaTypeI5QListIN3QCA13KeyStoreEntryEELb1EE17registerConverterEiE1f@Base 2.1.0
  (arch=amd64)_ZplRK7QStringS1_@Base 2.0.3
  (arch=amd64)_ZplRK7QStringc@Base 2.0.3
  (arch=amd64)bigint_add2@Base 2.0.3
