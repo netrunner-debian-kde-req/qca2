@@ -1,4 +1,4 @@
 # only contains plugins
-E: libqca-qt5-2-plugins: pkg-has-shlibs-control-file-but-no-actual-shared-libs
-W: libqca-qt5-2-plugins: postinst-has-useless-call-to-ldconfig
-W: libqca-qt5-2-plugins: postrm-has-useless-call-to-ldconfig
+libqca-qt5-2-plugins: pkg-has-shlibs-control-file-but-no-actual-shared-libs
+libqca-qt5-2-plugins: postinst-has-useless-call-to-ldconfig
+libqca-qt5-2-plugins: postrm-has-useless-call-to-ldconfig
