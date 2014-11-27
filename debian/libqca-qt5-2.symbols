@@ -1,11 +1,11 @@
-# SymbolsHelper-Confirmed: 2.1.0+git20141127.0049+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 2.1.0+git20141127.0110 amd64 i386
 libqca-qt5.so.2 libqca-qt5-2 #MINVER#
 * Build-Depends-Package: libqca2-dev
  _Z10qcaVersionv@Base 2.0.2
- _Z13qcaVersionStrv@Base 2.1.0+git20141127.0049+15.04
- _Z15qcaMajorVersionv@Base 2.1.0+git20141127.0049+15.04
- _Z15qcaMinorVersionv@Base 2.1.0+git20141127.0049+15.04
- _Z15qcaPatchVersionv@Base 2.1.0+git20141127.0049+15.04
+ _Z13qcaVersionStrv@Base 2.1.0+git20141127.0110
+ _Z15qcaMajorVersionv@Base 2.1.0+git20141127.0110
+ _Z15qcaMinorVersionv@Base 2.1.0+git20141127.0110
+ _Z15qcaPatchVersionv@Base 2.1.0+git20141127.0110
  _Z15qca_secure_freePv@Base 2.0.2
  (optional=templinst)_Z16qVariantSetValueIN3QCA11CertificateEEvR8QVariantRKT_@Base 2.0.3
  (optional=templinst)_Z16qVariantSetValueIN3QCA3CRLEEvR8QVariantRKT_@Base 2.0.3
@@ -19,8 +19,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst)_Z27qRegisterNormalizedMetaTypeI5QListIN3QCA13KeyStoreEntryEEEiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS7_Xaasr12QMetaTypeId2IS7_E7DefinedntsrSC_9IsBuiltInEE11DefinedTypeE@Base 2.1.0
  _ZGVZN9QtPrivate19ValueTypeIsMetaTypeI5QListI8QVariantELb1EE17registerConverterEiE1f@Base 2.1.0
  _ZGVZN9QtPrivate19ValueTypeIsMetaTypeI5QListIN3QCA13KeyStoreEntryEELb1EE17registerConverterEiE1f@Base 2.1.0
- _ZN10QByteArrayD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN10QByteArrayD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN10QByteArrayD1Ev@Base 2.1.0+git20141127.0110
+ _ZN10QByteArrayD2Ev@Base 2.1.0+git20141127.0110
  (optional=templinst)_ZN11QMetaTypeIdI5QListIN3QCA13KeyStoreEntryEEE14qt_metatype_idEv@Base 2.1.0
  (optional=templinst)_ZN11QMetaTypeIdIN3QCA11CertificateEE14qt_metatype_idEv@Base 2.0.3
  (optional=templinst)_ZN11QMetaTypeIdIN3QCA3CRLEE14qt_metatype_idEv@Base 2.0.3
@@ -28,8 +28,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst)_ZN11QMetaTypeIdIN3QCA9KeyBundleEE14qt_metatype_idEv@Base 2.0.3
  (optional=templinst)_ZN12QWeakPointerI7QObjectED1Ev@Base 2.1.0
  (optional=templinst)_ZN12QWeakPointerI7QObjectED2Ev@Base 2.1.0
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=external|arch=!amd64)_ZN15QBasicAtomicInt3refEv@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=external|arch=!amd64)_ZN15QBasicAtomicInt5derefEv@Base 2.0.3
  (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE5equalEPKPvS8_@Base 2.1.0
  (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE6assignEPPvPKS6_@Base 2.1.0
  (optional=templinst)_ZN17QtMetaTypePrivate13IteratorOwnerIN5QListI8QVariantE14const_iteratorEE7advanceEPPvi@Base 2.1.0
@@ -150,40 +148,25 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA10CRLContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10CRLContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10CRLContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10CRLContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10CRLContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10CRLContextD2Ev@Base 2.0.3
  _ZN3QCA10CSRContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10CSRContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10CSRContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10CSRContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10CSRContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10CSRContextD2Ev@Base 2.0.3
  _ZN3QCA10DSAContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10DSAContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10DSAContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10DSAContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10DSAContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10DSAContextD2Ev@Base 2.0.3
- _ZN3QCA10Getter_PBE7getListEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA10Getter_PBE7getListEPNS_8ProviderE@Base 2.1.0+git20141127.0110
  _ZN3QCA10KDFContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10KDFContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10KDFContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10KDFContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10KDFContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10KDFContextD2Ev@Base 2.0.3
  _ZN3QCA10MACContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10MACContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10MACContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10MACContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10MACContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10MACContextD2Ev@Base 2.0.3
  _ZN3QCA10PrivateKey11fromPEMFileERK7QStringRKNS_11SecureArrayEPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA10PrivateKey11signMessageERKNS_12MemoryRegionENS_18SignatureAlgorithmENS_15SignatureFormatE@Base 2.0.2
  _ZN3QCA10PrivateKey22supportedPBEAlgorithmsERK7QString@Base 2.0.2
  _ZN3QCA10PrivateKey6updateERKNS_12MemoryRegionE@Base 2.0.2
  _ZN3QCA10PrivateKey7decryptERKNS_11SecureArrayEPS1_NS_19EncryptionAlgorithmE@Base 2.0.2
- _ZN3QCA10PrivateKey7encryptERKNS_11SecureArrayENS_19EncryptionAlgorithmE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA10PrivateKey7encryptERKNS_11SecureArrayENS_19EncryptionAlgorithmE@Base 2.1.0+git20141127.0110
  _ZN3QCA10PrivateKey7fromDERERKNS_11SecureArrayES3_PNS_13ConvertResultERK7QString@Base 2.0.2
  _ZN3QCA10PrivateKey7fromPEMERK7QStringRKNS_11SecureArrayEPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA10PrivateKey9deriveKeyERKNS_9PublicKeyE@Base 2.0.2
@@ -204,18 +187,12 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA10RSAContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10RSAContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10RSAContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10RSAContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10RSAContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10RSAContextD2Ev@Base 2.0.3
  _ZN3QCA10SMSContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10SMSContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10SMSContext14setPrivateKeysERK5QListINS_16SecureMessageKeyEE@Base 2.0.2
  _ZN3QCA10SMSContext16staticMetaObjectE@Base 2.0.2
  _ZN3QCA10SMSContext22setTrustedCertificatesERKNS_21CertificateCollectionE@Base 2.0.2
  _ZN3QCA10SMSContext24setUntrustedCertificatesERKNS_21CertificateCollectionE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10SMSContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10SMSContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10SMSContextD2Ev@Base 2.0.3
  _ZN3QCA10SyncThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10SyncThread11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10SyncThread16staticMetaObjectE@Base 2.0.2
@@ -236,17 +213,12 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA10SyncThreadD0Ev@Base 2.0.2
  _ZN3QCA10SyncThreadD1Ev@Base 2.0.2
  _ZN3QCA10SyncThreadD2Ev@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10TLSContext11SessionInfoD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10TLSContext11SessionInfoD2Ev@Base 2.0.3
  _ZN3QCA10TLSContext11dtlsTimeoutEv@Base 2.0.2
  _ZN3QCA10TLSContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10TLSContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10TLSContext12resultsReadyEv@Base 2.0.2
  _ZN3QCA10TLSContext16staticMetaObjectE@Base 2.0.2
  _ZN3QCA10TLSContext6setMTUEi@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10TLSContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10TLSContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10TLSContextD2Ev@Base 2.0.3
  _ZN3QCA10TLSSessionC1ERKS0_@Base 2.0.2
  _ZN3QCA10TLSSessionC1Ev@Base 2.0.2
  _ZN3QCA10TLSSessionC2ERKS0_@Base 2.0.2
@@ -264,19 +236,16 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA10TextFilter6encodeERKNS_12MemoryRegionE@Base 2.0.2
  _ZN3QCA10TextFilterC1ENS_9DirectionE@Base 2.0.2
  _ZN3QCA10TextFilterC2ENS_9DirectionE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10TextFilterD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10TextFilterD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA10TextFilterD2Ev@Base 2.0.3
- _ZN3QCA10TimerFixer11eventFilterEP7QObjectP6QEvent@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixer11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixer11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixer16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixer5eventEP6QEvent@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixerC1EP7QObjectPS0_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixerC2EP7QObjectPS0_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixerD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixerD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10TimerFixerD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA10TimerFixer11eventFilterEP7QObjectP6QEvent@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixer11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixer11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixer16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixer5eventEP6QEvent@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixerC1EP7QObjectPS0_@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixerC2EP7QObjectPS0_@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixerD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixerD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA10TimerFixerD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA10TokenAsker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10TokenAsker11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10TokenAsker13responseReadyEv@Base 2.0.2
@@ -284,7 +253,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA10TokenAsker16staticMetaObjectE@Base 2.0.2
  _ZN3QCA10TokenAsker3askERKNS_12KeyStoreInfoERKNS_13KeyStoreEntryEPv@Base 2.0.2
  _ZN3QCA10TokenAsker6cancelEv@Base 2.0.2
- _ZN3QCA10TokenAsker7Private17emitResponseReadyEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA10TokenAsker7Private17emitResponseReadyEv@Base 2.1.0+git20141127.0110
  _ZN3QCA10TokenAsker7PrivateD0Ev@Base 2.0.3
  _ZN3QCA10TokenAsker7PrivateD1Ev@Base 2.0.3
  _ZN3QCA10TokenAsker7PrivateD2Ev@Base 2.0.3
@@ -294,23 +263,18 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA10TokenAskerD1Ev@Base 2.0.2
  _ZN3QCA10TokenAskerD2Ev@Base 2.0.2
  _ZN3QCA10arrayToHexERK10QByteArray@Base 2.0.2
- _ZN3QCA10botan_initEib@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10getContextERK7QStringPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10getContextERK7QStringS2_@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA10botan_initEib@Base 2.1.0+git20141127.0110
+ _ZN3QCA10getContextERK7QStringPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZN3QCA10getContextERK7QStringS2_@Base 2.1.0+git20141127.0110
  _ZN3QCA10hexToArrayERK7QString@Base 2.0.2
- _ZN3QCA10md5_appendEPNS_11md5_state_tEPKhi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA10md5_finishEPNS_11md5_state_tEPh@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA10md5_appendEPNS_11md5_state_tEPKhi@Base 2.1.0+git20141127.0110
+ _ZN3QCA10md5_finishEPNS_11md5_state_tEPh@Base 2.1.0+git20141127.0110
  _ZN3QCA10setAppNameERK7QString@Base 2.0.2
  _ZN3QCA11CertContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11CertContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11CertContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11CertContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11CertContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11CertContextD2Ev@Base 2.0.3
  _ZN3QCA11Certificate11fromPEMFileERK7QStringPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA11Certificate6changeEPNS_11CertContextE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11Certificate7PrivateD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11Certificate7PrivateD2Ev@Base 2.0.3
  _ZN3QCA11Certificate7fromDERERK10QByteArrayPNS_13ConvertResultERK7QString@Base 2.0.2
  _ZN3QCA11Certificate7fromPEMERK7QStringPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA11CertificateC1ERK7QString@Base 2.0.2
@@ -334,23 +298,17 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA11DHPublicKeyD0Ev@Base 2.0.3
  _ZN3QCA11DHPublicKeyD1Ev@Base 2.0.3
  _ZN3QCA11DHPublicKeyD2Ev@Base 2.0.3
- _ZN3QCA11EventGlobal6rejectEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA11Getter_Type7getListEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA11HandlerBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA11HandlerBase11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA11HandlerBase16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA11EventGlobal6rejectEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA11Getter_Type7getListEPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZN3QCA11HandlerBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA11HandlerBase11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA11HandlerBase16staticMetaObjectE@Base 2.1.0+git20141127.0110
  _ZN3QCA11HashContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11HashContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11HashContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11HashContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11HashContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11HashContextD2Ev@Base 2.0.3
  _ZN3QCA11InfoContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11InfoContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11InfoContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11InfoContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11InfoContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11InfoContextD2Ev@Base 2.0.3
  _ZN3QCA11InitializerC1ENS_10MemoryModeEi@Base 2.0.2
  _ZN3QCA11InitializerC2ENS_10MemoryModeEi@Base 2.0.2
  _ZN3QCA11InitializerD1Ev@Base 2.0.2
@@ -362,9 +320,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA11PKeyContext14privateFromDERERKNS_11SecureArrayES3_@Base 2.0.2
  _ZN3QCA11PKeyContext14privateFromPEMERK7QStringRKNS_11SecureArrayE@Base 2.0.2
  _ZN3QCA11PKeyContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11PKeyContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11PKeyContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11PKeyContextD2Ev@Base 2.0.3
  _ZN3QCA11QPipeDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11QPipeDevice11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11QPipeDevice14setInheritableEb@Base 2.0.2
@@ -378,9 +333,9 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA11QPipeDevice7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11QPipeDevice7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11QPipeDevice7Private16staticMetaObjectE@Base 2.0.2
- _ZN3QCA11QPipeDevice7PrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA11QPipeDevice7PrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA11QPipeDevice7PrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA11QPipeDevice7PrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA11QPipeDevice7PrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA11QPipeDevice7PrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA11QPipeDevice7releaseEv@Base 2.0.2
  _ZN3QCA11QPipeDeviceC1EP7QObject@Base 2.0.2
  _ZN3QCA11QPipeDeviceC2EP7QObject@Base 2.0.2
@@ -391,11 +346,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA11SASLContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11SASLContext12resultsReadyEv@Base 2.0.2
  _ZN3QCA11SASLContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11SASLContext8HostPortD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11SASLContext8HostPortD2Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11SASLContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11SASLContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11SASLContextD2Ev@Base 2.0.3
  _ZN3QCA11SecureArray2atEi@Base 2.0.2
  _ZN3QCA11SecureArray3setERK10QByteArray@Base 2.0.2
  _ZN3QCA11SecureArray3setERKS0_@Base 2.0.2
@@ -433,24 +383,21 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA11SecureLayer9readyReadEv@Base 2.0.2
  _ZN3QCA11SecureLayerC1EP7QObject@Base 2.0.2
  _ZN3QCA11SecureLayerC2EP7QObject@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11SecureLayerD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11SecureLayerD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA11SecureLayerD2Ev@Base 2.0.3
- _ZN3QCA11arrayToFileERK7QStringRK10QByteArray@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA11arrayToFileERK7QStringRK10QByteArray@Base 2.1.0+git20141127.0110
  _ZN3QCA11emsa3EncodeERK7QStringRK10QByteArrayi@Base 2.0.2
  _ZN3QCA11getPropertyERK7QString@Base 2.0.2
- _ZN3QCA11get_hash_idERK7QString@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA11get_hash_idERK7QString@Base 2.1.0+git20141127.0110
  _ZN3QCA11isSupportedEPKcRK7QString@Base 2.0.2
  _ZN3QCA11isSupportedERK11QStringListRK7QString@Base 2.0.2
- _ZN3QCA11md5_state_taSERKS0_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA11pluginPathsEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA11md5_state_taSERKS0_@Base 2.1.0+git20141127.0110
+ _ZN3QCA11pluginPathsEv@Base 2.1.0+git20141127.0110
  _ZN3QCA11setPropertyERK7QStringRK8QVariant@Base 2.0.2
  _ZN3QCA11systemStoreEv@Base 2.0.2
- _ZN3QCA12AskerPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12AskerPrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12AskerPrivate12set_acceptedERKNS_11SecureArrayE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12AskerPrivate12set_rejectedEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12AskerPrivate16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA12AskerPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA12AskerPrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA12AskerPrivate12set_acceptedERKNS_11SecureArrayE@Base 2.1.0+git20141127.0110
+ _ZN3QCA12AskerPrivate12set_rejectedEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA12AskerPrivate16staticMetaObjectE@Base 2.1.0+git20141127.0110
  _ZN3QCA12BasicContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA12BasicContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA12BasicContext16staticMetaObjectE@Base 2.0.2
@@ -487,7 +434,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA12EventHandler7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA12EventHandler7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA12EventHandler7Private16staticMetaObjectE@Base 2.0.2
- _ZN3QCA12EventHandler7Private3askEiRKNS_5EventE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA12EventHandler7Private3askEiRKNS_5EventE@Base 2.1.0+git20141127.0110
  _ZN3QCA12EventHandler7PrivateD0Ev@Base 2.0.3
  _ZN3QCA12EventHandler7PrivateD1Ev@Base 2.0.3
  _ZN3QCA12EventHandler7PrivateD2Ev@Base 2.0.3
@@ -505,9 +452,9 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA12KeyGenerator7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA12KeyGenerator7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA12KeyGenerator7Private16staticMetaObjectE@Base 2.0.2
- _ZN3QCA12KeyGenerator7PrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12KeyGenerator7PrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12KeyGenerator7PrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA12KeyGenerator7PrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA12KeyGenerator7PrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA12KeyGenerator7PrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA12KeyGenerator8createDHERKNS_7DLGroupERK7QString@Base 2.0.2
  _ZN3QCA12KeyGenerator8finishedEv@Base 2.0.2
  _ZN3QCA12KeyGenerator9createDSAERKNS_7DLGroupERK7QString@Base 2.0.2
@@ -558,7 +505,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA12RSAPublicKeyD0Ev@Base 2.0.3
  _ZN3QCA12RSAPublicKeyD1Ev@Base 2.0.3
  _ZN3QCA12RSAPublicKeyD2Ev@Base 2.0.3
- _ZN3QCA12SHA1_CONTEXTaSERKS0_@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA12SHA1_CONTEXTaSERKS0_@Base 2.1.0+git20141127.0110
  _ZN3QCA12SymmetricKey12isWeakDESKeyEv@Base 2.0.2
  _ZN3QCA12SymmetricKeyC1ERK10QByteArray@Base 2.0.2
  _ZN3QCA12SymmetricKeyC1ERKNS_11SecureArrayE@Base 2.0.2
@@ -568,8 +515,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA12SymmetricKeyC2ERKNS_11SecureArrayE@Base 2.0.2
  _ZN3QCA12SymmetricKeyC2Ei@Base 2.0.2
  _ZN3QCA12SymmetricKeyC2Ev@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA12SymmetricKeyD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA12SymmetricKeyD2Ev@Base 2.0.3
  _ZN3QCA12Synchronizer11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA12Synchronizer11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA12Synchronizer12conditionMetEv@Base 2.0.2
@@ -578,27 +523,24 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA12Synchronizer7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA12Synchronizer7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA12Synchronizer7Private16staticMetaObjectE@Base 2.0.2
- _ZN3QCA12Synchronizer7Private3runEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12Synchronizer7PrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12Synchronizer7PrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12Synchronizer7PrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA12Synchronizer7Private3runEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA12Synchronizer7PrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA12Synchronizer7PrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA12Synchronizer7PrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA12SynchronizerC1EP7QObject@Base 2.0.2
  _ZN3QCA12SynchronizerC2EP7QObject@Base 2.0.2
  _ZN3QCA12SynchronizerD0Ev@Base 2.0.2
  _ZN3QCA12SynchronizerD1Ev@Base 2.0.2
  _ZN3QCA12SynchronizerD2Ev@Base 2.0.2
- _ZN3QCA12allProvidersEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12botan_deinitEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA12allProvidersEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA12botan_deinitEv@Base 2.1.0+git20141127.0110
  _ZN3QCA12findProviderERK7QString@Base 2.0.2
- _ZN3QCA12skip_pluginsEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12stringToFileERK7QStringS2_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA12truncate_logERK7QStringi@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA12skip_pluginsEPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZN3QCA12stringToFileERK7QStringS2_@Base 2.1.0+git20141127.0110
+ _ZN3QCA12truncate_logERK7QStringi@Base 2.1.0+git20141127.0110
  _ZN3QCA13CipherContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13CipherContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13CipherContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13CipherContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13CipherContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13CipherContextD2Ev@Base 2.0.3
  _ZN3QCA13ConsolePrompt11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13ConsolePrompt11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13ConsolePrompt15waitForFinishedEv@Base 2.0.2
@@ -606,9 +548,9 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA13ConsolePrompt7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13ConsolePrompt7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13ConsolePrompt7Private16staticMetaObjectE@Base 2.0.2
- _ZN3QCA13ConsolePrompt7PrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsolePrompt7PrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsolePrompt7PrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA13ConsolePrompt7PrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsolePrompt7PrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsolePrompt7PrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA13ConsolePrompt7getCharEv@Base 2.0.2
  _ZN3QCA13ConsolePrompt8finishedEv@Base 2.0.2
  _ZN3QCA13ConsolePrompt9getHiddenERK7QString@Base 2.0.2
@@ -617,28 +559,28 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA13ConsolePromptD0Ev@Base 2.0.2
  _ZN3QCA13ConsolePromptD1Ev@Base 2.0.2
  _ZN3QCA13ConsolePromptD2Ev@Base 2.0.2
- _ZN3QCA13ConsoleThread11inputClosedEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThread11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThread12bytesWrittenEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThread12outputClosedEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThread16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThread5atEndEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThread7atStartEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThread9readyReadEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThreadD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThreadD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleThreadD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorker11inputClosedEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorker11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorker12bytesWrittenEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorker12outputClosedEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorker16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorker9readyReadEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorkerD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorkerD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13ConsoleWorkerD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA13ConsoleThread11inputClosedEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThread11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThread12bytesWrittenEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThread12outputClosedEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThread16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThread5atEndEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThread7atStartEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThread9readyReadEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThreadD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThreadD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleThreadD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorker11inputClosedEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorker11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorker12bytesWrittenEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorker12outputClosedEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorker16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorker9readyReadEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorkerD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorkerD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA13ConsoleWorkerD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA13DSAPrivateKeyC1ERKNS_7DLGroupERKNS_10BigIntegerES6_RK7QString@Base 2.0.2
  _ZN3QCA13DSAPrivateKeyC1Ev@Base 2.0.2
  _ZN3QCA13DSAPrivateKeyC2ERKNS_7DLGroupERKNS_10BigIntegerES6_RK7QString@Base 2.0.2
@@ -646,7 +588,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA13DSAPrivateKeyD0Ev@Base 2.0.3
  _ZN3QCA13DSAPrivateKeyD1Ev@Base 2.0.3
  _ZN3QCA13DSAPrivateKeyD2Ev@Base 2.0.3
- _ZN3QCA13Getter_IOType7getListEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA13Getter_IOType7getListEPNS_8ProviderE@Base 2.1.0+git20141127.0110
  _ZN3QCA13KeyStoreEntry10fromStringERK7QString@Base 2.0.2
  _ZN3QCA13KeyStoreEntry12ensureAccessEv@Base 2.0.2
  _ZN3QCA13KeyStoreEntry15ensureAvailableEv@Base 2.0.2
@@ -663,15 +605,9 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA13PGPKeyContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13PGPKeyContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13PGPKeyContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13PGPKeyContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13PGPKeyContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13PGPKeyContextD2Ev@Base 2.0.3
  _ZN3QCA13PKCS12Context11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13PKCS12Context11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13PKCS12Context16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13PKCS12ContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13PKCS12ContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13PKCS12ContextD2Ev@Base 2.0.3
  _ZN3QCA13PasswordAsker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13PasswordAsker11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13PasswordAsker13responseReadyEv@Base 2.0.2
@@ -680,7 +616,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA13PasswordAsker3askENS_5Event13PasswordStyleERK7QStringPv@Base 2.0.2
  _ZN3QCA13PasswordAsker3askENS_5Event13PasswordStyleERKNS_12KeyStoreInfoERKNS_13KeyStoreEntryEPv@Base 2.0.2
  _ZN3QCA13PasswordAsker6cancelEv@Base 2.0.2
- _ZN3QCA13PasswordAsker7Private17emitResponseReadyEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA13PasswordAsker7Private17emitResponseReadyEv@Base 2.1.0+git20141127.0110
  _ZN3QCA13PasswordAsker7PrivateD0Ev@Base 2.0.3
  _ZN3QCA13PasswordAsker7PrivateD1Ev@Base 2.0.3
  _ZN3QCA13PasswordAsker7PrivateD2Ev@Base 2.0.3
@@ -699,9 +635,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA13RandomContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13RandomContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13RandomContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13RandomContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13RandomContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA13RandomContextD2Ev@Base 2.0.3
  _ZN3QCA13SecureMessage10setSignersERK5QListINS_16SecureMessageKeyEE@Base 2.0.2
  _ZN3QCA13SecureMessage11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13SecureMessage11qt_metacastEPKc@Base 2.0.2
@@ -736,15 +669,15 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA13SecureMessageD0Ev@Base 2.0.2
  _ZN3QCA13SecureMessageD1Ev@Base 2.0.2
  _ZN3QCA13SecureMessageD2Ev@Base 2.0.2
- _ZN3QCA13arrayFromFileERK7QStringP10QByteArray@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA13global_randomEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA13arrayFromFileERK7QStringP10QByteArray@Base 2.1.0+git20141127.0110
+ _ZN3QCA13global_randomEv@Base 2.1.0+git20141127.0110
  _ZN3QCA13orderedDNOnlyERKNS_22CertificateInfoOrderedE@Base 2.0.2
- _ZN3QCA14ConsolePrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14ConsolePrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14ConsolePrivate16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14ConsolePrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14ConsolePrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14ConsolePrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA14ConsolePrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA14ConsolePrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA14ConsolePrivate16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA14ConsolePrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA14ConsolePrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA14ConsolePrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA14ConstraintTypeC1ENS_19ConstraintTypeKnownE@Base 2.0.2
  _ZN3QCA14ConstraintTypeC1ERK7QStringNS0_7SectionE@Base 2.0.2
  _ZN3QCA14ConstraintTypeC1ERKS0_@Base 2.0.2
@@ -760,48 +693,42 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA14DLGroupContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA14DLGroupContext16staticMetaObjectE@Base 2.0.2
  _ZN3QCA14DLGroupContext8finishedEv@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA14DLGroupContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA14DLGroupContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA14DLGroupContextD2Ev@Base 2.0.3
- _ZN3QCA14KeyStoreThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14KeyStoreThread11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14KeyStoreThread16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14KeyStoreThread5atEndEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14KeyStoreThread7atStartEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14KeyStoreThreadD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14KeyStoreThreadD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14KeyStoreThreadD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA14KeyStoreThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA14KeyStoreThread11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA14KeyStoreThread16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA14KeyStoreThread5atEndEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA14KeyStoreThread7atStartEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA14KeyStoreThreadD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA14KeyStoreThreadD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA14KeyStoreThreadD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA14MessageContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA14MessageContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA14MessageContext16staticMetaObjectE@Base 2.0.2
  _ZN3QCA14MessageContext7updatedEv@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA14MessageContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA14MessageContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA14MessageContextD2Ev@Base 2.0.3
- _ZN3QCA14ask_passphraseERK7QStringPvPNS_11SecureArrayE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA14ask_passphraseERK7QStringPvPNS_11SecureArrayE@Base 2.1.0+git20141127.0110
  _ZN3QCA14insertProviderEPNS_8ProviderEi@Base 2.0.2
- _ZN3QCA14providerForPBEENS_12PBEAlgorithmENS_4PKey4TypeEPKNS_11PKeyContextE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA14providerForPBEENS_12PBEAlgorithmENS_4PKey4TypeEPKNS_11PKeyContextE@Base 2.1.0+git20141127.0110
  _ZN3QCA14scanForPluginsEv@Base 2.0.2
- _ZN3QCA14stringFromFileERK7QStringPS0_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA14unloadProviderERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15DefaultProvider13configChangedERK4QMapI7QString8QVariantE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15DefaultProvider13createContextERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15DefaultProvider4initEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15DefaultProviderD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15DefaultProviderD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15DefaultProviderD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15Getter_GroupSet7getListEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyLoaderThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyLoaderThread11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyLoaderThread16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyLoaderThread2InD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyLoaderThread2InD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA14stringFromFileERK7QStringPS0_@Base 2.1.0+git20141127.0110
+ _ZN3QCA14unloadProviderERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA15DefaultProvider13configChangedERK4QMapI7QString8QVariantE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15DefaultProvider13createContextERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA15DefaultProvider4initEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15DefaultProviderD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15DefaultProviderD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15DefaultProviderD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15Getter_GroupSet7getListEPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyLoaderThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyLoaderThread11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyLoaderThread16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyLoaderThread2InD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyLoaderThread2InD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA15KeyLoaderThread3OutD1Ev@Base 2.1.0
  _ZN3QCA15KeyLoaderThread3OutD2Ev@Base 2.1.0
- _ZN3QCA15KeyLoaderThread3runEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyLoaderThreadD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyLoaderThreadD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyLoaderThreadD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA15KeyLoaderThread3runEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyLoaderThreadD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyLoaderThreadD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyLoaderThreadD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA15KeyStoreManager11busyStartedEv@Base 2.0.2
  _ZN3QCA15KeyStoreManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA15KeyStoreManager11qt_metacastEPKc@Base 2.0.2
@@ -821,74 +748,74 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA15KeyStoreManagerD0Ev@Base 2.0.2
  _ZN3QCA15KeyStoreManagerD1Ev@Base 2.0.2
  _ZN3QCA15KeyStoreManagerD2Ev@Base 2.0.2
- _ZN3QCA15KeyStorePrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivate15async_entryListEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivate16async_writeEntryERKNS_18KeyStoreWriteEntryE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivate16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivate3regEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivate5unregEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivate7getItemERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivate7getItemEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStorePrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker10writeEntryEiRK8QVariant@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA15KeyStorePrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivate15async_entryListEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivate16async_writeEntryERKNS_18KeyStoreWriteEntryE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivate16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivate3regEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivate5unregEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivate7getItemERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivate7getItemEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStorePrivateD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker10writeEntryEiRK8QVariant@Base 2.1.0+git20141127.0110
  _ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_11CertificateE@Base 2.1.0
  _ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_3CRLE@Base 2.1.0
  _ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_6PGPKeyE@Base 2.1.0
  _ZN3QCA15KeyStoreTracker10writeEntryEiRKNS_9KeyBundleE@Base 2.1.0
- _ZN3QCA15KeyStoreTracker11ksl_busyEndEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA15KeyStoreTracker11ksl_busyEndEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker11qt_metacastEPKc@Base 2.1.0+git20141127.0110
  _ZN3QCA15KeyStoreTracker11removeEntryEiRK7QString@Base 2.1.0
- _ZN3QCA15KeyStoreTracker12entryPassiveERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker12updateStoresEPNS_19KeyStoreListContextE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker13ksl_busyStartEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker13startProviderEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker16ksl_storeUpdatedEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA15KeyStoreTracker12entryPassiveERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker12updateStoresEPNS_19KeyStoreListContextE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker13ksl_busyStartEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker13startProviderEPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker16ksl_storeUpdatedEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker16staticMetaObjectE@Base 2.1.0+git20141127.0110
  _ZN3QCA15KeyStoreTracker18ksl_diagnosticTextERK7QString@Base 2.1.0
- _ZN3QCA15KeyStoreTracker4ItemD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker4ItemD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker4selfE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker5entryERK7QStringS3_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker5startERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker5startEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker7updatedEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker9entryListEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTracker9updated_pEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTrackerD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTrackerD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15KeyStoreTrackerD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager10setDefaultEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager11getPriorityERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager13mergeFeaturesEP11QStringListRKS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager14changePriorityERK7QStringi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager19clearDiagnosticTextEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager20appendDiagnosticTextERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager3addEPNS_8ProviderEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager4scanEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager6unloadERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager7addItemEPNS_12ProviderItemEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManager9unloadAllEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManagerC1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManagerC2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManagerD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15ProviderManagerD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15SyncThreadAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15SyncThreadAgent11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15SyncThreadAgent16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15SyncThreadAgent7startedEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15SyncThreadAgent8call_retEbRK8QVariant@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15SyncThreadAgentD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15SyncThreadAgentD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA15SyncThreadAgentD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA15KeyStoreTracker4ItemD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker4ItemD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker4selfE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker5entryERK7QStringS3_@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker5startERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker5startEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker7updatedEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker9entryListEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTracker9updated_pEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTrackerD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTrackerD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15KeyStoreTrackerD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager10setDefaultEPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager11getPriorityERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager13mergeFeaturesEP11QStringListRKS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager14changePriorityERK7QStringi@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager19clearDiagnosticTextEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager20appendDiagnosticTextERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager3addEPNS_8ProviderEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager4scanEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager6unloadERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager7addItemEPNS_12ProviderItemEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManager9unloadAllEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManagerC1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManagerC2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManagerD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15ProviderManagerD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15SyncThreadAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15SyncThreadAgent11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA15SyncThreadAgent16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA15SyncThreadAgent7startedEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA15SyncThreadAgent8call_retEbRK8QVariant@Base 2.1.0+git20141127.0110
+ _ZN3QCA15SyncThreadAgentD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15SyncThreadAgentD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA15SyncThreadAgentD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA15defaultFeaturesEv@Base 2.0.2
  _ZN3QCA15defaultProviderEv@Base 2.0.2
- _ZN3QCA15get_pbe_defaultEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA15get_pbe_defaultEv@Base 2.1.0+git20141127.0110
  _ZN3QCA15haveSystemStoreEv@Base 2.0.2
- _ZN3QCA15providerForNameERK7QString@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA15providerForNameERK7QString@Base 2.1.0+git20141127.0110
  _ZN3QCA16ConsoleReference10readSecureEi@Base 2.0.2
  _ZN3QCA16ConsoleReference11closeOutputEv@Base 2.0.2
  _ZN3QCA16ConsoleReference11inputClosedEv@Base 2.0.2
@@ -935,39 +862,36 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA17AbstractLogDeviceD0Ev@Base 2.0.2
  _ZN3QCA17AbstractLogDeviceD1Ev@Base 2.0.2
  _ZN3QCA17AbstractLogDeviceD2Ev@Base 2.0.2
- _ZN3QCA17DefaultMD5Context5clearEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17DefaultMD5Context5finalEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17DefaultMD5Context6updateERKNS_12MemoryRegionE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17DefaultMD5ContextD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17DefaultMD5ContextD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17DefaultMD5ContextD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17KeyStoreOperation11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17KeyStoreOperation11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17KeyStoreOperation16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17KeyStoreOperation3runEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17KeyStoreOperationD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17KeyStoreOperationD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17KeyStoreOperationD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17SynchronizerAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17SynchronizerAgent11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17SynchronizerAgent16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17SynchronizerAgent7startedEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17SynchronizerAgentD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17SynchronizerAgentD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17SynchronizerAgentD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA17DefaultMD5Context5clearEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA17DefaultMD5Context5finalEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA17DefaultMD5Context6updateERKNS_12MemoryRegionE@Base 2.1.0+git20141127.0110
+ _ZN3QCA17DefaultMD5ContextD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA17DefaultMD5ContextD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA17DefaultMD5ContextD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA17KeyStoreOperation11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA17KeyStoreOperation11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA17KeyStoreOperation16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA17KeyStoreOperation3runEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA17KeyStoreOperationD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA17KeyStoreOperationD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA17KeyStoreOperationD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA17SynchronizerAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA17SynchronizerAgent11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA17SynchronizerAgent16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA17SynchronizerAgent7startedEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA17SynchronizerAgentD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA17SynchronizerAgentD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA17SynchronizerAgentD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA17TLSSessionContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA17TLSSessionContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA17TLSSessionContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA17TLSSessionContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA17TLSSessionContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA17TLSSessionContextD2Ev@Base 2.0.3
- _ZN3QCA17botan_secure_freeEPvi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17botan_throw_abortEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA17botan_secure_freeEPvi@Base 2.1.0+git20141127.0110
+ _ZN3QCA17botan_throw_abortEv@Base 2.1.0+git20141127.0110
  _ZN3QCA17getProviderConfigERK7QString@Base 2.0.2
  _ZN3QCA17makeFriendlyNamesERK5QListINS_11CertificateEE@Base 2.0.2
  _ZN3QCA17orderedToDNStringERKNS_22CertificateInfoOrderedE@Base 2.0.2
- _ZN3QCA17plugin_prioritiesEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA17providerForIOTypeENS_4PKey4TypeEPKNS_11PKeyContextE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA17plugin_prioritiesEPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZN3QCA17providerForIOTypeENS_4PKey4TypeEPKNS_11PKeyContextE@Base 2.1.0+git20141127.0110
  _ZN3QCA17setProviderConfigERK7QStringRK4QMapIS0_8QVariantE@Base 2.0.2
  _ZN3QCA17supportedFeaturesEv@Base 2.0.2
  _ZN3QCA18CertificateOptions11setPoliciesERK11QStringList@Base 2.0.2
@@ -979,11 +903,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA18CertificateOptions16setOCSPLocationsERK11QStringList@Base 2.0.2
  _ZN3QCA18CertificateOptions17setValidityPeriodERK9QDateTimeS3_@Base 2.0.2
  _ZN3QCA18CertificateOptions18setIssuerLocationsERK11QStringList@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA18CertificateOptions7PrivateC1ERKS1_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA18CertificateOptions7PrivateC2ERKS1_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA18CertificateOptions7PrivateD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA18CertificateOptions7PrivateD2Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA18CertificateOptions7PrivateaSERKS1_@Base 2.0.3
  _ZN3QCA18CertificateOptions7setAsCAEi@Base 2.0.2
  _ZN3QCA18CertificateOptions7setInfoERK9QMultiMapINS_19CertificateInfoTypeE7QStringE@Base 2.0.2
  _ZN3QCA18CertificateOptions9setAsUserEv@Base 2.0.2
@@ -1013,25 +932,25 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA18CertificateRequestD1Ev@Base 2.0.2
  _ZN3QCA18CertificateRequestD2Ev@Base 2.0.2
  _ZN3QCA18CertificateRequestaSERKS0_@Base 2.0.2
- _ZN3QCA18DefaultSHA1Context5clearEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18DefaultSHA1Context5finalEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18DefaultSHA1Context6updateERKNS_12MemoryRegionE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18DefaultSHA1Context9transformEPjPh@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18DefaultSHA1ContextD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18DefaultSHA1ContextD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18DefaultSHA1ContextD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18KeyStoreWriteEntryD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18KeyStoreWriteEntryD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18SafeSocketNotifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18SafeSocketNotifier11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18SafeSocketNotifier16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18SafeSocketNotifier9activatedEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18SafeSocketNotifierD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18SafeSocketNotifierD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18SafeSocketNotifierD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA18botan_secure_allocEi@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA18DefaultSHA1Context5clearEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA18DefaultSHA1Context5finalEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA18DefaultSHA1Context6updateERKNS_12MemoryRegionE@Base 2.1.0+git20141127.0110
+ _ZN3QCA18DefaultSHA1Context9transformEPjPh@Base 2.1.0+git20141127.0110
+ _ZN3QCA18DefaultSHA1ContextD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA18DefaultSHA1ContextD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA18DefaultSHA1ContextD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA18KeyStoreWriteEntryD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA18KeyStoreWriteEntryD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA18SafeSocketNotifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA18SafeSocketNotifier11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA18SafeSocketNotifier16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA18SafeSocketNotifier9activatedEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA18SafeSocketNotifierD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA18SafeSocketNotifierD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA18SafeSocketNotifierD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA18botan_secure_allocEi@Base 2.1.0+git20141127.0110
  _ZN3QCA18saveProviderConfigERK7QString@Base 2.0.2
- _ZN3QCA18use_asker_fallbackENS_13ConvertResultE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA18use_asker_fallbackENS_13ConvertResultE@Base 2.1.0+git20141127.0110
  _ZN3QCA19BufferedComputation7processERKNS_12MemoryRegionE@Base 2.0.2
  _ZN3QCA19BufferedComputationD0Ev@Base 2.0.2
  _ZN3QCA19BufferedComputationD1Ev@Base 2.0.2
@@ -1056,16 +975,16 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA19CertificateInfoTypeD1Ev@Base 2.0.2
  _ZN3QCA19CertificateInfoTypeD2Ev@Base 2.0.2
  _ZN3QCA19CertificateInfoTypeaSERKS0_@Base 2.0.2
- _ZN3QCA19DefaultKeyStoreList11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreList11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreList12entryPassiveERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreList16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreList5startEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreList9entryListEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreList9keyStoresEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreListD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreListD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19DefaultKeyStoreListD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA19DefaultKeyStoreList11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreList11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreList12entryPassiveERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreList16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreList5startEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreList9entryListEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreList9keyStoresEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreListD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreListD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA19DefaultKeyStoreListD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA19KeyStoreListContext10writeEntryEiRKNS_11CertificateE@Base 2.0.2
  _ZN3QCA19KeyStoreListContext10writeEntryEiRKNS_3CRLE@Base 2.0.2
  _ZN3QCA19KeyStoreListContext10writeEntryEiRKNS_6PGPKeyE@Base 2.0.2
@@ -1083,9 +1002,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA19KeyStoreListContext7busyEndEv@Base 2.0.2
  _ZN3QCA19KeyStoreListContext7updatedEv@Base 2.0.2
  _ZN3QCA19KeyStoreListContext9busyStartEv@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA19KeyStoreListContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA19KeyStoreListContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA19KeyStoreListContextD2Ev@Base 2.0.3
  _ZN3QCA19SecureMessageSystem11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA19SecureMessageSystem11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA19SecureMessageSystem16staticMetaObjectE@Base 2.0.2
@@ -1094,9 +1010,9 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA19SecureMessageSystemD0Ev@Base 2.0.2
  _ZN3QCA19SecureMessageSystemD1Ev@Base 2.0.2
  _ZN3QCA19SecureMessageSystemD2Ev@Base 2.0.2
- _ZN3QCA19global_random_mutexEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19providerForGroupSetENS_10DLGroupSetE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA19qca_get_systemstoreERK7QString@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA19global_random_mutexEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA19providerForGroupSetENS_10DLGroupSetE@Base 2.1.0+git20141127.0110
+ _ZN3QCA19qca_get_systemstoreERK7QString@Base 2.1.0+git20141127.0110
  _ZN3QCA19setProviderPriorityERK7QStringi@Base 2.0.2
  _ZN3QCA20CertificateAuthorityC1ERKNS_11CertificateERKNS_10PrivateKeyERK7QString@Base 2.0.2
  _ZN3QCA20CertificateAuthorityC1ERKS0_@Base 2.0.2
@@ -1106,14 +1022,14 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA20CertificateAuthorityD1Ev@Base 2.0.2
  _ZN3QCA20CertificateAuthorityD2Ev@Base 2.0.2
  _ZN3QCA20CertificateAuthorityaSERKS0_@Base 2.0.2
- _ZN3QCA20DefaultKeyStoreEntry11deserializeERK7QStringPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20DefaultKeyStoreEntryD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20DefaultKeyStoreEntryD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20DefaultKeyStoreEntryD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20DefaultRandomContext9nextBytesEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20DefaultRandomContextD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20DefaultRandomContextD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20DefaultRandomContextD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA20DefaultKeyStoreEntry11deserializeERK7QStringPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZN3QCA20DefaultKeyStoreEntryD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA20DefaultKeyStoreEntryD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA20DefaultKeyStoreEntryD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA20DefaultRandomContext9nextBytesEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA20DefaultRandomContextD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA20DefaultRandomContextD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA20DefaultRandomContextD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA20InitializationVectorC1ERK10QByteArray@Base 2.0.2
  _ZN3QCA20InitializationVectorC1ERKNS_11SecureArrayE@Base 2.0.2
  _ZN3QCA20InitializationVectorC1Ei@Base 2.0.2
@@ -1126,20 +1042,17 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA20KeyStoreEntryContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA20KeyStoreEntryContext12ensureAccessEv@Base 2.0.2
  _ZN3QCA20KeyStoreEntryContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA20KeyStoreEntryContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA20KeyStoreEntryContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA20KeyStoreEntryContextD2Ev@Base 2.0.3
  _ZN3QCA20KeyStoreEntryWatcher11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcher11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcher11unavailableEv@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcher16staticMetaObjectE@Base 2.0.2
- _ZN3QCA20KeyStoreEntryWatcher7Private10ks_updatedEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA20KeyStoreEntryWatcher7Private10ks_updatedEv@Base 2.1.0+git20141127.0110
  _ZN3QCA20KeyStoreEntryWatcher7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcher7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcher7Private16staticMetaObjectE@Base 2.0.2
- _ZN3QCA20KeyStoreEntryWatcher7PrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20KeyStoreEntryWatcher7PrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA20KeyStoreEntryWatcher7PrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA20KeyStoreEntryWatcher7PrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA20KeyStoreEntryWatcher7PrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA20KeyStoreEntryWatcher7PrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA20KeyStoreEntryWatcher9availableEv@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcherC1ERKNS_13KeyStoreEntryEP7QObject@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcherC2ERKNS_13KeyStoreEntryEP7QObject@Base 2.0.2
@@ -1148,13 +1061,10 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA20KeyStoreEntryWatcherD2Ev@Base 2.0.2
  _ZN3QCA20globalRandomProviderEv@Base 2.0.2
  _ZN3QCA20pluginDiagnosticTextEv@Base 2.0.2
- _ZN3QCA20qca_have_systemstoreEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA20qca_have_systemstoreEv@Base 2.1.0+git20141127.0110
  _ZN3QCA21CertCollectionContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA21CertCollectionContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA21CertCollectionContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA21CertCollectionContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA21CertCollectionContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA21CertCollectionContextD2Ev@Base 2.0.3
  _ZN3QCA21CertificateCollection11canUsePKCS7ERK7QString@Base 2.0.2
  _ZN3QCA21CertificateCollection11toPKCS7FileERK7QStringS3_@Base 2.0.2
  _ZN3QCA21CertificateCollection13fromPKCS7FileERK7QStringPNS_13ConvertResultES3_@Base 2.0.2
@@ -1172,7 +1082,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA21CertificateCollectionaSERKS0_@Base 2.0.2
  _ZN3QCA21CertificateCollectionpLERKS0_@Base 2.0.2
  _ZN3QCA21KeyDerivationFunction13withAlgorithmERK7QStringS3_@Base 2.0.2
- _ZN3QCA21KeyDerivationFunction7makeKeyERKNS_11SecureArrayERKNS_20InitializationVectorEjiPj@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA21KeyDerivationFunction7makeKeyERKNS_11SecureArrayERKNS_20InitializationVectorEjiPj@Base 2.1.0+git20141127.0110
  _ZN3QCA21KeyDerivationFunction7makeKeyERKNS_11SecureArrayERKNS_20InitializationVectorEjj@Base 2.0.2
  _ZN3QCA21KeyDerivationFunctionC1ERK7QStringS3_@Base 2.0.2
  _ZN3QCA21KeyDerivationFunctionC1ERKS0_@Base 2.0.2
@@ -1182,14 +1092,14 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA21KeyDerivationFunctionD1Ev@Base 2.0.2
  _ZN3QCA21KeyDerivationFunctionD2Ev@Base 2.0.2
  _ZN3QCA21KeyDerivationFunctionaSERKS0_@Base 2.0.2
- _ZN3QCA22KeyStoreManagerPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA22KeyStoreManagerPrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA22KeyStoreManagerPrivate16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA22KeyStoreManagerPrivate5unregEPNS_8KeyStoreE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA22KeyStoreManagerPrivate9do_updateEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA22KeyStoreManagerPrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA22KeyStoreManagerPrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA22KeyStoreManagerPrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA22KeyStoreManagerPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA22KeyStoreManagerPrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA22KeyStoreManagerPrivate16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA22KeyStoreManagerPrivate5unregEPNS_8KeyStoreE@Base 2.1.0+git20141127.0110
+ _ZN3QCA22KeyStoreManagerPrivate9do_updateEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA22KeyStoreManagerPrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA22KeyStoreManagerPrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA22KeyStoreManagerPrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA22SecureMessageSignatureC1ENS0_14IdentityResultENS_8ValidityERKNS_16SecureMessageKeyERK9QDateTime@Base 2.0.2
  _ZN3QCA22SecureMessageSignatureC1ERKS0_@Base 2.0.2
  _ZN3QCA22SecureMessageSignatureC1Ev@Base 2.0.2
@@ -1199,21 +1109,21 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA22SecureMessageSignatureD1Ev@Base 2.0.2
  _ZN3QCA22SecureMessageSignatureD2Ev@Base 2.0.2
  _ZN3QCA22SecureMessageSignatureaSERKS0_@Base 2.0.2
- _ZN3QCA23ConsoleReferencePrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23ConsoleReferencePrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23ConsoleReferencePrivate16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23ConsoleReferencePrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23ConsoleReferencePrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23ConsoleReferencePrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23QFileSystemWatcherRelay11fileChangedERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23QFileSystemWatcherRelay11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23QFileSystemWatcherRelay11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23QFileSystemWatcherRelay16directoryChangedERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23QFileSystemWatcherRelay16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23QFileSystemWatcherRelayD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23QFileSystemWatcherRelayD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23QFileSystemWatcherRelayD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA23create_default_providerEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA23ConsoleReferencePrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA23ConsoleReferencePrivate11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA23ConsoleReferencePrivate16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA23ConsoleReferencePrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA23ConsoleReferencePrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA23ConsoleReferencePrivateD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA23QFileSystemWatcherRelay11fileChangedERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA23QFileSystemWatcherRelay11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA23QFileSystemWatcherRelay11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA23QFileSystemWatcherRelay16directoryChangedERK7QString@Base 2.1.0+git20141127.0110
+ _ZN3QCA23QFileSystemWatcherRelay16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA23QFileSystemWatcherRelayD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA23QFileSystemWatcherRelayD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA23QFileSystemWatcherRelayD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA23create_default_providerEv@Base 2.1.0+git20141127.0110
  _ZN3QCA23setGlobalRandomProviderERK7QString@Base 2.0.2
  _ZN3QCA24invokeMethodWithVariantsEP7QObjectRK10QByteArrayRK5QListI8QVariantEPS6_N2Qt14ConnectionTypeE@Base 2.0.2
  _ZN3QCA25MessageAuthenticationCode14supportedTypesERK7QString@Base 2.0.2
@@ -1231,7 +1141,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA25MessageAuthenticationCodeaSERKS0_@Base 2.0.2
  _ZN3QCA25clearPluginDiagnosticTextEv@Base 2.0.2
  _ZN3QCA26appendPluginDiagnosticTextERK7QString@Base 2.0.2
- _ZN3QCA26getProviderConfig_internalEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA26getProviderConfig_internalEPNS_8ProviderE@Base 2.1.0+git20141127.0110
  _ZN3QCA3CMS11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA3CMS11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA3CMS14setPrivateKeysERK5QListINS_16SecureMessageKeyEE@Base 2.0.2
@@ -1296,14 +1206,14 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA3TLS5writeERK10QByteArray@Base 2.0.2
  _ZN3QCA3TLS7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA3TLS7Private11qt_metacastEPKc@Base 2.0.2
- _ZN3QCA3TLS7Private15update_finishedEv@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA3TLS7Private15update_finishedEv@Base 2.1.0+git20141127.0110
  _ZN3QCA3TLS7Private16staticMetaObjectE@Base 2.0.2
- _ZN3QCA3TLS7Private17processNextActionEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA3TLS7Private5resetENS_9ResetModeE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA3TLS7Private6updateEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA3TLS7PrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA3TLS7PrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA3TLS7PrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA3TLS7Private17processNextActionEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA3TLS7Private5resetENS_9ResetModeE@Base 2.1.0+git20141127.0110
+ _ZN3QCA3TLS7Private6updateEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA3TLS7PrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA3TLS7PrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA3TLS7PrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA3TLSC1ENS0_4ModeEP7QObjectRK7QString@Base 2.0.2
  _ZN3QCA3TLSC1EP7QObjectRK7QString@Base 2.0.2
  _ZN3QCA3TLSC2ENS0_4ModeEP7QObjectRK7QString@Base 2.0.2
@@ -1381,15 +1291,13 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA4SASL7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA4SASL7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA4SASL7Private16staticMetaObjectE@Base 2.0.2
- _ZN3QCA4SASL7Private17processNextActionEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA4SASL7Private17sasl_resultsReadyEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA4SASL7Private5resetENS_9ResetModeE@Base 2.1.0+git20141127.0049+15.04
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA4SASL7Private6ActionD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA4SASL7Private6ActionD2Ev@Base 2.0.3
- _ZN3QCA4SASL7Private6updateEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA4SASL7PrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA4SASL7PrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA4SASL7PrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA4SASL7Private17processNextActionEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA4SASL7Private17sasl_resultsReadyEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA4SASL7Private5resetENS_9ResetModeE@Base 2.1.0+git20141127.0110
+ _ZN3QCA4SASL7Private6updateEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA4SASL7PrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA4SASL7PrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA4SASL7PrivateD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA4SASL7putStepERK10QByteArray@Base 2.0.2
  _ZN3QCA4SASL8nextStepERK10QByteArray@Base 2.0.2
  _ZN3QCA4SASL8setRealmERK7QString@Base 2.0.2
@@ -1401,202 +1309,200 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA4SASLD2Ev@Base 2.0.2
  _ZN3QCA4initENS_10MemoryModeEi@Base 2.0.2
  _ZN3QCA4initEv@Base 2.0.2
- _ZN3QCA5Botan10bigint_mulEPjjS1_PKjjjS3_jj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan10power_of_2Ey@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan10round_downEjj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan10unlock_memEPvj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Config_ErrorC1ERKSsj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Config_ErrorC2ERKSsj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Config_ErrorD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Config_ErrorD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Config_ErrorD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Format_ErrorD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Format_ErrorD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Format_ErrorD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA5Botan10bigint_mulEPjjS1_PKjjjS3_jj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan10power_of_2Ey@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan10round_downEjj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan10unlock_memEPvj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Config_ErrorC1ERKSsj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Config_ErrorC2ERKSsj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Config_ErrorD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Config_ErrorD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Config_ErrorD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Format_ErrorD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Format_ErrorD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Format_ErrorD2Ev@Base 2.1.0+git20141127.0110
  (optional=templinst)_ZN3QCA5Botan12MemoryRegionIhE6createEj@Base 2.0.3
  (optional=templinst)_ZN3QCA5Botan12MemoryRegionIjE6createEj@Base 2.0.3
- _ZN3QCA5Botan12Mutex_HolderC1EPNS0_5MutexE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Mutex_HolderC2EPNS0_5MutexE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Mutex_HolderD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12Mutex_HolderD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan12global_stateEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Invalid_StateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Invalid_StateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Invalid_StateD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Library_State13add_allocatorEPNS0_9AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Library_State15get_named_mutexERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Library_State21set_default_allocatorERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Library_State4loadERNS0_7ModulesE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Library_StateC1EPNS0_13Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Library_StateC2EPNS0_13Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Library_StateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan13Library_StateD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14Encoding_ErrorC1ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14Encoding_ErrorC2ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14Encoding_ErrorD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14Encoding_ErrorD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14Encoding_ErrorD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14Internal_ErrorD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14Internal_ErrorD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14Internal_ErrorD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan14hamming_weightEy@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan15Builtin_ModulesC1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan15Builtin_ModulesC2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan15Builtin_ModulesD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan15Builtin_ModulesD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan15Builtin_ModulesD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Invalid_ArgumentD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Invalid_ArgumentD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Invalid_ArgumentD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Malloc_Allocator11alloc_blockEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Malloc_Allocator13dealloc_blockEPvj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Malloc_AllocatorD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Malloc_AllocatorD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Malloc_AllocatorD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Qt_Mutex_Factory4makeEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Qt_Mutex_FactoryD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Qt_Mutex_FactoryD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16Qt_Mutex_FactoryD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan16set_global_stateEPNS0_13Library_StateE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Invalid_IV_LengthC1ERKSsj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Invalid_IV_LengthC2ERKSsj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Invalid_IV_LengthD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Invalid_IV_LengthD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Invalid_IV_LengthD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Locking_Allocator11alloc_blockEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Locking_Allocator13dealloc_blockEPvj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Locking_AllocatorD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Locking_AllocatorD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Locking_AllocatorD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Memory_ExhaustionC1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Memory_ExhaustionC2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Memory_ExhaustionD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Memory_ExhaustionD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Memory_ExhaustionD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator10deallocateEPvj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator12Memory_Block10BLOCK_SIZEE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator12Memory_Block11BITMAP_SIZEE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator12Memory_Block4freeEPvj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator12Memory_Block5allocEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator12Memory_BlockC1EPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator12Memory_BlockC2EPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator13get_more_coreEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator15allocate_blocksEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator7destroyEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_Allocator8allocateEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_AllocatorC1Ejb@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_AllocatorC2Ejb@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_AllocatorD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_AllocatorD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17Pooling_AllocatorD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17significant_bytesEy@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan17swap_global_stateEPNS0_13Library_StateE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Block_SizeC1ERKSsS3_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Block_SizeC2ERKSsS3_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Block_SizeD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Block_SizeD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Block_SizeD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Key_LengthC1ERKSsj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Key_LengthC2ERKSsj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Key_LengthD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Key_LengthD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Invalid_Key_LengthD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Named_Mutex_HolderC1ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Named_Mutex_HolderC2ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Named_Mutex_HolderD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan18Named_Mutex_HolderD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan19Algorithm_Not_FoundC1ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan19Algorithm_Not_FoundC2ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan19Algorithm_Not_FoundD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan19Algorithm_Not_FoundD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan19Algorithm_Not_FoundD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan21Default_Mutex_Factory4makeEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan21Default_Mutex_FactoryD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan21Default_Mutex_FactoryD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan21Default_Mutex_FactoryD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Algorithm_NameC1ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Algorithm_NameC2ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Algorithm_NameD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Algorithm_NameD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Algorithm_NameD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Message_NumberC1ERKSsj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Message_NumberC2ERKSsj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Message_NumberD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Message_NumberD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan22Invalid_Message_NumberD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan23MemoryMapping_Allocator11alloc_blockEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan23MemoryMapping_Allocator13dealloc_blockEPvj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan23MemoryMapping_AllocatorD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan23MemoryMapping_AllocatorD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan23MemoryMapping_AllocatorD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt11encode_1363ERKS1_j@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt12DivideByZeroC1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt12DivideByZeroC2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt12DivideByZeroD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt12DivideByZeroD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt12DivideByZeroD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt13binary_decodeEPKhj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt4swapERS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt6decodeEPKhjNS1_4BaseE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt6decodeERKNS0_12MemoryRegionIhEENS1_4BaseE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt6encodeEPhRKS1_NS1_4BaseE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt6encodeERKS1_NS1_4BaseE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt7set_bitEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt8set_signENS1_4SignE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt9clear_bitEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt9flip_signEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigInt9mask_bitsEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC1ENS1_4SignEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC1EPKhjNS1_4BaseE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC1ERKS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC1ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC1Ey@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC2ENS1_4SignEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC2EPKhjNS1_4BaseE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC2ERKS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC2ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntC2Ey@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntdVERKS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntlSEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntmIERKS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntmLERKS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntpLERKS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntrMERKS1_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntrMEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6BigIntrSEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan6divideERKNS0_6BigIntES3_RS1_S4_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan7Charset10char2digitEc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan7Charset10digit2charEh@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan7Charset12caseless_cmpEcc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan7Charset8is_digitEc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan7Charset8is_spaceEc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan7low_bitEy@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan7xor_bufEPhPKhS3_j@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan7xor_bufEPhPKhj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan8high_bitEy@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan8lock_memEPvj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan8round_upEjj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9Allocator3getEb@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9Allocator4initEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9Allocator7destroyEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9ExceptionC1ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9ExceptionC2ERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9ExceptionD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9ExceptionD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9ExceptionD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5Botan9to_stringEyj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5BotandvERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5BotanlsERKNS0_6BigIntEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5BotanmiERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5BotanmlERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5BotanplERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5BotanrmERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5BotanrmERKNS0_6BigIntEj@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA5BotanrsERKNS0_6BigIntEj@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA5Botan12Mutex_HolderC1EPNS0_5MutexE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Mutex_HolderC2EPNS0_5MutexE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Mutex_HolderD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12Mutex_HolderD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan12global_stateEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Invalid_StateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Invalid_StateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Invalid_StateD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Library_State13add_allocatorEPNS0_9AllocatorE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Library_State15get_named_mutexERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Library_State21set_default_allocatorERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Library_State4loadERNS0_7ModulesE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Library_StateC1EPNS0_13Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Library_StateC2EPNS0_13Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Library_StateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan13Library_StateD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14Encoding_ErrorC1ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14Encoding_ErrorC2ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14Encoding_ErrorD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14Encoding_ErrorD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14Encoding_ErrorD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14Internal_ErrorD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14Internal_ErrorD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14Internal_ErrorD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan14hamming_weightEy@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan15Builtin_ModulesC1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan15Builtin_ModulesC2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan15Builtin_ModulesD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan15Builtin_ModulesD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan15Builtin_ModulesD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Invalid_ArgumentD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Invalid_ArgumentD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Invalid_ArgumentD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Malloc_Allocator11alloc_blockEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Malloc_Allocator13dealloc_blockEPvj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Malloc_AllocatorD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Malloc_AllocatorD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Malloc_AllocatorD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Qt_Mutex_Factory4makeEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Qt_Mutex_FactoryD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Qt_Mutex_FactoryD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16Qt_Mutex_FactoryD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan16set_global_stateEPNS0_13Library_StateE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Invalid_IV_LengthC1ERKSsj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Invalid_IV_LengthC2ERKSsj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Invalid_IV_LengthD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Invalid_IV_LengthD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Invalid_IV_LengthD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Locking_Allocator11alloc_blockEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Locking_Allocator13dealloc_blockEPvj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Locking_AllocatorD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Locking_AllocatorD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Locking_AllocatorD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Memory_ExhaustionC1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Memory_ExhaustionC2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Memory_ExhaustionD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Memory_ExhaustionD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Memory_ExhaustionD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator10deallocateEPvj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator12Memory_Block10BLOCK_SIZEE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator12Memory_Block11BITMAP_SIZEE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator12Memory_Block4freeEPvj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator12Memory_Block5allocEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator12Memory_BlockC1EPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator12Memory_BlockC2EPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator13get_more_coreEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator15allocate_blocksEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator7destroyEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_Allocator8allocateEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_AllocatorC1Ejb@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_AllocatorC2Ejb@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_AllocatorD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_AllocatorD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17Pooling_AllocatorD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17significant_bytesEy@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan17swap_global_stateEPNS0_13Library_StateE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Block_SizeC1ERKSsS3_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Block_SizeC2ERKSsS3_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Block_SizeD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Block_SizeD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Block_SizeD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Key_LengthC1ERKSsj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Key_LengthC2ERKSsj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Key_LengthD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Key_LengthD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Invalid_Key_LengthD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Named_Mutex_HolderC1ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Named_Mutex_HolderC2ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Named_Mutex_HolderD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan18Named_Mutex_HolderD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan19Algorithm_Not_FoundC1ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan19Algorithm_Not_FoundC2ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan19Algorithm_Not_FoundD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan19Algorithm_Not_FoundD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan19Algorithm_Not_FoundD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan21Default_Mutex_Factory4makeEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan21Default_Mutex_FactoryD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan21Default_Mutex_FactoryD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan21Default_Mutex_FactoryD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Algorithm_NameC1ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Algorithm_NameC2ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Algorithm_NameD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Algorithm_NameD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Algorithm_NameD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Message_NumberC1ERKSsj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Message_NumberC2ERKSsj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Message_NumberD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Message_NumberD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan22Invalid_Message_NumberD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan23MemoryMapping_Allocator11alloc_blockEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan23MemoryMapping_Allocator13dealloc_blockEPvj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan23MemoryMapping_AllocatorD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan23MemoryMapping_AllocatorD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan23MemoryMapping_AllocatorD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt11encode_1363ERKS1_j@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt12DivideByZeroC1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt12DivideByZeroC2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt12DivideByZeroD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt12DivideByZeroD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt12DivideByZeroD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt13binary_decodeEPKhj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt4swapERS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt6decodeEPKhjNS1_4BaseE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt6decodeERKNS0_12MemoryRegionIhEENS1_4BaseE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt6encodeEPhRKS1_NS1_4BaseE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt6encodeERKS1_NS1_4BaseE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt7set_bitEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt8set_signENS1_4SignE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt9clear_bitEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt9flip_signEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigInt9mask_bitsEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC1ENS1_4SignEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC1EPKhjNS1_4BaseE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC1ERKS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC1ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC1Ey@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC2ENS1_4SignEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC2EPKhjNS1_4BaseE@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC2ERKS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC2ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntC2Ey@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntdVERKS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntlSEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntmIERKS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntmLERKS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntpLERKS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntrMERKS1_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntrMEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6BigIntrSEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan6divideERKNS0_6BigIntES3_RS1_S4_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan7Charset10char2digitEc@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan7Charset10digit2charEh@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan7Charset12caseless_cmpEcc@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan7Charset8is_digitEc@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan7Charset8is_spaceEc@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan7low_bitEy@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan7xor_bufEPhPKhS3_j@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan7xor_bufEPhPKhj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan8high_bitEy@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan8lock_memEPvj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan8round_upEjj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9Allocator3getEb@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9Allocator4initEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9Allocator7destroyEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9ExceptionC1ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9ExceptionC2ERKSs@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9ExceptionD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9ExceptionD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9ExceptionD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA5Botan9to_stringEyj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5BotandvERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5BotanlsERKNS0_6BigIntEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5BotanmiERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5BotanmlERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5BotanplERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5BotanrmERKNS0_6BigIntES3_@Base 2.1.0+git20141127.0110
+ _ZN3QCA5BotanrmERKNS0_6BigIntEj@Base 2.1.0+git20141127.0110
+ _ZN3QCA5BotanrsERKNS0_6BigIntEj@Base 2.1.0+git20141127.0110
  _ZN3QCA5Event15setPasswordDataENS0_13PasswordStyleERK7QStringPv@Base 2.0.2
  _ZN3QCA5Event19setPasswordKeyStoreENS0_13PasswordStyleERKNS_12KeyStoreInfoERKNS_13KeyStoreEntryEPv@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA5Event7PrivateC1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA5Event7PrivateC2Ev@Base 2.0.3
  _ZN3QCA5Event8setTokenERKNS_12KeyStoreInfoERKNS_13KeyStoreEntryEPv@Base 2.0.2
  _ZN3QCA5EventC1ERKS0_@Base 2.0.2
  _ZN3QCA5EventC1Ev@Base 2.0.2
@@ -1739,9 +1645,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA8CertBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA8CertBase11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA8CertBase16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA8CertBaseD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA8CertBaseD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA8CertBaseD2Ev@Base 2.0.3
  _ZN3QCA8DirWatch10setDirNameERK7QString@Base 2.0.2
  _ZN3QCA8DirWatch11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA8DirWatch11qt_metacastEPKc@Base 2.0.2
@@ -1790,9 +1693,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA8PKeyBase9startSignENS_18SignatureAlgorithmENS_15SignatureFormatE@Base 2.0.2
  _ZN3QCA8PKeyBaseC1EPNS_8ProviderERK7QString@Base 2.0.2
  _ZN3QCA8PKeyBaseC2EPNS_8ProviderERK7QString@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA8PKeyBaseD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA8PKeyBaseD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA8PKeyBaseD2Ev@Base 2.0.3
  _ZN3QCA8Provider13configChangedERK4QMapI7QString8QVariantE@Base 2.0.2
  _ZN3QCA8Provider4initEv@Base 2.0.2
  _ZN3QCA8Provider6deinitEv@Base 2.0.2
@@ -1842,7 +1742,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA8QPipeEndD0Ev@Base 2.0.2
  _ZN3QCA8QPipeEndD1Ev@Base 2.0.2
  _ZN3QCA8QPipeEndD2Ev@Base 2.0.2
- _ZN3QCA8md5_initEPNS_11md5_state_tE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA8md5_initEPNS_11md5_state_tE@Base 2.1.0+git20141127.0110
  _ZN3QCA9Algorithm11takeContextEv@Base 2.0.2
  _ZN3QCA9Algorithm6changeEPNS_8Provider7ContextE@Base 2.0.2
  _ZN3QCA9Algorithm6changeERK7QStringS3_@Base 2.0.2
@@ -1857,21 +1757,15 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA9AlgorithmD1Ev@Base 2.0.2
  _ZN3QCA9AlgorithmD2Ev@Base 2.0.2
  _ZN3QCA9AlgorithmaSERKS0_@Base 2.0.2
- _ZN3QCA9AskerBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9AskerBase11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9AskerBase16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA9AskerBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA9AskerBase11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA9AskerBase16staticMetaObjectE@Base 2.1.0+git20141127.0110
  _ZN3QCA9CAContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA9CAContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA9CAContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA9CAContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA9CAContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA9CAContextD2Ev@Base 2.0.3
  _ZN3QCA9DHContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA9DHContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA9DHContext16staticMetaObjectE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA9DHContextD0Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA9DHContextD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional|arch=!amd64)_ZN3QCA9DHContextD2Ev@Base 2.0.3
  _ZN3QCA9FileWatch11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA9FileWatch11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA9FileWatch11setFileNameERK7QString@Base 2.0.2
@@ -1889,8 +1783,6 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA9FileWatchD1Ev@Base 2.0.2
  _ZN3QCA9FileWatchD2Ev@Base 2.0.2
  _ZN3QCA9KeyBundle25setCertificateChainAndKeyERKNS_16CertificateChainERKNS_10PrivateKeyE@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA9KeyBundle7PrivateD1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=private|arch=!amd64)_ZN3QCA9KeyBundle7PrivateD2Ev@Base 2.0.3
  _ZN3QCA9KeyBundle7setNameERK7QString@Base 2.0.2
  _ZN3QCA9KeyBundle8fromFileERK7QStringRKNS_11SecureArrayEPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA9KeyBundle9fromArrayERK10QByteArrayRKNS_11SecureArrayEPNS_13ConvertResultERK7QString@Base 2.0.2
@@ -1928,7 +1820,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA9PublicKey13verifyMessageERKNS_12MemoryRegionERK10QByteArrayNS_18SignatureAlgorithmENS_15SignatureFormatE@Base 2.0.2
  _ZN3QCA9PublicKey14validSignatureERK10QByteArray@Base 2.0.2
  _ZN3QCA9PublicKey6updateERKNS_12MemoryRegionE@Base 2.0.2
- _ZN3QCA9PublicKey7decryptERKNS_11SecureArrayEPS1_NS_19EncryptionAlgorithmE@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA9PublicKey7decryptERKNS_11SecureArrayEPS1_NS_19EncryptionAlgorithmE@Base 2.1.0+git20141127.0110
  _ZN3QCA9PublicKey7encryptERKNS_11SecureArrayENS_19EncryptionAlgorithmE@Base 2.0.2
  _ZN3QCA9PublicKey7fromDERERK10QByteArrayPNS_13ConvertResultERK7QString@Base 2.0.2
  _ZN3QCA9PublicKey7fromPEMERK7QStringPNS_13ConvertResultES3_@Base 2.0.2
@@ -1946,34 +1838,34 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA9PublicKeyD1Ev@Base 2.0.2
  _ZN3QCA9PublicKeyD2Ev@Base 2.0.2
  _ZN3QCA9PublicKeyaSERKS0_@Base 2.0.2
- _ZN3QCA9SafeTimer10timerEventEP11QTimerEvent@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer11setIntervalEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer13setSingleShotEb@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer4stopEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer5eventEP6QEvent@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer5startEi@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer5startEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7Private10timerEventEP11QTimerEvent@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7Private11qt_metacastEPKc@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7Private16staticMetaObjectE@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7Private5eventEP6QEvent@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7Private7needFixEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7Private8fixTimerEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7PrivateC1EP7QObject@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7PrivateC2EP7QObject@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7PrivateD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7PrivateD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7PrivateD2Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimer7timeoutEv@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimerC1EP7QObject@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimerC2EP7QObject@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimerD0Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimerD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN3QCA9SafeTimerD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN3QCA9SafeTimer10timerEventEP11QTimerEvent@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer11setIntervalEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer13setSingleShotEb@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer4stopEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer5eventEP6QEvent@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer5startEi@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer5startEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7Private10timerEventEP11QTimerEvent@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7Private11qt_metacastEPKc@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7Private16staticMetaObjectE@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7Private5eventEP6QEvent@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7Private7needFixEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7Private8fixTimerEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7PrivateC1EP7QObject@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7PrivateC2EP7QObject@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7PrivateD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7PrivateD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7PrivateD2Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimer7timeoutEv@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimerC1EP7QObject@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimerC2EP7QObject@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimerD0Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimerD1Ev@Base 2.1.0+git20141127.0110
+ _ZN3QCA9SafeTimerD2Ev@Base 2.1.0+git20141127.0110
  _ZN3QCA9providersEv@Base 2.0.2
  _ZN3QCAlsER11QTextStreamRKNS_10BigIntegerE@Base 2.0.2
  _ZN3QCAplERKNS_11SecureArrayES2_@Base 2.0.2
@@ -2234,15 +2126,14 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst)_ZN5QListIiED2Ev@Base 2.0.3
  _ZN7QStringC1EPKc@Base 2.1.0
  _ZN7QStringC2EPKc@Base 2.1.0
- _ZN7QStringD1Ev@Base 2.1.0+git20141127.0049+15.04
- _ZN7QStringD2Ev@Base 2.1.0+git20141127.0049+15.04
+ _ZN7QStringD1Ev@Base 2.1.0+git20141127.0110
+ _ZN7QStringD2Ev@Base 2.1.0+git20141127.0110
  _ZN8QByteRefaSERKS_@Base 2.1.0
- _ZN8QByteRefaSEc@Base 2.1.0+git20141127.0049+15.04
+ _ZN8QByteRefaSEc@Base 2.1.0+git20141127.0110
  (optional=templinst)_ZN8QMapDataI7QString8QVariantE10createNodeERKS0_RKS1_P8QMapNodeIS0_S1_Eb@Base 2.1.0
  (optional=templinst)_ZN8QMapNodeI7QString4QMapIS0_8QVariantEE14destroySubTreeEv@Base 2.1.0
  (optional=templinst)_ZN8QMapNodeI7QString8QVariantE14destroySubTreeEv@Base 2.1.0
  (optional=templinst)_ZN8QMapNodeIN3QCA19CertificateInfoTypeE7QStringE14destroySubTreeEv@Base 2.1.0
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZN9QHashData9hasShrunkEv@Base 2.0.2
  (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEE7convertEPKNS_25AbstractConverterFunctionEPKvPv@Base 2.1.0
  (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEED1Ev@Base 2.1.0
  (optional=templinst)_ZN9QtPrivate16ConverterFunctorI5QListI8QVariantEN17QtMetaTypePrivate23QSequentialIterableImplENS4_33QSequentialIterableConvertFunctorIS3_EEED2Ev@Base 2.1.0
@@ -2258,8 +2149,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA10KDFContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA10MACContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA10PrivateKey10canDecryptEv@Base 2.0.2
- _ZNK3QCA10PrivateKey10canEncryptEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA10PrivateKey18maximumEncryptSizeENS_19EncryptionAlgorithmE@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA10PrivateKey10canEncryptEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA10PrivateKey18maximumEncryptSizeENS_19EncryptionAlgorithmE@Base 2.1.0+git20141127.0110
  _ZNK3QCA10PrivateKey4toDHEv@Base 2.0.2
  _ZNK3QCA10PrivateKey5toDERERKNS_11SecureArrayENS_12PBEAlgorithmE@Base 2.0.2
  _ZNK3QCA10PrivateKey5toDSAEv@Base 2.0.2
@@ -2274,7 +2165,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA10TLSContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA10TLSSession6isNullEv@Base 2.0.2
  _ZNK3QCA10TextFilter9directionEv@Base 2.0.2
- _ZNK3QCA10TimerFixer10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA10TimerFixer10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA10TokenAsker10metaObjectEv@Base 2.0.2
  _ZNK3QCA10TokenAsker8acceptedEv@Base 2.0.2
  _ZNK3QCA11CertContext10metaObjectEv@Base 2.0.2
@@ -2310,7 +2201,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA11CertificateeqERKS0_@Base 2.0.2
  _ZNK3QCA11DHPublicKey1yEv@Base 2.0.2
  _ZNK3QCA11DHPublicKey6domainEv@Base 2.0.2
- _ZNK3QCA11HandlerBase10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA11HandlerBase10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA11HashContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA11InfoContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA11InfoContext17supportedMACTypesEv@Base 2.0.2
@@ -2340,7 +2231,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA11SecureArrayixEi@Base 2.0.2
  _ZNK3QCA11SecureLayer10isClosableEv@Base 2.0.2
  _ZNK3QCA11SecureLayer10metaObjectEv@Base 2.0.2
- _ZNK3QCA12AskerPrivate10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA12AskerPrivate10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA12BasicContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA12DHPrivateKey1xEv@Base 2.0.2
  _ZNK3QCA12DHPrivateKey1yEv@Base 2.0.2
@@ -2376,8 +2267,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA13ConsolePrompt10resultCharEv@Base 2.0.2
  _ZNK3QCA13ConsolePrompt6resultEv@Base 2.0.2
  _ZNK3QCA13ConsolePrompt7Private10metaObjectEv@Base 2.0.2
- _ZNK3QCA13ConsoleThread10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA13ConsoleWorker10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA13ConsoleThread10metaObjectEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA13ConsoleWorker10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA13DSAPrivateKey1xEv@Base 2.0.2
  _ZNK3QCA13DSAPrivateKey1yEv@Base 2.0.2
  _ZNK3QCA13DSAPrivateKey6domainEv@Base 2.0.2
@@ -2427,37 +2318,37 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA13SecureMessage9errorCodeEv@Base 2.0.2
  _ZNK3QCA13SecureMessage9signatureEv@Base 2.0.2
  _ZNK3QCA13SecureMessage9wasSignedEv@Base 2.0.2
- _ZNK3QCA14ConsolePrivate10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA14ConsolePrivate10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA14ConstraintType2idEv@Base 2.0.2
  _ZNK3QCA14ConstraintType5knownEv@Base 2.0.2
  _ZNK3QCA14ConstraintType7sectionEv@Base 2.0.2
  _ZNK3QCA14ConstraintTypeeqERKS0_@Base 2.0.2
  _ZNK3QCA14ConstraintTypeltERKS0_@Base 2.0.2
  _ZNK3QCA14DLGroupContext10metaObjectEv@Base 2.0.2
- _ZNK3QCA14KeyStoreThread10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA14KeyStoreThread10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA14MessageContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA14MessageContext14diagnosticTextEv@Base 2.0.2
- _ZNK3QCA15DefaultProvider10qcaVersionEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15DefaultProvider13defaultConfigEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15DefaultProvider4nameEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15DefaultProvider7versionEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15DefaultProvider8featuresEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15KeyLoaderThread10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA15DefaultProvider10qcaVersionEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15DefaultProvider13defaultConfigEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15DefaultProvider4nameEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15DefaultProvider7versionEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15DefaultProvider8featuresEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15KeyLoaderThread10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA15KeyStoreManager10metaObjectEv@Base 2.0.2
  _ZNK3QCA15KeyStoreManager6isBusyEv@Base 2.0.2
  _ZNK3QCA15KeyStoreManager9keyStoresEv@Base 2.0.2
- _ZNK3QCA15KeyStorePrivate10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15KeyStoreTracker10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15KeyStoreTracker18haveProviderSourceEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15ProviderManager11allFeaturesEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15ProviderManager11haveAlreadyERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15ProviderManager14diagnosticTextEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15ProviderManager20get_default_priorityERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15ProviderManager4findEPNS_8ProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15ProviderManager4findERK7QString@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15ProviderManager7findForERK7QStringS3_@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15ProviderManager9providersEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA15SyncThreadAgent10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA15KeyStorePrivate10metaObjectEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15KeyStoreTracker10metaObjectEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15KeyStoreTracker18haveProviderSourceEPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15ProviderManager11allFeaturesEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15ProviderManager11haveAlreadyERK7QString@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15ProviderManager14diagnosticTextEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15ProviderManager20get_default_priorityERK7QString@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15ProviderManager4findEPNS_8ProviderE@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15ProviderManager4findERK7QString@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15ProviderManager7findForERK7QStringS3_@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15ProviderManager9providersEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA15SyncThreadAgent10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA16ConsoleReference10metaObjectEv@Base 2.0.2
  _ZNK3QCA16ConsoleReference12bytesToWriteEv@Base 2.0.2
  _ZNK3QCA16ConsoleReference12securityModeEv@Base 2.0.2
@@ -2473,9 +2364,9 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA16SecureMessageKey6isNullEv@Base 2.0.2
  _ZNK3QCA17AbstractLogDevice10metaObjectEv@Base 2.0.2
  _ZNK3QCA17AbstractLogDevice4nameEv@Base 2.0.2
- _ZNK3QCA17DefaultMD5Context5cloneEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA17KeyStoreOperation10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA17SynchronizerAgent10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA17DefaultMD5Context5cloneEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA17KeyStoreOperation10metaObjectEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA17SynchronizerAgent10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA17TLSSessionContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA18CertificateOptions11constraintsEv@Base 2.0.2
  _ZNK3QCA18CertificateOptions11infoOrderedEv@Base 2.0.2
@@ -2508,8 +2399,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA18CertificateRequest9pathLimitEv@Base 2.0.2
  _ZNK3QCA18CertificateRequest9toPEMFileERK7QString@Base 2.0.2
  _ZNK3QCA18CertificateRequesteqERKS0_@Base 2.0.2
- _ZNK3QCA18DefaultSHA1Context5cloneEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA18SafeSocketNotifier10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA18DefaultSHA1Context5cloneEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA18SafeSocketNotifier10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA19CertificateInfoPair4typeEv@Base 2.0.2
  _ZNK3QCA19CertificateInfoPair5valueEv@Base 2.0.2
  _ZNK3QCA19CertificateInfoPaireqERKS0_@Base 2.0.2
@@ -2518,12 +2409,12 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA19CertificateInfoType7sectionEv@Base 2.0.2
  _ZNK3QCA19CertificateInfoTypeeqERKS0_@Base 2.0.2
  _ZNK3QCA19CertificateInfoTypeltERKS0_@Base 2.0.2
- _ZNK3QCA19DefaultKeyStoreList10entryTypesEi@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA19DefaultKeyStoreList10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA19DefaultKeyStoreList4nameEi@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA19DefaultKeyStoreList4typeEi@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA19DefaultKeyStoreList5cloneEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA19DefaultKeyStoreList7storeIdEi@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA19DefaultKeyStoreList10entryTypesEi@Base 2.1.0+git20141127.0110
+ _ZNK3QCA19DefaultKeyStoreList10metaObjectEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA19DefaultKeyStoreList4nameEi@Base 2.1.0+git20141127.0110
+ _ZNK3QCA19DefaultKeyStoreList4typeEi@Base 2.1.0+git20141127.0110
+ _ZNK3QCA19DefaultKeyStoreList5cloneEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA19DefaultKeyStoreList7storeIdEi@Base 2.1.0+git20141127.0110
  _ZNK3QCA19KeyStoreListContext10isReadOnlyEi@Base 2.0.2
  _ZNK3QCA19KeyStoreListContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA19SecureMessageSystem10metaObjectEv@Base 2.0.2
@@ -2531,16 +2422,16 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA20CertificateAuthority11signRequestERKNS_18CertificateRequestERK9QDateTime@Base 2.0.2
  _ZNK3QCA20CertificateAuthority9createCRLERK9QDateTime@Base 2.0.2
  _ZNK3QCA20CertificateAuthority9updateCRLERKNS_3CRLERK5QListINS_8CRLEntryEERK9QDateTime@Base 2.0.2
- _ZNK3QCA20DefaultKeyStoreEntry11certificateEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultKeyStoreEntry2idEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultKeyStoreEntry3crlEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultKeyStoreEntry4nameEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultKeyStoreEntry4typeEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultKeyStoreEntry5cloneEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultKeyStoreEntry7storeIdEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultKeyStoreEntry9serializeEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultKeyStoreEntry9storeNameEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA20DefaultRandomContext5cloneEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA20DefaultKeyStoreEntry11certificateEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultKeyStoreEntry2idEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultKeyStoreEntry3crlEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultKeyStoreEntry4nameEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultKeyStoreEntry4typeEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultKeyStoreEntry5cloneEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultKeyStoreEntry7storeIdEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultKeyStoreEntry9serializeEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultKeyStoreEntry9storeNameEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA20DefaultRandomContext5cloneEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA20KeyStoreEntryContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA20KeyStoreEntryContext11certificateEv@Base 2.0.2
  _ZNK3QCA20KeyStoreEntryContext11isAvailableEv@Base 2.0.2
@@ -2555,13 +2446,13 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA21CertificateCollection12certificatesEv@Base 2.0.2
  _ZNK3QCA21CertificateCollection4crlsEv@Base 2.0.2
  _ZNK3QCA21CertificateCollectionplERKS0_@Base 2.0.2
- _ZNK3QCA22KeyStoreManagerPrivate10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA22KeyStoreManagerPrivate10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA22SecureMessageSignature11keyValidityEv@Base 2.0.2
  _ZNK3QCA22SecureMessageSignature14identityResultEv@Base 2.0.2
  _ZNK3QCA22SecureMessageSignature3keyEv@Base 2.0.2
  _ZNK3QCA22SecureMessageSignature9timestampEv@Base 2.0.2
- _ZNK3QCA23ConsoleReferencePrivate10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA23QFileSystemWatcherRelay10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA23ConsoleReferencePrivate10metaObjectEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA23QFileSystemWatcherRelay10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA25MessageAuthenticationCode14validKeyLengthEi@Base 2.0.2
  _ZNK3QCA25MessageAuthenticationCode4typeEv@Base 2.0.2
  _ZNK3QCA25MessageAuthenticationCode9keyLengthEv@Base 2.0.2
@@ -2649,32 +2540,32 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA4SASL9mechanismEv@Base 2.0.2
  _ZNK3QCA4SASL9realmListEv@Base 2.0.2
  (optional=templinst)_ZNK3QCA5Botan12MemoryRegionIjE7grow_toEj@Base 2.0.3
- _ZNK3QCA5Botan13Library_State13get_allocatorERKSs@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan13Library_State9get_mutexEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan15Builtin_Modules10allocatorsEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan15Builtin_Modules13mutex_factoryEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan15Builtin_Modules17default_allocatorEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan16Malloc_Allocator4typeEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan17Locking_Allocator4typeEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan17Pooling_Allocator12Memory_Block8containsEPvj@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan23MemoryMapping_Allocator4typeEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt12encoded_sizeENS1_4BaseE@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt12reverse_signEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt13binary_encodeEPh@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt13get_substringEjj@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt3absEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt3cmpERKS1_b@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt4bitsEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt5bytesEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt7byte_atEj@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt7get_bitEj@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt7grow_toEj@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt7is_zeroEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt8grow_regEj@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt9sig_wordsEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigInt9to_u32bitEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan6BigIntngEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA5Botan9Exception4whatEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA5Botan13Library_State13get_allocatorERKSs@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan13Library_State9get_mutexEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan15Builtin_Modules10allocatorsEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan15Builtin_Modules13mutex_factoryEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan15Builtin_Modules17default_allocatorEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan16Malloc_Allocator4typeEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan17Locking_Allocator4typeEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan17Pooling_Allocator12Memory_Block8containsEPvj@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan23MemoryMapping_Allocator4typeEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt12encoded_sizeENS1_4BaseE@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt12reverse_signEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt13binary_encodeEPh@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt13get_substringEjj@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt3absEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt3cmpERKS1_b@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt4bitsEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt5bytesEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt7byte_atEj@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt7get_bitEj@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt7grow_toEj@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt7is_zeroEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt8grow_regEj@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt9sig_wordsEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigInt9to_u32bitEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan6BigIntngEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA5Botan9Exception4whatEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA5Event12keyStoreInfoEv@Base 2.0.2
  _ZNK3QCA5Event13keyStoreEntryEv@Base 2.0.2
  _ZNK3QCA5Event13passwordStyleEv@Base 2.0.2
@@ -2758,7 +2649,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA9Algorithm4typeEv@Base 2.0.2
  _ZNK3QCA9Algorithm7contextEv@Base 2.0.2
  _ZNK3QCA9Algorithm8providerEv@Base 2.0.2
- _ZNK3QCA9AskerBase10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA9AskerBase10metaObjectEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA9CAContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA9DHContext10metaObjectEv@Base 2.0.2
  _ZNK3QCA9FileWatch10metaObjectEv@Base 2.0.2
@@ -2775,7 +2666,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA9KeyLoader13convertResultEv@Base 2.0.2
  _ZNK3QCA9KeyLoader7Private10metaObjectEv@Base 2.0.2
  _ZNK3QCA9KeyLoader9keyBundleEv@Base 2.0.2
- _ZNK3QCA9PublicKey10canDecryptEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA9PublicKey10canDecryptEv@Base 2.1.0+git20141127.0110
  _ZNK3QCA9PublicKey10canEncryptEv@Base 2.0.2
  _ZNK3QCA9PublicKey18maximumEncryptSizeENS_19EncryptionAlgorithmE@Base 2.0.2
  _ZNK3QCA9PublicKey4toDHEv@Base 2.0.2
@@ -2785,11 +2676,11 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZNK3QCA9PublicKey5toRSAEv@Base 2.0.2
  _ZNK3QCA9PublicKey9canVerifyEv@Base 2.0.2
  _ZNK3QCA9PublicKey9toPEMFileERK7QString@Base 2.0.2
- _ZNK3QCA9SafeTimer10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA9SafeTimer12isSingleShotEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA9SafeTimer7Private10metaObjectEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA9SafeTimer8intervalEv@Base 2.1.0+git20141127.0049+15.04
- _ZNK3QCA9SafeTimer8isActiveEv@Base 2.1.0+git20141127.0049+15.04
+ _ZNK3QCA9SafeTimer10metaObjectEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA9SafeTimer12isSingleShotEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA9SafeTimer7Private10metaObjectEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA9SafeTimer8intervalEv@Base 2.1.0+git20141127.0110
+ _ZNK3QCA9SafeTimer8isActiveEv@Base 2.1.0+git20141127.0110
  (optional=templinst)_ZNK4QMapIN3QCA19CertificateInfoTypeE7QStringE6valuesERKS1_@Base 2.0.3
  (optional=templinst)_ZNK5QHashIPN3QCA19KeyStoreListContextE15QHashDummyValueE8findNodeERKS2_Pj@Base 2.1.0
  (optional=templinst)_ZNK5QHashIPN3QCA8KeyStoreEiE8findNodeERKS2_Pj@Base 2.1.0
@@ -2806,36 +2697,18 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst)_ZNSt6vectorIN3QCA5Botan17Pooling_Allocator12Memory_BlockESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 2.0.3
  (optional=templinst)_ZNSt6vectorIPN3QCA5Botan9AllocatorESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 2.0.3
  (optional=templinst)_ZNSt6vectorISt4pairIPvjESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 2.0.2
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZNSt6vectorISt4pairIPvjESaIS2_EED1Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZNSt6vectorISt4pairIPvjESaIS2_EED2Ev@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE10_M_insert_EPKSt18_Rb_tree_node_baseSF_RKS6_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE16_M_insert_uniqueERKS6_@Base 2.0.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS6_ERKS6_@Base 2.0.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE24_M_get_insert_unique_posERS1_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS6_ERS1_@Base 2.0.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE10_M_insert_EPKSt18_Rb_tree_node_baseSF_RKS6_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE16_M_insert_uniqueERKS6_@Base 2.0.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS6_ERKS6_@Base 2.0.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE24_M_get_insert_unique_posERS1_@Base 2.0.3
  (optional=templinst|arch=amd64)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS6_ERS1_@Base 2.0.3
  (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt11__push_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEiS5_EvT_T0_SC_T1_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt11__push_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEElS5_EvT_T0_SC_T1_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt11lower_boundIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEES5_ET_SB_SB_RKT0_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEiS5_EvT_T0_SC_T1_@Base 2.0.3
- (optional=templinst|arch=i386)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEiS5_NS0_5__ops15_Iter_less_iterEEvT_T0_SE_T1_T2_@Base 2.1.0+git20141127.0049+15.04
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEElS5_EvT_T0_SC_T1_@Base 2.0.3
+ (optional=templinst|arch=i386)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEiS5_NS0_5__ops15_Iter_less_iterEEvT_T0_SE_T1_T2_@Base 2.1.0+git20141127.0110
  (optional=templinst|arch=amd64)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEElS5_NS0_5__ops15_Iter_less_iterEEvT_T0_SE_T1_T2_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt13__heap_selectIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEEvT_SB_SB_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEEvT_SB_@Base 2.0.3
  (optional=templinst)_ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEENS0_5__ops15_Iter_less_iterEEvT_SD_T0_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEiEvT_SB_T0_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEElEvT_SB_T0_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt19__move_median_firstIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEEvT_SB_SB_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt21__unguarded_partitionIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEES5_ET_SB_SB_RKT0_@Base 2.0.3
  (optional=templinst)_ZSt22__move_median_to_firstIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEENS0_5__ops15_Iter_less_iterEEvT_SD_SD_SD_T0_@Base 2.0.3
-#MISSING: 2.1.0+git20141127.0049+15.04# (optional=templinst|arch=!amd64)_ZSt25__unguarded_linear_insertIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEEvT_@Base 2.0.3
  (optional=templinst)_ZSt25__unguarded_linear_insertIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEENS0_5__ops14_Val_less_iterEEvT_T0_@Base 2.0.3
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_EPKS3_RKS6_@Base 2.0.2
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_PKS3_@Base 2.0.3
@@ -2853,13 +2726,13 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTIN3QCA10TLSContextE@Base 2.0.2
  _ZTIN3QCA10TLSSessionE@Base 2.0.2
  _ZTIN3QCA10TextFilterE@Base 2.0.2
- _ZTIN3QCA10TimerFixerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA10TimerFixerE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA10TokenAsker7PrivateE@Base 2.0.2
  _ZTIN3QCA10TokenAskerE@Base 2.0.2
  _ZTIN3QCA11CertContextE@Base 2.0.2
  _ZTIN3QCA11CertificateE@Base 2.0.2
  _ZTIN3QCA11DHPublicKeyE@Base 2.0.2
- _ZTIN3QCA11HandlerBaseE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA11HandlerBaseE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA11HashContextE@Base 2.0.2
  _ZTIN3QCA11InfoContextE@Base 2.0.2
  _ZTIN3QCA11PKeyContextE@Base 2.0.2
@@ -2867,7 +2740,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTIN3QCA11QPipeDeviceE@Base 2.0.2
  _ZTIN3QCA11SASLContextE@Base 2.0.2
  _ZTIN3QCA11SecureLayerE@Base 2.0.2
- _ZTIN3QCA12AskerPrivateE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA12AskerPrivateE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA12BasicContextE@Base 2.0.2
  _ZTIN3QCA12DHPrivateKeyE@Base 2.0.2
  _ZTIN3QCA12DSAPublicKeyE@Base 2.0.2
@@ -2881,8 +2754,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTIN3QCA13CipherContextE@Base 2.0.2
  _ZTIN3QCA13ConsolePrompt7PrivateE@Base 2.0.2
  _ZTIN3QCA13ConsolePromptE@Base 2.0.2
- _ZTIN3QCA13ConsoleThreadE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA13ConsoleWorkerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA13ConsoleThreadE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA13ConsoleWorkerE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA13DSAPrivateKeyE@Base 2.0.2
  _ZTIN3QCA13KeyStoreEntryE@Base 2.0.2
  _ZTIN3QCA13PGPKeyContextE@Base 2.0.2
@@ -2893,40 +2766,40 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTIN3QCA13RandomContextE@Base 2.0.2
  _ZTIN3QCA13SecureMessage7PrivateE@Base 2.0.2
  _ZTIN3QCA13SecureMessageE@Base 2.0.2
- _ZTIN3QCA14ConsolePrivateE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA14ConsolePrivateE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA14DLGroupContextE@Base 2.0.2
- _ZTIN3QCA14KeyStoreThreadE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA14KeyStoreThreadE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA14MessageContextE@Base 2.0.2
- _ZTIN3QCA15DefaultProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA15KeyLoaderThreadE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA15DefaultProviderE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA15KeyLoaderThreadE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA15KeyStoreManagerE@Base 2.0.2
- _ZTIN3QCA15KeyStorePrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA15KeyStoreTrackerE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA15SyncThreadAgentE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA15KeyStorePrivateE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA15KeyStoreTrackerE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA15SyncThreadAgentE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA16ConsoleReferenceE@Base 2.0.2
  _ZTIN3QCA17AbstractLogDeviceE@Base 2.0.2
- _ZTIN3QCA17DefaultMD5ContextE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA17KeyStoreOperationE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA17SynchronizerAgentE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA17DefaultMD5ContextE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA17KeyStoreOperationE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA17SynchronizerAgentE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA17TLSSessionContextE@Base 2.0.2
  _ZTIN3QCA18CertificateRequestE@Base 2.0.2
- _ZTIN3QCA18DefaultSHA1ContextE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA18SafeSocketNotifierE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA18DefaultSHA1ContextE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA18SafeSocketNotifierE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA19BufferedComputationE@Base 2.0.2
- _ZTIN3QCA19DefaultKeyStoreListE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA19DefaultKeyStoreListE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA19KeyStoreListContextE@Base 2.0.2
  _ZTIN3QCA19SecureMessageSystemE@Base 2.0.2
  _ZTIN3QCA20CertificateAuthorityE@Base 2.0.2
- _ZTIN3QCA20DefaultKeyStoreEntryE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA20DefaultRandomContextE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA20DefaultKeyStoreEntryE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA20DefaultRandomContextE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA20KeyStoreEntryContextE@Base 2.0.2
  _ZTIN3QCA20KeyStoreEntryWatcher7PrivateE@Base 2.0.2
  _ZTIN3QCA20KeyStoreEntryWatcherE@Base 2.0.2
  _ZTIN3QCA21CertCollectionContextE@Base 2.0.2
  _ZTIN3QCA21KeyDerivationFunctionE@Base 2.0.2
- _ZTIN3QCA22KeyStoreManagerPrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA23ConsoleReferencePrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA23QFileSystemWatcherRelayE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA22KeyStoreManagerPrivateE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA23ConsoleReferencePrivateE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA23QFileSystemWatcherRelayE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA25MessageAuthenticationCodeE@Base 2.0.2
  _ZTIN3QCA3CMSE@Base 2.0.2
  _ZTIN3QCA3CRLE@Base 2.0.2
@@ -2937,32 +2810,32 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTIN3QCA4PKeyE@Base 2.0.2
  _ZTIN3QCA4SASL7PrivateE@Base 2.0.2
  _ZTIN3QCA4SASLE@Base 2.0.2
- _ZTIN3QCA5Botan12Config_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan12Format_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan13Invalid_StateE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan13Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan14Encoding_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan14Internal_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan15Builtin_ModulesE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan16Invalid_ArgumentE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan16Malloc_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan16Qt_Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan17Invalid_IV_LengthE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan17Locking_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan17Memory_ExhaustionE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan17Pooling_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan18Invalid_Block_SizeE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan18Invalid_Key_LengthE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan19Algorithm_Not_FoundE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan21Default_Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan22Invalid_Algorithm_NameE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan22Invalid_Message_NumberE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan23MemoryMapping_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan5MutexE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan6BigInt12DivideByZeroE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan7ModulesE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan9AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA5Botan9ExceptionE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA5Botan12Config_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan12Format_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan13Invalid_StateE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan13Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan14Encoding_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan14Internal_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan15Builtin_ModulesE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan16Invalid_ArgumentE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan16Malloc_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan16Qt_Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan17Invalid_IV_LengthE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan17Locking_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan17Memory_ExhaustionE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan17Pooling_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan18Invalid_Block_SizeE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan18Invalid_Key_LengthE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan19Algorithm_Not_FoundE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan21Default_Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan22Invalid_Algorithm_NameE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan22Invalid_Message_NumberE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan23MemoryMapping_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan5MutexE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan6BigInt12DivideByZeroE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan7ModulesE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan9AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA5Botan9ExceptionE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA6Base64E@Base 2.0.2
  _ZTIN3QCA6CipherE@Base 2.0.2
  _ZTIN3QCA6FilterE@Base 2.0.2
@@ -2981,7 +2854,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTIN3QCA8QPipeEnd7PrivateE@Base 2.0.2
  _ZTIN3QCA8QPipeEndE@Base 2.0.2
  _ZTIN3QCA9AlgorithmE@Base 2.0.2
- _ZTIN3QCA9AskerBaseE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA9AskerBaseE@Base 2.1.0+git20141127.0110
  _ZTIN3QCA9CAContextE@Base 2.0.2
  _ZTIN3QCA9DHContextE@Base 2.0.2
  _ZTIN3QCA9FileWatch7PrivateE@Base 2.0.2
@@ -2989,8 +2862,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTIN3QCA9KeyLoader7PrivateE@Base 2.0.2
  _ZTIN3QCA9KeyLoaderE@Base 2.0.2
  _ZTIN3QCA9PublicKeyE@Base 2.0.2
- _ZTIN3QCA9SafeTimer7PrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTIN3QCA9SafeTimerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTIN3QCA9SafeTimer7PrivateE@Base 2.1.0+git20141127.0110
+ _ZTIN3QCA9SafeTimerE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA10CRLContextE@Base 2.0.2
  _ZTSN3QCA10CSRContextE@Base 2.0.2
  _ZTSN3QCA10DSAContextE@Base 2.0.2
@@ -3004,13 +2877,13 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTSN3QCA10TLSContextE@Base 2.0.2
  _ZTSN3QCA10TLSSessionE@Base 2.0.2
  _ZTSN3QCA10TextFilterE@Base 2.0.2
- _ZTSN3QCA10TimerFixerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA10TimerFixerE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA10TokenAsker7PrivateE@Base 2.0.2
  _ZTSN3QCA10TokenAskerE@Base 2.0.2
  _ZTSN3QCA11CertContextE@Base 2.0.2
  _ZTSN3QCA11CertificateE@Base 2.0.2
  _ZTSN3QCA11DHPublicKeyE@Base 2.0.2
- _ZTSN3QCA11HandlerBaseE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA11HandlerBaseE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA11HashContextE@Base 2.0.2
  _ZTSN3QCA11InfoContextE@Base 2.0.2
  _ZTSN3QCA11PKeyContextE@Base 2.0.2
@@ -3018,7 +2891,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTSN3QCA11QPipeDeviceE@Base 2.0.2
  _ZTSN3QCA11SASLContextE@Base 2.0.2
  _ZTSN3QCA11SecureLayerE@Base 2.0.2
- _ZTSN3QCA12AskerPrivateE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA12AskerPrivateE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA12BasicContextE@Base 2.0.2
  _ZTSN3QCA12DHPrivateKeyE@Base 2.0.2
  _ZTSN3QCA12DSAPublicKeyE@Base 2.0.2
@@ -3032,8 +2905,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTSN3QCA13CipherContextE@Base 2.0.2
  _ZTSN3QCA13ConsolePrompt7PrivateE@Base 2.0.2
  _ZTSN3QCA13ConsolePromptE@Base 2.0.2
- _ZTSN3QCA13ConsoleThreadE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA13ConsoleWorkerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA13ConsoleThreadE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA13ConsoleWorkerE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA13DSAPrivateKeyE@Base 2.0.2
  _ZTSN3QCA13KeyStoreEntryE@Base 2.0.2
  _ZTSN3QCA13PGPKeyContextE@Base 2.0.2
@@ -3044,40 +2917,40 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTSN3QCA13RandomContextE@Base 2.0.2
  _ZTSN3QCA13SecureMessage7PrivateE@Base 2.0.2
  _ZTSN3QCA13SecureMessageE@Base 2.0.2
- _ZTSN3QCA14ConsolePrivateE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA14ConsolePrivateE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA14DLGroupContextE@Base 2.0.2
- _ZTSN3QCA14KeyStoreThreadE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA14KeyStoreThreadE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA14MessageContextE@Base 2.0.2
- _ZTSN3QCA15DefaultProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA15KeyLoaderThreadE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA15DefaultProviderE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA15KeyLoaderThreadE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA15KeyStoreManagerE@Base 2.0.2
- _ZTSN3QCA15KeyStorePrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA15KeyStoreTrackerE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA15SyncThreadAgentE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA15KeyStorePrivateE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA15KeyStoreTrackerE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA15SyncThreadAgentE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA16ConsoleReferenceE@Base 2.0.2
  _ZTSN3QCA17AbstractLogDeviceE@Base 2.0.2
- _ZTSN3QCA17DefaultMD5ContextE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA17KeyStoreOperationE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA17SynchronizerAgentE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA17DefaultMD5ContextE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA17KeyStoreOperationE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA17SynchronizerAgentE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA17TLSSessionContextE@Base 2.0.2
  _ZTSN3QCA18CertificateRequestE@Base 2.0.2
- _ZTSN3QCA18DefaultSHA1ContextE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA18SafeSocketNotifierE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA18DefaultSHA1ContextE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA18SafeSocketNotifierE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA19BufferedComputationE@Base 2.0.2
- _ZTSN3QCA19DefaultKeyStoreListE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA19DefaultKeyStoreListE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA19KeyStoreListContextE@Base 2.0.2
  _ZTSN3QCA19SecureMessageSystemE@Base 2.0.2
  _ZTSN3QCA20CertificateAuthorityE@Base 2.0.2
- _ZTSN3QCA20DefaultKeyStoreEntryE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA20DefaultRandomContextE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA20DefaultKeyStoreEntryE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA20DefaultRandomContextE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA20KeyStoreEntryContextE@Base 2.0.2
  _ZTSN3QCA20KeyStoreEntryWatcher7PrivateE@Base 2.0.2
  _ZTSN3QCA20KeyStoreEntryWatcherE@Base 2.0.2
  _ZTSN3QCA21CertCollectionContextE@Base 2.0.2
  _ZTSN3QCA21KeyDerivationFunctionE@Base 2.0.2
- _ZTSN3QCA22KeyStoreManagerPrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA23ConsoleReferencePrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA23QFileSystemWatcherRelayE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA22KeyStoreManagerPrivateE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA23ConsoleReferencePrivateE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA23QFileSystemWatcherRelayE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA25MessageAuthenticationCodeE@Base 2.0.2
  _ZTSN3QCA3CMSE@Base 2.0.2
  _ZTSN3QCA3CRLE@Base 2.0.2
@@ -3088,32 +2961,32 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTSN3QCA4PKeyE@Base 2.0.2
  _ZTSN3QCA4SASL7PrivateE@Base 2.0.2
  _ZTSN3QCA4SASLE@Base 2.0.2
- _ZTSN3QCA5Botan12Config_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan12Format_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan13Invalid_StateE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan13Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan14Encoding_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan14Internal_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan15Builtin_ModulesE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan16Invalid_ArgumentE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan16Malloc_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan16Qt_Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan17Invalid_IV_LengthE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan17Locking_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan17Memory_ExhaustionE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan17Pooling_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan18Invalid_Block_SizeE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan18Invalid_Key_LengthE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan19Algorithm_Not_FoundE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan21Default_Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan22Invalid_Algorithm_NameE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan22Invalid_Message_NumberE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan23MemoryMapping_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan5MutexE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan6BigInt12DivideByZeroE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan7ModulesE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan9AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA5Botan9ExceptionE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA5Botan12Config_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan12Format_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan13Invalid_StateE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan13Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan14Encoding_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan14Internal_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan15Builtin_ModulesE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan16Invalid_ArgumentE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan16Malloc_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan16Qt_Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan17Invalid_IV_LengthE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan17Locking_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan17Memory_ExhaustionE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan17Pooling_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan18Invalid_Block_SizeE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan18Invalid_Key_LengthE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan19Algorithm_Not_FoundE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan21Default_Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan22Invalid_Algorithm_NameE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan22Invalid_Message_NumberE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan23MemoryMapping_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan5MutexE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan6BigInt12DivideByZeroE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan7ModulesE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan9AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA5Botan9ExceptionE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA6Base64E@Base 2.0.2
  _ZTSN3QCA6CipherE@Base 2.0.2
  _ZTSN3QCA6FilterE@Base 2.0.2
@@ -3132,7 +3005,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTSN3QCA8QPipeEnd7PrivateE@Base 2.0.2
  _ZTSN3QCA8QPipeEndE@Base 2.0.2
  _ZTSN3QCA9AlgorithmE@Base 2.0.2
- _ZTSN3QCA9AskerBaseE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA9AskerBaseE@Base 2.1.0+git20141127.0110
  _ZTSN3QCA9CAContextE@Base 2.0.2
  _ZTSN3QCA9DHContextE@Base 2.0.2
  _ZTSN3QCA9FileWatch7PrivateE@Base 2.0.2
@@ -3140,8 +3013,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTSN3QCA9KeyLoader7PrivateE@Base 2.0.2
  _ZTSN3QCA9KeyLoaderE@Base 2.0.2
  _ZTSN3QCA9PublicKeyE@Base 2.0.2
- _ZTSN3QCA9SafeTimer7PrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTSN3QCA9SafeTimerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTSN3QCA9SafeTimer7PrivateE@Base 2.1.0+git20141127.0110
+ _ZTSN3QCA9SafeTimerE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA10CRLContextE@Base 2.0.2
  _ZTVN3QCA10CSRContextE@Base 2.0.2
  _ZTVN3QCA10DSAContextE@Base 2.0.2
@@ -3155,13 +3028,13 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTVN3QCA10TLSContextE@Base 2.0.2
  _ZTVN3QCA10TLSSessionE@Base 2.0.2
  _ZTVN3QCA10TextFilterE@Base 2.0.2
- _ZTVN3QCA10TimerFixerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA10TimerFixerE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA10TokenAsker7PrivateE@Base 2.0.2
  _ZTVN3QCA10TokenAskerE@Base 2.0.2
  _ZTVN3QCA11CertContextE@Base 2.0.2
  _ZTVN3QCA11CertificateE@Base 2.0.2
  _ZTVN3QCA11DHPublicKeyE@Base 2.0.2
- _ZTVN3QCA11HandlerBaseE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA11HandlerBaseE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA11HashContextE@Base 2.0.2
  _ZTVN3QCA11InfoContextE@Base 2.0.2
  _ZTVN3QCA11PKeyContextE@Base 2.0.2
@@ -3169,7 +3042,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTVN3QCA11QPipeDeviceE@Base 2.0.2
  _ZTVN3QCA11SASLContextE@Base 2.0.2
  _ZTVN3QCA11SecureLayerE@Base 2.0.2
- _ZTVN3QCA12AskerPrivateE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA12AskerPrivateE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA12BasicContextE@Base 2.0.2
  _ZTVN3QCA12DHPrivateKeyE@Base 2.0.2
  _ZTVN3QCA12DSAPublicKeyE@Base 2.0.2
@@ -3183,8 +3056,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTVN3QCA13CipherContextE@Base 2.0.2
  _ZTVN3QCA13ConsolePrompt7PrivateE@Base 2.0.2
  _ZTVN3QCA13ConsolePromptE@Base 2.0.2
- _ZTVN3QCA13ConsoleThreadE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA13ConsoleWorkerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA13ConsoleThreadE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA13ConsoleWorkerE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA13DSAPrivateKeyE@Base 2.0.2
  _ZTVN3QCA13KeyStoreEntryE@Base 2.0.2
  _ZTVN3QCA13PGPKeyContextE@Base 2.0.2
@@ -3195,40 +3068,40 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTVN3QCA13RandomContextE@Base 2.0.2
  _ZTVN3QCA13SecureMessage7PrivateE@Base 2.0.2
  _ZTVN3QCA13SecureMessageE@Base 2.0.2
- _ZTVN3QCA14ConsolePrivateE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA14ConsolePrivateE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA14DLGroupContextE@Base 2.0.2
- _ZTVN3QCA14KeyStoreThreadE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA14KeyStoreThreadE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA14MessageContextE@Base 2.0.2
- _ZTVN3QCA15DefaultProviderE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA15KeyLoaderThreadE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA15DefaultProviderE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA15KeyLoaderThreadE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA15KeyStoreManagerE@Base 2.0.2
- _ZTVN3QCA15KeyStorePrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA15KeyStoreTrackerE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA15SyncThreadAgentE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA15KeyStorePrivateE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA15KeyStoreTrackerE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA15SyncThreadAgentE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA16ConsoleReferenceE@Base 2.0.2
  _ZTVN3QCA17AbstractLogDeviceE@Base 2.0.2
- _ZTVN3QCA17DefaultMD5ContextE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA17KeyStoreOperationE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA17SynchronizerAgentE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA17DefaultMD5ContextE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA17KeyStoreOperationE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA17SynchronizerAgentE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA17TLSSessionContextE@Base 2.0.2
  _ZTVN3QCA18CertificateRequestE@Base 2.0.2
- _ZTVN3QCA18DefaultSHA1ContextE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA18SafeSocketNotifierE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA18DefaultSHA1ContextE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA18SafeSocketNotifierE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA19BufferedComputationE@Base 2.0.2
- _ZTVN3QCA19DefaultKeyStoreListE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA19DefaultKeyStoreListE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA19KeyStoreListContextE@Base 2.0.2
  _ZTVN3QCA19SecureMessageSystemE@Base 2.0.2
  _ZTVN3QCA20CertificateAuthorityE@Base 2.0.2
- _ZTVN3QCA20DefaultKeyStoreEntryE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA20DefaultRandomContextE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA20DefaultKeyStoreEntryE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA20DefaultRandomContextE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA20KeyStoreEntryContextE@Base 2.0.2
  _ZTVN3QCA20KeyStoreEntryWatcher7PrivateE@Base 2.0.2
  _ZTVN3QCA20KeyStoreEntryWatcherE@Base 2.0.2
  _ZTVN3QCA21CertCollectionContextE@Base 2.0.2
  _ZTVN3QCA21KeyDerivationFunctionE@Base 2.0.2
- _ZTVN3QCA22KeyStoreManagerPrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA23ConsoleReferencePrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA23QFileSystemWatcherRelayE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA22KeyStoreManagerPrivateE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA23ConsoleReferencePrivateE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA23QFileSystemWatcherRelayE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA25MessageAuthenticationCodeE@Base 2.0.2
  _ZTVN3QCA3CMSE@Base 2.0.2
  _ZTVN3QCA3CRLE@Base 2.0.2
@@ -3239,32 +3112,32 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTVN3QCA4PKeyE@Base 2.0.2
  _ZTVN3QCA4SASL7PrivateE@Base 2.0.2
  _ZTVN3QCA4SASLE@Base 2.0.2
- _ZTVN3QCA5Botan12Config_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan12Format_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan13Invalid_StateE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan13Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan14Encoding_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan14Internal_ErrorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan15Builtin_ModulesE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan16Invalid_ArgumentE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan16Malloc_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan16Qt_Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan17Invalid_IV_LengthE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan17Locking_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan17Memory_ExhaustionE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan17Pooling_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan18Invalid_Block_SizeE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan18Invalid_Key_LengthE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan19Algorithm_Not_FoundE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan21Default_Mutex_FactoryE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan22Invalid_Algorithm_NameE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan22Invalid_Message_NumberE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan23MemoryMapping_AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan5MutexE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan6BigInt12DivideByZeroE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan7ModulesE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan9AllocatorE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA5Botan9ExceptionE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA5Botan12Config_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan12Format_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan13Invalid_StateE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan13Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan14Encoding_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan14Internal_ErrorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan15Builtin_ModulesE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan16Invalid_ArgumentE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan16Malloc_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan16Qt_Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan17Invalid_IV_LengthE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan17Locking_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan17Memory_ExhaustionE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan17Pooling_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan18Invalid_Block_SizeE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan18Invalid_Key_LengthE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan19Algorithm_Not_FoundE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan21Default_Mutex_FactoryE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan22Invalid_Algorithm_NameE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan22Invalid_Message_NumberE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan23MemoryMapping_AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan5MutexE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan6BigInt12DivideByZeroE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan7ModulesE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan9AllocatorE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA5Botan9ExceptionE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA6Base64E@Base 2.0.2
  _ZTVN3QCA6CipherE@Base 2.0.2
  _ZTVN3QCA6FilterE@Base 2.0.2
@@ -3283,7 +3156,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTVN3QCA8QPipeEnd7PrivateE@Base 2.0.2
  _ZTVN3QCA8QPipeEndE@Base 2.0.2
  _ZTVN3QCA9AlgorithmE@Base 2.0.2
- _ZTVN3QCA9AskerBaseE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA9AskerBaseE@Base 2.1.0+git20141127.0110
  _ZTVN3QCA9CAContextE@Base 2.0.2
  _ZTVN3QCA9DHContextE@Base 2.0.2
  _ZTVN3QCA9FileWatch7PrivateE@Base 2.0.2
@@ -3291,8 +3164,8 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZTVN3QCA9KeyLoader7PrivateE@Base 2.0.2
  _ZTVN3QCA9KeyLoaderE@Base 2.0.2
  _ZTVN3QCA9PublicKeyE@Base 2.0.2
- _ZTVN3QCA9SafeTimer7PrivateE@Base 2.1.0+git20141127.0049+15.04
- _ZTVN3QCA9SafeTimerE@Base 2.1.0+git20141127.0049+15.04
+ _ZTVN3QCA9SafeTimer7PrivateE@Base 2.1.0+git20141127.0110
+ _ZTVN3QCA9SafeTimerE@Base 2.1.0+git20141127.0110
  (optional=templinst)_ZZN11QMetaTypeIdI5QListIN3QCA13KeyStoreEntry4TypeEEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst)_ZZN11QMetaTypeIdI5QListIN3QCA13KeyStoreEntryEEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst)_ZZN11QMetaTypeIdIN17QtMetaTypePrivate23QSequentialIterableImplEE14qt_metatype_idEvE11metatype_id@Base 2.1.0
@@ -3304,32 +3177,32 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  (optional=templinst)_ZZN11QMetaTypeIdIN3QCA9KeyBundleEE14qt_metatype_idEvE11metatype_id@Base 2.0.3
  (optional=templinst)_ZZN9QtPrivate19ValueTypeIsMetaTypeI5QListI8QVariantELb1EE17registerConverterEiE1f@Base 2.1.0
  (optional=templinst)_ZZN9QtPrivate19ValueTypeIsMetaTypeI5QListIN3QCA13KeyStoreEntryEELb1EE17registerConverterEiE1f@Base 2.1.0
- _ZplRK7QStringS1_@Base 2.1.0+git20141127.0049+15.04
- _ZplRK7QStringc@Base 2.1.0+git20141127.0049+15.04
- bigint_add2@Base 2.1.0+git20141127.0049+15.04
- bigint_add2_nc@Base 2.1.0+git20141127.0049+15.04
- bigint_add3@Base 2.1.0+git20141127.0049+15.04
- bigint_add3_nc@Base 2.1.0+git20141127.0049+15.04
- bigint_cmp@Base 2.1.0+git20141127.0049+15.04
- bigint_comba_mul4@Base 2.1.0+git20141127.0049+15.04
- bigint_comba_mul6@Base 2.1.0+git20141127.0049+15.04
- bigint_comba_mul8@Base 2.1.0+git20141127.0049+15.04
- bigint_comba_sqr4@Base 2.1.0+git20141127.0049+15.04
- bigint_comba_sqr6@Base 2.1.0+git20141127.0049+15.04
- bigint_comba_sqr8@Base 2.1.0+git20141127.0049+15.04
- bigint_divcore@Base 2.1.0+git20141127.0049+15.04
- bigint_divop@Base 2.1.0+git20141127.0049+15.04
- bigint_linmul2@Base 2.1.0+git20141127.0049+15.04
- bigint_linmul3@Base 2.1.0+git20141127.0049+15.04
- bigint_modop@Base 2.1.0+git20141127.0049+15.04
- bigint_mul_add_words@Base 2.1.0+git20141127.0049+15.04
- bigint_shl1@Base 2.1.0+git20141127.0049+15.04
- bigint_shl2@Base 2.1.0+git20141127.0049+15.04
- bigint_shr1@Base 2.1.0+git20141127.0049+15.04
- bigint_shr2@Base 2.1.0+git20141127.0049+15.04
- bigint_sub2@Base 2.1.0+git20141127.0049+15.04
- bigint_sub3@Base 2.1.0+git20141127.0049+15.04
- bigint_wordmul@Base 2.1.0+git20141127.0049+15.04
+ _ZplRK7QStringS1_@Base 2.1.0+git20141127.0110
+ _ZplRK7QStringc@Base 2.1.0+git20141127.0110
+ bigint_add2@Base 2.1.0+git20141127.0110
+ bigint_add2_nc@Base 2.1.0+git20141127.0110
+ bigint_add3@Base 2.1.0+git20141127.0110
+ bigint_add3_nc@Base 2.1.0+git20141127.0110
+ bigint_cmp@Base 2.1.0+git20141127.0110
+ bigint_comba_mul4@Base 2.1.0+git20141127.0110
+ bigint_comba_mul6@Base 2.1.0+git20141127.0110
+ bigint_comba_mul8@Base 2.1.0+git20141127.0110
+ bigint_comba_sqr4@Base 2.1.0+git20141127.0110
+ bigint_comba_sqr6@Base 2.1.0+git20141127.0110
+ bigint_comba_sqr8@Base 2.1.0+git20141127.0110
+ bigint_divcore@Base 2.1.0+git20141127.0110
+ bigint_divop@Base 2.1.0+git20141127.0110
+ bigint_linmul2@Base 2.1.0+git20141127.0110
+ bigint_linmul3@Base 2.1.0+git20141127.0110
+ bigint_modop@Base 2.1.0+git20141127.0110
+ bigint_mul_add_words@Base 2.1.0+git20141127.0110
+ bigint_shl1@Base 2.1.0+git20141127.0110
+ bigint_shl2@Base 2.1.0+git20141127.0110
+ bigint_shr1@Base 2.1.0+git20141127.0110
+ bigint_shr2@Base 2.1.0+git20141127.0110
+ bigint_sub2@Base 2.1.0+git20141127.0110
+ bigint_sub3@Base 2.1.0+git20141127.0110
+ bigint_wordmul@Base 2.1.0+git20141127.0110
  (c++)"non-virtual thunk to QCA::CMS::~CMS()@Base" 2.0.2
  (c++)"non-virtual thunk to QCA::Cipher::clear()@Base" 2.0.2
  (c++)"non-virtual thunk to QCA::Cipher::final()@Base" 2.0.2
