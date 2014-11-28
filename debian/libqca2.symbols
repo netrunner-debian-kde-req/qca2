@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.1.0+git20141127.0221+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 2.1.0+git20141128.1409+15.04 amd64 i386
 libqca.so.2 libqca2 #MINVER#
 * Build-Depends-Package: libqca2-dev
  _Z10qcaVersionv@Base 2.0.2
