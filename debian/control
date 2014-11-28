@@ -7,7 +7,7 @@ Uploaders: Jan Niehusmann <jan@debian.org>, Felix Geyer <fgeyer@debian.org>,
 Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.12), cmake, pkg-config,
  libqt4-dev (>= 4.4.0), ca-certificates, libsasl2-dev, libssl-dev, doxygen,
  qtbase5-dev
-Build-Conflicts: libqca-qt5-2-dev, qca-dev
+Build-Conflicts: qca-dev
 Standards-Version: 3.9.6
 Homepage: http://delta.affinix.com/qca/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/qca2.git
