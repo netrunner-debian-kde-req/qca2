@@ -1,5 +1,5 @@
-usr/lib/*/qca-qt5/crypto/libqca-ossl.so
+usr/lib/*/qca-qt5/crypto/libqca-cyrus-sasl.so
 usr/lib/*/qca-qt5/crypto/libqca-gnupg.so
 usr/lib/*/qca-qt5/crypto/libqca-logger.so
-usr/lib/*/qca-qt5/crypto/libqca-cyrus-sasl.so
+usr/lib/*/qca-qt5/crypto/libqca-ossl.so
 usr/lib/*/qca-qt5/crypto/libqca-softstore.so
