@@ -15,12 +15,12 @@ The library is licensed unter the LGPL:
 > modify it under the terms of the GNU Lesser General Public
 > License as published by the Free Software Foundation; either
 > version 2.1 of the License, or (at your option) any later version.
-> 
+>
 > This library is distributed in the hope that it will be useful,
 > but WITHOUT ANY WARRANTY; without even the implied warranty of
 > MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 > Lesser General Public License for more details.
-> 
+>
 > You should have received a copy of the GNU Lesser General Public
 > License along with this library; if not, write to the Free Software
 > Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
@@ -32,21 +32,21 @@ The library uses and contains parts of the botan library, which is
 Copyright (C) 1999-2007 The Botan Project and licensed as follows:
 
 > Copyright (C) 1999-2007 The Botan Project. All rights reserved.
-> 
+>
 > Redistribution and use in source and binary forms, for any use, with or without
 > modification, is permitted provided that the following conditions are met:
-> 
+>
 > 1. Redistributions of source code must retain the above copyright notice, this
 > list of conditions, and the following disclaimer.
-> 
+>
 > 2. Redistributions in binary form must reproduce the above copyright notice,
 > this list of conditions, and the following disclaimer in the documentation
 > and/or other materials provided with the distribution.
-> 
+>
 > THIS SOFTWARE IS PROVIDED BY THE AUTHOR(S) "AS IS" AND ANY EXPRESS OR IMPLIED
 > WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 > MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE DISCLAIMED.
-> 
+>
 > IN NO EVENT SHALL THE AUTHOR(S) OR CONTRIBUTOR(S) BE LIABLE FOR ANY DIRECT,
 > INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
 > BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
@@ -79,7 +79,7 @@ Several unit tests and examples are Copyright (C) Brad Hards
 > (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 > THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-qca_default.cpp contains some code which is Copyright (C) 1999, 2000, 2002 
+qca_default.cpp contains some code which is Copyright (C) 1999, 2000, 2002
 Aladdin Enterprises and licensed as follows:
 
 >  Copyright (C) 1999, 2000, 2002 Aladdin Enterprises.  All rights reserved.
@@ -103,7 +103,7 @@ Aladdin Enterprises and licensed as follows:
 >  L. Peter Deutsch
 >  ghost@aladdin.com
 
-examples/sasltest/sasltest.cpp and ./examples/saslservtest/saslservtest.cpp are 
+examples/sasltest/sasltest.cpp and ./examples/saslservtest/saslservtest.cpp are
 Copyright (C) 2003-2006 Justin Karneges <justin@affinix.com>, Michail Pishchagin and
 are licensed as follows:
 
@@ -143,4 +143,3 @@ Metarete s.r.l. <info@metarete.it> and is licensed as follows:
 >  AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
 >  AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 >  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
