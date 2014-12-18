@@ -6,8 +6,10 @@ libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
-QT5_BUILD_DIR = "obj-$(DEB_HOST_MULTIARCH)-qt5"
+
+# Separate Qt 5 build entirely to avoid one build overriding the other.
 QT5_PACKAGES = $(shell grep Package: debian/control | grep qt5 | grep -v '\-dbg' | sed -e 's/Package: //g')
+QT5_BUILD_DIR = "obj-$(DEB_HOST_MULTIARCH)-qt5"
 QT5_DH_EXCLUDE := $(foreach package, $(QT5_PACKAGES), -N $(package))
 QT5_DH_INCLUDE := $(foreach package, $(QT5_PACKAGES), -p $(package))
 
@@ -16,8 +18,15 @@ override_dh_auto_clean:
 	rm -rf $(QT5_BUILD_DIR) debian/tmp-qt5
 
 override_dh_auto_configure:
-	$(overridden_command)                                   -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" -DQT4_BUILD=true
-	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR) -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" -DQCA_SUFFIX="qt5"
+	$(overridden_command) -- \
+		-DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" \
+		-DQT4_BUILD=true \
+		-DQCA_FEATURE_INSTALL_DIR=/usr/share/qt4/mkspecs/features/
+	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR) -- \
+		-DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" \
+		-DQT4_BUILD=false \
+		-DQCA_FEATURE_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/features \
+		-DQCA_SUFFIX="qt5"
 
 override_dh_auto_build:
 	$(overridden_command)

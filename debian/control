@@ -145,6 +145,7 @@ Depends: libqca2-plugins, ${misc:Depends}
 Architecture: all
 Priority: extra
 Section: oldlibs
+XS-TransitionRemoveAfter: 2016-05-01
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
@@ -153,6 +154,7 @@ Depends: libqca2-plugins, ${misc:Depends}
 Architecture: all
 Priority: extra
 Section: oldlibs
+XS-TransitionRemoveAfter: 2016-05-01
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
@@ -161,5 +163,6 @@ Depends: libqca2-plugins, ${misc:Depends}
 Architecture: all
 Priority: extra
 Section: oldlibs
+XS-TransitionRemoveAfter: 2016-05-01
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
