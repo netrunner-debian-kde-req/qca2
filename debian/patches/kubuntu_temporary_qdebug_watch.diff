@@ -1,0 +1,44 @@
+Index: qca/src/support/dirwatch.cpp
+===================================================================
+--- qca.orig/src/support/dirwatch.cpp
++++ qca/src/support/dirwatch.cpp
+@@ -20,6 +20,7 @@
+ 
+ #include "qca_support.h"
+ 
++#include <QDebug>
+ #include <QFileSystemWatcher>
+ #include <QFileInfo>
+ #include <QDir>
+@@ -193,25 +194,31 @@ public:
+ private slots:
+ 	void dir_changed(const QString &path)
+ 	{
++            qDebug() << Q_FUNC_INFO << path;
+ 		Q_UNUSED(path);
+ 		QFileInfo fi(filePath);
+ 		bool exists = fi.exists();
++                qDebug() << Q_FUNC_INFO << "exists" << exists << "existed" << fileExisted;
+ 		if(exists && !fileExisted)
+ 		{
+ 			// this means the file was created.  put a
+ 			//   watch on it.
+ 			fileExisted = true;
+ 			watcher->addPath(filePath);
++                        qDebug() << Q_FUNC_INFO << "emitting signal";
+ 			emit q->changed();
+ 		}
+ 	}
+ 
+ 	void file_changed(const QString &path)
+ 	{
++            qDebug() << Q_FUNC_INFO << path;
+ 		Q_UNUSED(path);
+ 		QFileInfo fi(filePath);
++                qDebug() << Q_FUNC_INFO << "exists" << fi.exists();
+ 		if(!fi.exists())
+ 			fileExisted = false;
++                qDebug() << Q_FUNC_INFO << "emitting signal";
+ 		emit q->changed();
+ 	}
+ };
