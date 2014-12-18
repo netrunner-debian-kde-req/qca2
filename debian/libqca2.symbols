@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.1.0+git20141217.1530+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 2.1.0+git20141218.1240 amd64 i386
 libqca.so.2 libqca2 #MINVER#
 * Build-Depends-Package: libqca2-dev
  _Z10qcaVersionv@Base 2.0.2
@@ -1128,7 +1128,7 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA3TLS11startClientERK7QString@Base 2.0.2
  _ZN3QCA3TLS11startServerEv@Base 2.0.2
  _ZN3QCA3TLS12readOutgoingEPi@Base 2.0.2
- (arch=)_ZN3QCA3TLS13connectNotifyEPKc@Base 2.1.0
+ (arch=amd64)_ZN3QCA3TLS13connectNotifyEPKc@Base 2.1.0+git20141218.1240
  _ZN3QCA3TLS13setIssuerListERK5QListINS_22CertificateInfoOrderedEE@Base 2.0.2
  _ZN3QCA3TLS13writeIncomingERK10QByteArray@Base 2.0.2
  _ZN3QCA3TLS14setCertificateERKNS_16CertificateChainERKNS_10PrivateKeyE@Base 2.0.2
@@ -1137,7 +1137,7 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA3TLS14setConstraintsERK11QStringList@Base 2.0.2
  _ZN3QCA3TLS14setConstraintsEii@Base 2.0.2
  _ZN3QCA3TLS15readUnprocessedEv@Base 2.0.2
- (arch=)_ZN3QCA3TLS16disconnectNotifyEPKc@Base 2.1.0
+ (arch=amd64)_ZN3QCA3TLS16disconnectNotifyEPKc@Base 2.1.0+git20141218.1240
  _ZN3QCA3TLS16hostNameReceivedEv@Base 2.0.2
  _ZN3QCA3TLS16staticMetaObjectE@Base 2.0.2
  _ZN3QCA3TLS17continueAfterStepEv@Base 2.0.2
@@ -2051,6 +2051,8 @@ libqca.so.2 libqca2 #MINVER#
  (optional=templinst)_ZN5QListIiEC2ERKS0_@Base 2.0.3
  (optional=templinst)_ZN5QListIiED1Ev@Base 2.0.3
  (optional=templinst)_ZN5QListIiED2Ev@Base 2.0.3
+ (arch=amd64)_ZN6QDebugD1Ev@Base 2.1.0+git20141218.1240
+ (arch=amd64)_ZN6QDebugD2Ev@Base 2.1.0+git20141218.1240
  _ZN6QMutex10lockInlineEv@Base 2.1.0+git20141127.0009
  _ZN6QMutex12unlockInlineEv@Base 2.1.0+git20141127.0009
  _ZN7QStringD1Ev@Base 2.1.0+git20141126.2258
