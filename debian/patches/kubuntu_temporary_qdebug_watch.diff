@@ -10,7 +10,7 @@ Index: qca/src/support/dirwatch.cpp
  #include <QFileSystemWatcher>
  #include <QFileInfo>
  #include <QDir>
-@@ -193,25 +194,31 @@ public:
+@@ -193,25 +194,42 @@ public:
  private slots:
  	void dir_changed(const QString &path)
  	{
@@ -35,9 +35,21 @@ Index: qca/src/support/dirwatch.cpp
 +            qDebug() << Q_FUNC_INFO << path;
  		Q_UNUSED(path);
  		QFileInfo fi(filePath);
+-		if(!fi.exists())
 +                qDebug() << Q_FUNC_INFO << "exists" << fi.exists();
- 		if(!fi.exists())
++		if(!fi.exists() && !fileExisted) {
++                    // Got a file changed signal on a file that does not exist
++                    // and is not actively watched. This happens when we
++                    // previously watched a file but it was deleted and after
++                    // the original deletion changed-signal we get another one
++                    // (for example because of bad signal timing). In this scenario
++                    // we must ignore the change as the change, whatever it may
++                    // have been, is of no interest to us because we don't watch
++                    // the file and furthermore the file does not even exist.
++                    return;
++                } else if(!fi.exists()) {
  			fileExisted = false;
++                }
 +                qDebug() << Q_FUNC_INFO << "emitting signal";
  		emit q->changed();
  	}
