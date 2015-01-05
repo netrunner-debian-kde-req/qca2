@@ -1,4 +1,3 @@
-kubuntu_temporary_qdebug_watch.diff
 define_qca_export.diff
 pipeunittest_more_wait.diff
 hurd_msync.diff
