@@ -1,3 +1,4 @@
 {
-    "url" : "git://anongit.kde.org/qca.git"
+    "url" : "git://anongit.kde.org/qca.git",
+    "branch" : "qt5"
 }
