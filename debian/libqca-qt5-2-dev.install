@@ -1,5 +1,0 @@
-usr/include/QtCrypto
-usr/lib/*/cmake/Qca/
-usr/lib/*/libqca-qt5.so
-usr/lib/*/mkspecs/features/crypto.prf
-usr/lib/*/pkgconfig/qca2-qt5.pc
