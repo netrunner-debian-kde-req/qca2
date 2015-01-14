@@ -1,3 +1,9 @@
+qca2 (2.1.0-0ubuntu3) vivid; urgency=medium
+
+  * Update symbols file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 18:32:16 +0100
+
 qca2 (2.1.0-0ubuntu2) vivid; urgency=medium
 
   * New upstream release
