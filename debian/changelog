@@ -1,4 +1,10 @@
-qca2 (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
+qca2 (2.1.0-0ubuntu3) vivid; urgency=medium
+
+  * Update symbols file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 18:32:16 +0100
+
+qca2 (2.1.0-0ubuntu2) vivid; urgency=medium
 
   * New upstream release
     + This release merges the official plugins into the main package.
@@ -8,14 +14,7 @@ qca2 (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
       - qca-cyrus-sasl
     + Build system was changed to git
     + Docs packages was removed as the source does not build documentation
-    + Introduces qt5 build.
-      - All packages have a qt5 version.
-      - The qt5 build uses a differnet suffix to lead to a different
-        soname
-      - Since the qt5 artifacts partially conflict with the qt4 bits
-        additional measures were taken to make sure dh_install and dh_strip
-        work on the resepectively correct package set
-    + New binary packages (excluding qt5):
+    + New binary packages:
       - libqca2-plugins containing all plugins
       - libqca2-plugin-ossl
       - libqca2-plugin-gnupg
