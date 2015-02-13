@@ -11,6 +11,7 @@ qca2 (2.1.0.3-1~) UNRELEASED; urgency=medium
   * Add qt5 symbols file.
   * New patch: kubuntu_ignore_filewatch_test.diff
   * Update copyright information.
+  * Add basic autopkgtests support.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 15:27:12 +0100
 

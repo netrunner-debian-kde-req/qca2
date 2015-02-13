@@ -18,6 +18,7 @@ Build-Depends: ca-certificates,
                qtbase5-dev
 Build-Conflicts: libqca2-dev, qca-dev
 Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
 Homepage: http://delta.affinix.com/qca/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/qca2.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-req/qca2.git
