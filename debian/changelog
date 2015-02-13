@@ -1,4 +1,4 @@
-qca2 (2.1.0.3-1~) UNRELEASED; urgency=medium
+qca2 (2.1.0.3-1) experimental; urgency=medium
 
   * Prepare qt5 support.
   * Bump Standards-Version to 3.9.6, no changes needed.
@@ -14,7 +14,7 @@ qca2 (2.1.0.3-1~) UNRELEASED; urgency=medium
   * Add basic autopkgtests support.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 15:27:12 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 20:10:42 +0100
 
 qca2 (2.0.3-6) unstable; urgency=medium
 
