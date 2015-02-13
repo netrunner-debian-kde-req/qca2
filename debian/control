@@ -1,6 +1,6 @@
 Source: qca2
-Priority: optional
 Section: libs
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Jan Niehusmann <jan@debian.org>, Felix Geyer <fgeyer@debian.org>,
  Modestas Vainius <modax@debian.org>
@@ -40,11 +40,11 @@ Description: command line tool for the Qt Cryptographic Architecture
 
 Package: libqca2-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, libqca2 (= ${binary:Version})
 Recommends: libqt4-dbg
-Priority: extra
 Description: debug symbols for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
