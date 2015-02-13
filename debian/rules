@@ -17,8 +17,13 @@ QT5_DH_EXCLUDE := $(foreach package, $(QT5_PACKAGES), -N $(package))
 QT5_DH_INCLUDE := $(foreach package, $(QT5_PACKAGES), -p $(package))
 
 override_dh_auto_configure:
-	QT_SELECT=qt4 $(overridden_command) -- -DQT4_BUILD=ON -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
-	QT_SELECT=qt5 $(overridden_command) --builddirectory=$(QT5_BUILD_DIR) -- -DQT5_BUILD=ON -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
+	QT_SELECT=qt4 $(overridden_command) -- \
+	    -DQT4_BUILD=ON -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" \
+	    -DQCA_FEATURE_INSTALL_DIR="/usr/share/qt4/mkspecs/features"
+	QT_SELECT=qt5 $(overridden_command) \
+	    --builddirectory=$(QT5_BUILD_DIR) -- \
+	    -DQT5_BUILD=ON -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" \
+	    -DQCA_FEATURE_INSTALL_DIR="/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/features"
 
 override_dh_auto_build:
 	$(overridden_command)
