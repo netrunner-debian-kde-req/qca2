@@ -1,5 +1,3 @@
 define_qca_export.diff
-disable_randomunittest.diff
-fix_build_gcc4.7.diff
 pipeunittest_more_wait.diff
 hurd_msync.diff

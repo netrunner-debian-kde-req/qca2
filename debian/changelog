@@ -6,6 +6,8 @@ qca2 (2.1.0.3-1~) UNRELEASED; urgency=medium
   * Update build dependencies to build against experimental and to
     follow cmake.
   * Add qt5 packages.
+  * Remove patch: disable_randomunittest.diff
+  * Remove patch: fix_build_gcc4.7.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 15:27:12 +0100
 
