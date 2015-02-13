@@ -1,3 +1,2 @@
 version=3
-
-http://delta.affinix.com/download/qca/2.0/qca-(.*).tar\.bz2
+http://download.kde.org/stable/qca-qt5/([\d.]+)/src/qca-qt5-([\d.]+)\.tar\.xz
