@@ -1,3 +1,9 @@
+qca2 (2.1.0.3-1~) UNRELEASED; urgency=medium
+
+  * Prepare qt5 support.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 15:27:12 +0100
+
 qca2 (2.0.3-6) unstable; urgency=medium
 
   * Update the symbols file for gcc 4.9. Thanks to Sphinx Jiang for the
