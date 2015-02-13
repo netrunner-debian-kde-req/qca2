@@ -10,6 +10,7 @@ qca2 (2.1.0.3-1~) UNRELEASED; urgency=medium
   * Remove patch: fix_build_gcc4.7.diff
   * Add qt5 symbols file.
   * New patch: kubuntu_ignore_filewatch_test.diff
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 15:27:12 +0100
 
