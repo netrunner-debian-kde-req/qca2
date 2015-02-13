@@ -1,0 +1,5 @@
+usr/include/Qca-qt5
+usr/lib/*/libqca-qt5.so
+usr/lib/*/pkgconfig/qca2-qt5.pc
+usr/lib/*/cmake/Qca-qt5
+usr/lib/*/mkspecs/features/crypto.prf

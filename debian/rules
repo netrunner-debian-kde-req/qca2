@@ -1,27 +1,33 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+
+# Enable strict interdependencies
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
+include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
 CFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
 CXXFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
-dh += --buildsystem=qmake
+QT5_BUILD_DIR = "obj-$(DEB_HOST_MULTIARCH)-qt5"
+QT5_PACKAGES = $(shell grep Package: debian/control | grep qt5 | grep -v '\-dbg' | sed -e 's/Package: //g')
+QT5_DH_EXCLUDE := $(foreach package, $(QT5_PACKAGES), -N $(package))
+QT5_DH_INCLUDE := $(foreach package, $(QT5_PACKAGES), -p $(package))
 
 override_dh_auto_configure:
-	./configure --verbose --prefix=/usr --libdir=/usr/lib/$(DEB_HOST_MULTIARCH) --qtdir=/usr/share/qt4 \
-	  --debug --no-separate-debug-info
-	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS) $(CPPFLAGS)" >> conf.pri
-	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS) $(CPPFLAGS)" >> conf.pri
-	echo QMAKE_LFLAGS_DEBUG="$(LDFLAGS)" >> conf.pri
-	echo QMAKE_CFLAGS_DEBUG="$(CFLAGS) $(CPPFLAGS)" >> confapp.pri
-	echo QMAKE_CXXFLAGS_DEBUG="$(CXXFLAGS) $(CPPFLAGS)" >> confapp.pri
-	echo QMAKE_LFLAGS_DEBUG="$(LDFLAGS)" >> confapp.pri
+	QT_SELECT=qt4 $(overridden_command) -- -DQT4_BUILD=ON -LIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
+	QT_SELECT=qt5 $(overridden_command) --builddirectory=$(QT5_BUILD_DIR) -- -DQT5_BUILD=ON -LIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
+
+override_dh_auto_build:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR)
+
+override_dh_auto_install:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR)
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=libqca2-dbg
-
-override_dh_clean:
-	$(overridden_command)
-	rm -rf confapp.pri confapp_unix.pri conf.log conf.pri crypto.prf lib/
+	$(overridden_command) $(QT5_DH_INCLUDE) --dbg-package=libqca-qt5-2-dbg
+	$(overridden_command) --remaining-packages --dbg-package=libqca2-dbg

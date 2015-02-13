@@ -7,9 +7,15 @@ Uploaders: Jan Niehusmann <jan@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
            Modestas Vainius <modax@debian.org>
 Build-Depends: ca-certificates,
+               cmake (>= 2.8.12),
                debhelper (>= 9),
-               libqt4-dev (>= 4.4.0),
-               pkg-kde-tools (>= 0.12)
+               doxygen,
+               libqt4-dev (>= 4.7.0),
+               libsasl2-dev,
+               libssl-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.15.16),
+               qtbase5-dev
 Build-Conflicts: libqca2-dev, qca-dev
 Standards-Version: 3.9.6
 Homepage: http://delta.affinix.com/qca/
@@ -28,12 +34,44 @@ Description: libraries for the Qt Cryptographic Architecture
  platform API for a range of cryptographic features, including SSL/TLS,
  X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
 
+Package: libqca-qt5-2
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: ca-certificates, libqca-qt5-2-plugins
+Suggests: libqca2-plugin-cyrus-sasl, libqca2-plugin-gnupg, libqca2-plugin-ossl
+Description: libraries for the Qt Cryptographic Architecture
+ The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
+ platform API for a range of cryptographic features, including SSL/TLS,
+ X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
+
+Package: libqca-qt5-2-plugins
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: QCA plugins for libqca2
+ This plugin provides cryptographic as well as helper plugins for Qt
+ Cryptographic Architecture (QCA).
+
 Package: qca2-utils
 Section: utils
 Architecture: any
 Depends: libqca2 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Breaks: libqca2 (<< 2.0.3-3~)
 Replaces: libqca2 (<< 2.0.3-3~)
+Description: command line tool for the Qt Cryptographic Architecture
+ The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
+ platform API for a range of cryptographic features, including SSL/TLS,
+ X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
+ .
+ This package contains the command line tool for the Qt Cryptographic
+ Architecture.
+
+Package: qca-qt5-2-utils
+Section: utils
+Architecture: any
+Depends: libqca-qt5-2 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: command line tool for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
@@ -57,6 +95,21 @@ Description: debug symbols for the Qt Cryptographic Architecture
  This package contains debugging files used to investigate problems with
  the Qt Cryptographic Architecture libraries.
 
+Package: libqca-qt5-2-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Depends: libqca-qt5-2 (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
+Description: debug symbols for the Qt Cryptographic Architecture
+ The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
+ platform API for a range of cryptographic features, including SSL/TLS,
+ X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
+ .
+ This package contains debugging files used to investigate problems with
+ the Qt Cryptographic Architecture libraries.
+
 Package: libqca2-dev
 Section: libdevel
 Architecture: any
@@ -71,12 +124,26 @@ Description: development files for the Qt Cryptographic Architecture
  This package contains development files for building software that uses the
  Qt Cryptographic Architecture.
 
+Package: libqca-qt5-2-dev
+Section: libdevel
+Architecture: any
+Depends: libqca-qt5-2 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Suggests: libqca2-doc (= ${source:Version})
+Conflicts: qca-dev
+Description: development files for the Qt Cryptographic Architecture
+ The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
+ platform API for a range of cryptographic features, including SSL/TLS,
+ X.509 certificates, SASL, OpenPGP, S/MIME CMS, and smart cards.
+ .
+ This package contains development files for building software that uses the
+ Qt Cryptographic Architecture.
+
 Package: libqca2-doc
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: qt4-doc
-Suggests: libqca2-dev (>= ${source:Version})
+Recommends: qt4-doc | qt5-doc
+Suggests: libqca2-dev (>= ${source:Version}) | libqca-qt5-2-dev (>= ${source:Version})
 Description: API documentation for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,

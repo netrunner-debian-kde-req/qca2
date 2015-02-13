@@ -3,6 +3,9 @@ qca2 (2.1.0.3-1~) UNRELEASED; urgency=medium
   * Prepare qt5 support.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Add myself as Uploader.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Add qt5 packages.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 15:27:12 +0100
 
