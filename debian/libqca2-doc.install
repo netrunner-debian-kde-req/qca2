@@ -1,1 +1,4 @@
-build-qt5/apidocs/html/ usr/share/doc/libqca2-doc/
+build-qt5/apidocs/html/*.css usr/share/doc/libqca2-doc/html/
+build-qt5/apidocs/html/*.dot usr/share/doc/libqca2-doc/html/
+build-qt5/apidocs/html/*.html usr/share/doc/libqca2-doc/html/
+build-qt5/apidocs/html/*.png usr/share/doc/libqca2-doc/html/
