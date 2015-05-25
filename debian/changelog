@@ -1,3 +1,9 @@
+qca2 (2.1.0.3-2) UNRELEASED; urgency=medium
+
+  * Run the test suite on both builds.
+
+ -- Felix Geyer <fgeyer@debian.org>  Mon, 25 May 2015 12:49:12 +0200
+
 qca2 (2.1.0.3-1) experimental; urgency=medium
 
   * Prepare qt5 support.
