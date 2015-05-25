@@ -4,6 +4,7 @@ qca2 (2.1.0.3-2) UNRELEASED; urgency=medium
   * Install all qca Qt4 plugins into the new package libqca2-plugins.
     - Add transitional packages for the existing libqca2-plugin-*
   * Make libqca2 recommend the plugins.
+  * Install cmake modules to libqca2-dev.
 
  -- Felix Geyer <fgeyer@debian.org>  Mon, 25 May 2015 12:49:12 +0200
 
