@@ -4,3 +4,9 @@
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags
+
+Tests: ciphertest-qt4
+Depends: build-essential, cmake, libqca2-dev, libqca2-plugins
+
+Tests: ciphertest-qt5
+Depends: build-essential, cmake, libqca-qt5-2-dev, libqca-qt5-2-plugins

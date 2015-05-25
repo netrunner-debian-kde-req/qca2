@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+TESTDIR=`pwd`/debian/tests/ciphertest
+
+if [ "$1" = "--qt4" ]; then
+  CONF_FLAGS=""
+elif [ "$1" = "--qt5" ]; then
+  CONF_FLAGS="-DUSE_QT5=ON"
+else
+  echo "Usage $1 <--qt4,--qt5>"
+  exit 1
+fi
+
+cd "$ADTTMP"
+
+echo Building test
+cmake $CONF_FLAGS $TESTDIR
+make
+echo OK
+
+echo Running test
+./ciphertest
+echo OK
