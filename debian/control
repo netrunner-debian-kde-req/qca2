@@ -28,7 +28,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: ca-certificates
+Recommends: ca-certificates, libqca2-plugins
 Suggests: libqca2-plugins
 Description: libraries for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
@@ -53,7 +53,6 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: ca-certificates, libqca-qt5-2-plugins
-Suggests: libqca2-plugin-cyrus-sasl, libqca2-plugin-gnupg, libqca2-plugin-ossl
 Description: libraries for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
