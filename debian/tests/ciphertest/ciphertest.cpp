@@ -58,6 +58,7 @@ int main(int argc, char **argv)
     cipher.final();
     if (!cipher.ok()) {
         qWarning("final() failed");
+        return 1;
     }
 
     if (cipherTextHex != expectedHex) {
