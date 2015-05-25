@@ -166,6 +166,7 @@ Description: API documentation for the Qt Cryptographic Architecture
 
 Package: libqca2-plugin-cyrus-sasl
 Section: oldlibs
+Priority: extra
 Architecture: any
 Depends: ${misc:Depends}, libqca2-plugins
 Description: transitional package for libqca2-plugins
@@ -173,6 +174,7 @@ Description: transitional package for libqca2-plugins
 
 Package: libqca2-plugin-gnupg
 Section: oldlibs
+Priority: extra
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, libqca2-plugins
@@ -181,6 +183,7 @@ Description: transitional package for libqca2-plugins
 
 Package: libqca2-plugin-ossl
 Section: oldlibs
+Priority: extra
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, libqca2-plugins
