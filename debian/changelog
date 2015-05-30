@@ -7,6 +7,7 @@ qca2 (2.1.0.3-2) UNRELEASED; urgency=medium
   * Install cmake modules to libqca2-dev.
   * Add autopkgtests: ciphertest-qt4 and ciphertest-qt5.
   * Drop XS-Testsuite control field. dpkg adds it automatically now.
+  * Update libqca-qt5-2.symbols.
 
  -- Felix Geyer <fgeyer@debian.org>  Mon, 25 May 2015 12:49:12 +0200
 
