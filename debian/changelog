@@ -1,3 +1,9 @@
+qca2 (2.1.0.3-3) UNRELEASED; urgency=medium
+
+  * Update symbols files.
+
+ -- Felix Geyer <fgeyer@debian.org>  Mon, 08 Jun 2015 22:56:24 +0200
+
 qca2 (2.1.0.3-2) experimental; urgency=medium
 
   * Run the test suite on both builds.

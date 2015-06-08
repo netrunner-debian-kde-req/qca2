@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.1.0.3 amd64
+# SymbolsHelper-Confirmed: 2.1.0.3 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x
 libqca.so.2 libqca2 #MINVER#
 * Build-Depends-Package: libqca2-dev
  _Z10qcaVersionv@Base 2.0.2
@@ -9,8 +9,6 @@ libqca.so.2 libqca2 #MINVER#
  _Z15qca_secure_freePv@Base 2.0.2
  _Z16qca_secure_alloci@Base 2.0.2
  _Z18qca_secure_reallocPvi@Base 2.0.2
- (optional=external)_ZN15QBasicAtomicInt3refEv@Base 2.0.3
- (optional=external)_ZN15QBasicAtomicInt5derefEv@Base 2.0.3
  _ZN3QCA10BigInteger10fromStringERK7QString@Base 2.0.2
  _ZN3QCA10BigInteger9fromArrayERKNS_11SecureArrayE@Base 2.0.2
  _ZN3QCA10BigIntegerC1EPKc@Base 2.0.2
@@ -37,33 +35,18 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA10CRLContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10CRLContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10CRLContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA10CRLContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA10CRLContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA10CRLContextD2Ev@Base 2.0.3
  _ZN3QCA10CSRContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10CSRContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10CSRContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA10CSRContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA10CSRContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA10CSRContextD2Ev@Base 2.0.3
  _ZN3QCA10DSAContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10DSAContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10DSAContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA10DSAContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA10DSAContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA10DSAContextD2Ev@Base 2.0.3
  _ZN3QCA10KDFContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10KDFContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10KDFContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA10KDFContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA10KDFContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA10KDFContextD2Ev@Base 2.0.3
  _ZN3QCA10MACContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10MACContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10MACContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA10MACContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA10MACContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA10MACContextD2Ev@Base 2.0.3
  _ZN3QCA10PrivateKey11fromPEMFileERK7QStringRKNS_11SecureArrayEPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA10PrivateKey11signMessageERKNS_12MemoryRegionENS_18SignatureAlgorithmENS_15SignatureFormatE@Base 2.0.2
  _ZN3QCA10PrivateKey22supportedPBEAlgorithmsERK7QString@Base 2.0.2
@@ -90,18 +73,12 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA10RSAContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10RSAContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10RSAContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA10RSAContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA10RSAContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA10RSAContextD2Ev@Base 2.0.3
  _ZN3QCA10SMSContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10SMSContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10SMSContext14setPrivateKeysERK5QListINS_16SecureMessageKeyEE@Base 2.0.2
  _ZN3QCA10SMSContext16staticMetaObjectE@Base 2.0.2
  _ZN3QCA10SMSContext22setTrustedCertificatesERKNS_21CertificateCollectionE@Base 2.0.2
  _ZN3QCA10SMSContext24setUntrustedCertificatesERKNS_21CertificateCollectionE@Base 2.0.2
- (optional)_ZN3QCA10SMSContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA10SMSContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA10SMSContextD2Ev@Base 2.0.3
  _ZN3QCA10SyncThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10SyncThread11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10SyncThread16staticMetaObjectE@Base 2.0.2
@@ -122,17 +99,12 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA10SyncThreadD0Ev@Base 2.0.2
  _ZN3QCA10SyncThreadD1Ev@Base 2.0.2
  _ZN3QCA10SyncThreadD2Ev@Base 2.0.2
- (optional)_ZN3QCA10TLSContext11SessionInfoD1Ev@Base 2.0.3
- (optional)_ZN3QCA10TLSContext11SessionInfoD2Ev@Base 2.0.3
  _ZN3QCA10TLSContext11dtlsTimeoutEv@Base 2.0.2
  _ZN3QCA10TLSContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10TLSContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10TLSContext12resultsReadyEv@Base 2.0.2
  _ZN3QCA10TLSContext16staticMetaObjectE@Base 2.0.2
  _ZN3QCA10TLSContext6setMTUEi@Base 2.0.2
- (optional)_ZN3QCA10TLSContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA10TLSContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA10TLSContextD2Ev@Base 2.0.3
  _ZN3QCA10TLSSessionC1ERKS0_@Base 2.0.2
  _ZN3QCA10TLSSessionC1Ev@Base 2.0.2
  _ZN3QCA10TLSSessionC2ERKS0_@Base 2.0.2
@@ -150,9 +122,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA10TextFilter6encodeERKNS_12MemoryRegionE@Base 2.0.2
  _ZN3QCA10TextFilterC1ENS_9DirectionE@Base 2.0.2
  _ZN3QCA10TextFilterC2ENS_9DirectionE@Base 2.0.2
- (optional)_ZN3QCA10TextFilterD0Ev@Base 2.0.3
- (optional)_ZN3QCA10TextFilterD1Ev@Base 2.0.3
- (optional)_ZN3QCA10TextFilterD2Ev@Base 2.0.3
  _ZN3QCA10TokenAsker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA10TokenAsker11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA10TokenAsker13responseReadyEv@Base 2.0.2
@@ -174,13 +143,8 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA11CertContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11CertContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11CertContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA11CertContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA11CertContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA11CertContextD2Ev@Base 2.0.3
  _ZN3QCA11Certificate11fromPEMFileERK7QStringPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA11Certificate6changeEPNS_11CertContextE@Base 2.0.2
- (optional)_ZN3QCA11Certificate7PrivateD1Ev@Base 2.0.3
- (optional)_ZN3QCA11Certificate7PrivateD2Ev@Base 2.0.3
  _ZN3QCA11Certificate7fromDERERK10QByteArrayPNS_13ConvertResultERK7QString@Base 2.0.2
  _ZN3QCA11Certificate7fromPEMERK7QStringPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA11CertificateC1ERK7QString@Base 2.0.2
@@ -207,15 +171,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA11HashContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11HashContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11HashContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA11HashContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA11HashContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA11HashContextD2Ev@Base 2.0.3
  _ZN3QCA11InfoContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11InfoContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11InfoContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA11InfoContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA11InfoContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA11InfoContextD2Ev@Base 2.0.3
  _ZN3QCA11InitializerC1ENS_10MemoryModeEi@Base 2.0.2
  _ZN3QCA11InitializerC2ENS_10MemoryModeEi@Base 2.0.2
  _ZN3QCA11InitializerD1Ev@Base 2.0.2
@@ -227,9 +185,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA11PKeyContext14privateFromDERERKNS_11SecureArrayES3_@Base 2.0.2
  _ZN3QCA11PKeyContext14privateFromPEMERK7QStringRKNS_11SecureArrayE@Base 2.0.2
  _ZN3QCA11PKeyContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA11PKeyContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA11PKeyContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA11PKeyContextD2Ev@Base 2.0.3
  _ZN3QCA11QPipeDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11QPipeDevice11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11QPipeDevice14setInheritableEb@Base 2.0.2
@@ -253,11 +208,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA11SASLContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11SASLContext12resultsReadyEv@Base 2.0.2
  _ZN3QCA11SASLContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA11SASLContext8HostPortD1Ev@Base 2.0.3
- (optional)_ZN3QCA11SASLContext8HostPortD2Ev@Base 2.0.3
- (optional)_ZN3QCA11SASLContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA11SASLContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA11SASLContextD2Ev@Base 2.0.3
  _ZN3QCA11SecureArray2atEi@Base 2.0.2
  _ZN3QCA11SecureArray3setERK10QByteArray@Base 2.0.2
  _ZN3QCA11SecureArray3setERKS0_@Base 2.0.2
@@ -295,9 +245,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA11SecureLayer9readyReadEv@Base 2.0.2
  _ZN3QCA11SecureLayerC1EP7QObject@Base 2.0.2
  _ZN3QCA11SecureLayerC2EP7QObject@Base 2.0.2
- (optional)_ZN3QCA11SecureLayerD0Ev@Base 2.0.3
- (optional)_ZN3QCA11SecureLayerD1Ev@Base 2.0.3
- (optional)_ZN3QCA11SecureLayerD2Ev@Base 2.0.3
  _ZN3QCA11emsa3EncodeERK7QStringRK10QByteArrayi@Base 2.0.2
  _ZN3QCA11getPropertyERK7QString@Base 2.0.2
  _ZN3QCA11isSupportedEPKcRK7QString@Base 2.0.2
@@ -417,8 +364,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA12SymmetricKeyC2ERKNS_11SecureArrayE@Base 2.0.2
  _ZN3QCA12SymmetricKeyC2Ei@Base 2.0.2
  _ZN3QCA12SymmetricKeyC2Ev@Base 2.0.2
- (optional)_ZN3QCA12SymmetricKeyD1Ev@Base 2.0.3
- (optional)_ZN3QCA12SymmetricKeyD2Ev@Base 2.0.3
  _ZN3QCA12Synchronizer11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA12Synchronizer11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA12Synchronizer12conditionMetEv@Base 2.0.2
@@ -436,9 +381,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA13CipherContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13CipherContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13CipherContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA13CipherContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA13CipherContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA13CipherContextD2Ev@Base 2.0.3
  _ZN3QCA13ConsolePrompt11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13ConsolePrompt11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13ConsolePrompt15waitForFinishedEv@Base 2.0.2
@@ -477,15 +419,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA13PGPKeyContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13PGPKeyContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13PGPKeyContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA13PGPKeyContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA13PGPKeyContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA13PGPKeyContextD2Ev@Base 2.0.3
  _ZN3QCA13PKCS12Context11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13PKCS12Context11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13PKCS12Context16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA13PKCS12ContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA13PKCS12ContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA13PKCS12ContextD2Ev@Base 2.0.3
  _ZN3QCA13PasswordAsker11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13PasswordAsker11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13PasswordAsker13responseReadyEv@Base 2.0.2
@@ -512,9 +448,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA13RandomContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13RandomContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13RandomContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA13RandomContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA13RandomContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA13RandomContextD2Ev@Base 2.0.3
  _ZN3QCA13SecureMessage10setSignersERK5QListINS_16SecureMessageKeyEE@Base 2.0.2
  _ZN3QCA13SecureMessage11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13SecureMessage11qt_metacastEPKc@Base 2.0.2
@@ -565,16 +498,10 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA14DLGroupContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA14DLGroupContext16staticMetaObjectE@Base 2.0.2
  _ZN3QCA14DLGroupContext8finishedEv@Base 2.0.2
- (optional)_ZN3QCA14DLGroupContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA14DLGroupContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA14DLGroupContextD2Ev@Base 2.0.3
  _ZN3QCA14MessageContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA14MessageContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA14MessageContext16staticMetaObjectE@Base 2.0.2
  _ZN3QCA14MessageContext7updatedEv@Base 2.0.2
- (optional)_ZN3QCA14MessageContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA14MessageContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA14MessageContextD2Ev@Base 2.0.3
  _ZN3QCA14insertProviderEPNS_8ProviderEi@Base 2.0.2
  _ZN3QCA14scanForPluginsEv@Base 2.0.2
  _ZN3QCA14unloadProviderERK7QString@Base 2.1.0.3
@@ -649,9 +576,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA17TLSSessionContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA17TLSSessionContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA17TLSSessionContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA17TLSSessionContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA17TLSSessionContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA17TLSSessionContextD2Ev@Base 2.0.3
  _ZN3QCA17getProviderConfigERK7QString@Base 2.0.2
  _ZN3QCA17makeFriendlyNamesERK5QListINS_11CertificateEE@Base 2.0.2
  _ZN3QCA17orderedToDNStringERKNS_22CertificateInfoOrderedE@Base 2.0.2
@@ -666,11 +590,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA18CertificateOptions16setOCSPLocationsERK11QStringList@Base 2.0.2
  _ZN3QCA18CertificateOptions17setValidityPeriodERK9QDateTimeS3_@Base 2.0.2
  _ZN3QCA18CertificateOptions18setIssuerLocationsERK11QStringList@Base 2.0.2
- (optional=private)_ZN3QCA18CertificateOptions7PrivateC1ERKS1_@Base 2.0.3
- (optional=private)_ZN3QCA18CertificateOptions7PrivateC2ERKS1_@Base 2.0.3
- (optional=private)_ZN3QCA18CertificateOptions7PrivateD1Ev@Base 2.0.3
- (optional=private)_ZN3QCA18CertificateOptions7PrivateD2Ev@Base 2.0.3
- (optional=private)_ZN3QCA18CertificateOptions7PrivateaSERKS1_@Base 2.0.3
  _ZN3QCA18CertificateOptions7setAsCAEi@Base 2.0.2
  _ZN3QCA18CertificateOptions7setInfoERK9QMultiMapINS_19CertificateInfoTypeE7QStringE@Base 2.0.2
  _ZN3QCA18CertificateOptions9setAsUserEv@Base 2.0.2
@@ -742,9 +661,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA19KeyStoreListContext7busyEndEv@Base 2.0.2
  _ZN3QCA19KeyStoreListContext7updatedEv@Base 2.0.2
  _ZN3QCA19KeyStoreListContext9busyStartEv@Base 2.0.2
- (optional)_ZN3QCA19KeyStoreListContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA19KeyStoreListContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA19KeyStoreListContextD2Ev@Base 2.0.3
  _ZN3QCA19SecureMessageSystem11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA19SecureMessageSystem11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA19SecureMessageSystem16staticMetaObjectE@Base 2.0.2
@@ -774,9 +690,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA20KeyStoreEntryContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA20KeyStoreEntryContext12ensureAccessEv@Base 2.0.2
  _ZN3QCA20KeyStoreEntryContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA20KeyStoreEntryContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA20KeyStoreEntryContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA20KeyStoreEntryContextD2Ev@Base 2.0.3
  _ZN3QCA20KeyStoreEntryWatcher11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcher11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA20KeyStoreEntryWatcher11unavailableEv@Base 2.0.2
@@ -795,9 +708,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA21CertCollectionContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA21CertCollectionContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA21CertCollectionContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA21CertCollectionContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA21CertCollectionContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA21CertCollectionContextD2Ev@Base 2.0.3
  _ZN3QCA21CertificateCollection11canUsePKCS7ERK7QString@Base 2.0.2
  _ZN3QCA21CertificateCollection11toPKCS7FileERK7QStringS3_@Base 2.0.2
  _ZN3QCA21CertificateCollection13fromPKCS7FileERK7QStringPNS_13ConvertResultES3_@Base 2.0.2
@@ -991,8 +901,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA4SASL7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA4SASL7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA4SASL7Private16staticMetaObjectE@Base 2.0.2
- (optional=private)_ZN3QCA4SASL7Private6ActionD1Ev@Base 2.0.3
- (optional=private)_ZN3QCA4SASL7Private6ActionD2Ev@Base 2.0.3
  _ZN3QCA4SASL7putStepERK10QByteArray@Base 2.0.2
  _ZN3QCA4SASL8nextStepERK10QByteArray@Base 2.0.2
  _ZN3QCA4SASL8setRealmERK7QString@Base 2.0.2
@@ -1006,8 +914,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA4initEv@Base 2.0.2
  _ZN3QCA5Event15setPasswordDataENS0_13PasswordStyleERK7QStringPv@Base 2.0.2
  _ZN3QCA5Event19setPasswordKeyStoreENS0_13PasswordStyleERKNS_12KeyStoreInfoERKNS_13KeyStoreEntryEPv@Base 2.0.2
- (optional=private)_ZN3QCA5Event7PrivateC1Ev@Base 2.0.3
- (optional=private)_ZN3QCA5Event7PrivateC2Ev@Base 2.0.3
  _ZN3QCA5Event8setTokenERKNS_12KeyStoreInfoERKNS_13KeyStoreEntryEPv@Base 2.0.2
  _ZN3QCA5EventC1ERKS0_@Base 2.0.2
  _ZN3QCA5EventC1Ev@Base 2.0.2
@@ -1141,9 +1047,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA8CertBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA8CertBase11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA8CertBase16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA8CertBaseD0Ev@Base 2.0.3
- (optional)_ZN3QCA8CertBaseD1Ev@Base 2.0.3
- (optional)_ZN3QCA8CertBaseD2Ev@Base 2.0.3
  _ZN3QCA8DirWatch10setDirNameERK7QString@Base 2.0.2
  _ZN3QCA8DirWatch11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA8DirWatch11qt_metacastEPKc@Base 2.0.2
@@ -1192,9 +1095,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA8PKeyBase9startSignENS_18SignatureAlgorithmENS_15SignatureFormatE@Base 2.0.2
  _ZN3QCA8PKeyBaseC1EPNS_8ProviderERK7QString@Base 2.0.2
  _ZN3QCA8PKeyBaseC2EPNS_8ProviderERK7QString@Base 2.0.2
- (optional)_ZN3QCA8PKeyBaseD0Ev@Base 2.0.3
- (optional)_ZN3QCA8PKeyBaseD1Ev@Base 2.0.3
- (optional)_ZN3QCA8PKeyBaseD2Ev@Base 2.0.3
  _ZN3QCA8Provider13configChangedERK4QMapI7QString8QVariantE@Base 2.0.2
  _ZN3QCA8Provider4initEv@Base 2.0.2
  _ZN3QCA8Provider6deinitEv@Base 2.0.2
@@ -1261,15 +1161,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA9CAContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA9CAContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA9CAContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA9CAContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA9CAContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA9CAContextD2Ev@Base 2.0.3
  _ZN3QCA9DHContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA9DHContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA9DHContext16staticMetaObjectE@Base 2.0.2
- (optional)_ZN3QCA9DHContextD0Ev@Base 2.0.3
- (optional)_ZN3QCA9DHContextD1Ev@Base 2.0.3
- (optional)_ZN3QCA9DHContextD2Ev@Base 2.0.3
  _ZN3QCA9FileWatch11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA9FileWatch11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA9FileWatch11setFileNameERK7QString@Base 2.0.2
@@ -1287,8 +1181,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA9FileWatchD1Ev@Base 2.0.2
  _ZN3QCA9FileWatchD2Ev@Base 2.0.2
  _ZN3QCA9KeyBundle25setCertificateChainAndKeyERKNS_16CertificateChainERKNS_10PrivateKeyE@Base 2.0.2
- (optional=private)_ZN3QCA9KeyBundle7PrivateD1Ev@Base 2.0.3
- (optional=private)_ZN3QCA9KeyBundle7PrivateD2Ev@Base 2.0.3
  _ZN3QCA9KeyBundle7setNameERK7QString@Base 2.0.2
  _ZN3QCA9KeyBundle8fromFileERK7QStringRKNS_11SecureArrayEPNS_13ConvertResultES3_@Base 2.0.2
  _ZN3QCA9KeyBundle9fromArrayERK10QByteArrayRKNS_11SecureArrayEPNS_13ConvertResultERK7QString@Base 2.0.2
@@ -1375,7 +1267,6 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA9providersEv@Base 2.0.2
  _ZN3QCAlsER11QTextStreamRKNS_10BigIntegerE@Base 2.0.2
  _ZN3QCAplERKNS_11SecureArrayES2_@Base 2.0.2
- (optional=templinst)_ZN9QHashData9hasShrunkEv@Base 2.0.2
  _ZNK3QCA10BigInteger7compareERKS0_@Base 2.0.2
  _ZNK3QCA10BigInteger7toArrayEv@Base 2.0.2
  _ZNK3QCA10BigInteger8toStringEv@Base 2.0.2
@@ -1840,31 +1731,7 @@ libqca.so.2 libqca2 #MINVER#
  _ZNK3QCA9SafeTimer7Private10metaObjectEv@Base 2.1.0.3
  _ZNK3QCA9SafeTimer8intervalEv@Base 2.1.0.3
  _ZNK3QCA9SafeTimer8isActiveEv@Base 2.1.0.3
- (optional=templinst)_ZNSt6vectorIN3QCA5Botan17Pooling_Allocator12Memory_BlockESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 2.0.3
- (optional=templinst)_ZNSt6vectorIPN3QCA5Botan9AllocatorESaIS3_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS3_S5_EERKS3_@Base 2.0.3
  (optional=templinst)_ZNSt6vectorISt4pairIPvjESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 2.0.2
- (optional=templinst)_ZNSt6vectorISt4pairIPvjESaIS2_EED1Ev@Base 2.0.3
- (optional=templinst)_ZNSt6vectorISt4pairIPvjESaIS2_EED2Ev@Base 2.0.3
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE10_M_insert_EPKSt18_Rb_tree_node_baseSF_RKS6_@Base 2.0.3
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE16_M_insert_uniqueERKS6_@Base 2.0.3
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS6_ERKS6_@Base 2.0.3
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan5MutexEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E@Base 2.0.3
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE10_M_insert_EPKSt18_Rb_tree_node_baseSF_RKS6_@Base 2.0.3
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE16_M_insert_uniqueERKS6_@Base 2.0.3
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE17_M_insert_unique_ESt23_Rb_tree_const_iteratorIS6_ERKS6_@Base 2.0.3
- (optional=templinst)_ZNSt8_Rb_treeISsSt4pairIKSsPN3QCA5Botan9AllocatorEESt10_Select1stIS6_ESt4lessISsESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E@Base 2.0.3
- (optional=templinst)_ZSt11__push_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEiS5_EvT_T0_SC_T1_@Base 2.0.3
- (optional=templinst)_ZSt11__push_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEElS5_EvT_T0_SC_T1_@Base 2.0.3
- (optional=templinst)_ZSt11lower_boundIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEES5_ET_SB_SB_RKT0_@Base 2.0.3
- (optional=templinst)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEiS5_EvT_T0_SC_T1_@Base 2.0.3
- (optional=templinst)_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEElS5_EvT_T0_SC_T1_@Base 2.0.3
- (optional=templinst)_ZSt13__heap_selectIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEEvT_SB_SB_@Base 2.0.3
- (optional=templinst)_ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEEvT_SB_@Base 2.0.3
- (optional=templinst)_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEiEvT_SB_T0_@Base 2.0.3
- (optional=templinst)_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEElEvT_SB_T0_@Base 2.0.3
- (optional=templinst)_ZSt19__move_median_firstIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEEvT_SB_SB_@Base 2.0.3
- (optional=templinst)_ZSt21__unguarded_partitionIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEES5_ET_SB_SB_RKT0_@Base 2.0.3
- (optional=templinst)_ZSt25__unguarded_linear_insertIN9__gnu_cxx17__normal_iteratorIPN3QCA5Botan17Pooling_Allocator12Memory_BlockESt6vectorIS5_SaIS5_EEEEEvT_@Base 2.0.3
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_EPKS3_RKS6_@Base 2.0.2
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_PKS3_@Base 2.0.3
  (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_S8_@Base 2.0.2
