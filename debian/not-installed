@@ -1,0 +1,3 @@
+# False positives, manpages are gzipped
+usr/share/man/man1/qcatool.1
+usr/share/man/man1/qcatool-qt5.1
