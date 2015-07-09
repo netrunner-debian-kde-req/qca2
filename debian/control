@@ -36,11 +36,13 @@ Description: libraries for the Qt Cryptographic Architecture
 Package: libqca2-plugins
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libqca2-plugin-cyrus-sasl (<< 2.1.0), libqca2-plugin-gnupg (<< 2.1.0),
- libqca2-plugin-ossl (<< 2.1.0)
-Replaces: libqca2-plugin-cyrus-sasl (<< 2.1.0), libqca2-plugin-gnupg (<< 2.1.0),
- libqca2-plugin-ossl (<< 2.1.0)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqca2-plugin-cyrus-sasl (<< 2.1.0),
+        libqca2-plugin-gnupg (<< 2.1.0),
+        libqca2-plugin-ossl (<< 2.1.0)
+Replaces: libqca2-plugin-cyrus-sasl (<< 2.1.0),
+          libqca2-plugin-gnupg (<< 2.1.0),
+          libqca2-plugin-ossl (<< 2.1.0)
 Description: QCA plugins for libqca2
  This plugin provides cryptographic as well as helper plugins for Qt
  Cryptographic Architecture (QCA).
@@ -59,7 +61,7 @@ Description: libraries for the Qt Cryptographic Architecture
 Package: libqca-qt5-2-plugins
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: QCA plugins for libqca2
  This plugin provides cryptographic as well as helper plugins for Qt
  Cryptographic Architecture (QCA).
@@ -166,7 +168,7 @@ Package: libqca2-plugin-cyrus-sasl
 Section: oldlibs
 Priority: extra
 Architecture: any
-Depends: ${misc:Depends}, libqca2-plugins
+Depends: libqca2-plugins, ${misc:Depends}
 Description: transitional package for libqca2-plugins
  This is a transitional dummy package. It can safely be removed.
 
@@ -175,7 +177,7 @@ Section: oldlibs
 Priority: extra
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, libqca2-plugins
+Depends: libqca2-plugins, ${misc:Depends}
 Description: transitional package for libqca2-plugins
  This is a transitional dummy package. It can safely be removed.
 
@@ -184,6 +186,6 @@ Section: oldlibs
 Priority: extra
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, libqca2-plugins
+Depends: libqca2-plugins, ${misc:Depends}
 Description: transitional package for libqca2-plugins
  This is a transitional dummy package. It can safely be removed.
