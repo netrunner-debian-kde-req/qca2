@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.1.0.3 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 2.1.0.3 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x sparc x32
 libqca-qt5.so.2 libqca-qt5-2 #MINVER#
 * Build-Depends-Package: libqca-qt5-2-dev
  _Z10qcaVersionv@Base 2.0.2
@@ -1267,7 +1267,7 @@ libqca-qt5.so.2 libqca-qt5-2 #MINVER#
  _ZN3QCA9providersEv@Base 2.0.2
  _ZN3QCAlsER11QTextStreamRKNS_10BigIntegerE@Base 2.0.2
  _ZN3QCAplERKNS_11SecureArrayES2_@Base 2.0.2
- (optional=templinst|arch=amd64 arm64 armel i386 kfreebsd-amd64 kfreebsd-i386)_ZN9QHashData9hasShrunkEv@Base 2.1.0
+ (optional=templinst|arch=amd64 arm64 armel hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 sparc x32)_ZN9QHashData9hasShrunkEv@Base 2.1.0
  _ZNK3QCA10BigInteger7compareERKS0_@Base 2.0.2
  _ZNK3QCA10BigInteger7toArrayEv@Base 2.0.2
  _ZNK3QCA10BigInteger8toStringEv@Base 2.0.2
