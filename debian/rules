@@ -16,6 +16,10 @@ QT5_PACKAGES = $(shell grep Package: debian/control | grep qt5 | grep -v '\-dbg'
 QT5_DH_EXCLUDE := $(foreach package, $(QT5_PACKAGES), -N $(package))
 QT5_DH_INCLUDE := $(foreach package, $(QT5_PACKAGES), -p $(package))
 
+override_dh_auto_clean:
+	$(overridden_command)
+	$(overridden_command) --builddirectory=$(QT5_BUILD_DIR)
+
 override_dh_auto_configure:
 	QT_SELECT=qt4 $(overridden_command) -- \
 	    -DQT4_BUILD=ON -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" \
