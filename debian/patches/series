@@ -1,4 +1,5 @@
 define_qca_export.diff
 pipeunittest_more_wait.diff
 hurd_msync.diff
+kubuntu_mkspecs-dir.diff
 upstream_watchfile-fixes.diff

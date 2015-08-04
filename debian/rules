@@ -7,8 +7,9 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
+
 override_dh_auto_configure:
-	$(overridden_command) -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" -DQT4_BUILD=true
+	$(overridden_command)                                   -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" -DQT4_BUILD=true
 
 override_dh_auto_build:
 	$(overridden_command)
@@ -17,7 +18,7 @@ override_dh_auto_install:
 	$(overridden_command)
 
 override_dh_install:
-	$(overridden_command)
+	$(overridden_command) $(QT5_DH_EXCLUDE)
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=libqca2-dbg
+	$(overridden_command) $(QT5_DH_EXCLUDE) --dbg-package=libqca2-dbg

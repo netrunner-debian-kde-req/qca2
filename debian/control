@@ -2,10 +2,18 @@ Source: qca2
 Priority: optional
 Section: libs
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Jan Niehusmann <jan@debian.org>, Felix Geyer <fgeyer@debian.org>,
- Modestas Vainius <modax@debian.org>
-Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.12), cmake, pkg-config,
- libqt4-dev (>= 4.4.0), ca-certificates, libsasl2-dev, libssl-dev, doxygen
+Uploaders: Jan Niehusmann <jan@debian.org>,
+           Felix Geyer <fgeyer@debian.org>,
+           Modestas Vainius <modax@debian.org>
+Build-Depends: ca-certificates,
+               cmake,
+               debhelper (>= 9),
+               doxygen,
+               libqt4-dev (>= 4.4.0),
+               libsasl2-dev,
+               libssl-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12)
 Build-Conflicts: qca-dev
 Standards-Version: 3.9.6
 Homepage: http://delta.affinix.com/qca/
@@ -15,17 +23,19 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-req/qca2.git
 Package: libqca2-plugins
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: QCA plugins for libqca2
  This plugin provides cryptographic as well as helper plugins for Qt
  Cryptographic Architecture (QCA).
 
-Package: libqca2
+Package: libqca2v5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: ca-certificates, libqca2-plugins
+Breaks: libqca2
+Replaces: libqca2
 Description: libraries for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
  platform API for a range of cryptographic features, including SSL/TLS,
@@ -34,8 +44,8 @@ Description: libraries for the Qt Cryptographic Architecture
 Package: qca2-utils
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libqca2 (= ${binary:Version})
-Breaks: libqca2 (<< 2.0.3-3~)
+Depends: libqca2v5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqca2v5 (<< 2.0.3-3~)
 Replaces: libqca2 (<< 2.0.3-3~)
 Description: command line tool for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
@@ -49,7 +59,7 @@ Package: libqca2-dbg
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, libqca2 (= ${binary:Version})
+Depends: libqca2v5 (= ${binary:Version}), ${misc:Depends}
 Recommends: libqt4-dbg
 Priority: extra
 Description: debug symbols for the Qt Cryptographic Architecture
@@ -63,7 +73,9 @@ Description: debug symbols for the Qt Cryptographic Architecture
 Package: libqca2-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libqca2 (= ${binary:Version}), libqt4-dev (>= 4.4.0~)
+Depends: libqca2v5 (= ${binary:Version}),
+         libqt4-dev (>= 4.4.0~),
+         ${misc:Depends}
 Conflicts: qca-dev
 Description: development files for the Qt Cryptographic Architecture
  The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
@@ -73,14 +85,11 @@ Description: development files for the Qt Cryptographic Architecture
  This package contains development files for building software that uses the
  Qt Cryptographic Architecture.
 
-# Transitional packages can be removed no sooner than May 2016.
-# Next Kubuntu LTS is 16.04.
 Package: libqca2-plugin-cyrus-sasl
 Depends: libqca2-plugins, ${misc:Depends}
 Architecture: all
 Priority: extra
 Section: oldlibs
-XS-TransitionRemoveAfter: 2016-05-01
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
@@ -89,7 +98,6 @@ Depends: libqca2-plugins, ${misc:Depends}
 Architecture: all
 Priority: extra
 Section: oldlibs
-XS-TransitionRemoveAfter: 2016-05-01
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
@@ -98,6 +106,5 @@ Depends: libqca2-plugins, ${misc:Depends}
 Architecture: all
 Priority: extra
 Section: oldlibs
-XS-TransitionRemoveAfter: 2016-05-01
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
