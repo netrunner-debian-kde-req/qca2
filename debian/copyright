@@ -12,23 +12,6 @@ Copyright: 2006-2007, Alon Bar-Lev <alon.barlev@gmail.com>
            2008, Michael Leupold <lemma@confuego.org>
            2006, Michail Pishchagin <mblsha@gmail.com>
 License: LGPL-2.1+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
- 02110-1301  USA
- .
- On Debian systems, the complete text of the GNU Lesser General Public License
- version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
 
 Files: src/botantools/botan/alloc_mmap/mmap_mem.cpp
        src/botantools/botan/alloc_mmap/mmap_mem.h
@@ -232,21 +215,33 @@ Copyright: 1999-2002, Aladdin Enterprises
            2004-2005, Brad Hards <bradh@frogmouth.net>
            2003-2007, Justin Karneges <justin@affinix.com>
 License: LGPL-2.1+ or Zlib
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
- * 02110-1301  USA
+
+Files: debian/*
+Copyright: 2015, Maximiliano Curia <maxy@debian.org>
+License: Permissive
+ The packaging efforts in this debian package are free software; the copyright
+ holder(s) give unlimited permission to copy, distribute and modify it.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
  .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301  USA
+ --
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: Zlib
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any damages
   arising from the use of this software.
@@ -265,12 +260,3 @@ License: LGPL-2.1+ or Zlib
  .
   L. Peter Deutsch
   ghost@aladdin.com
- .
- On Debian systems, the complete text of the GNU Lesser General Public License
- version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
-
-Files: debian/*
-Copyright: 2015, Maximiliano Curia <maxy@debian.org>
-License: Permissive
- The packaging efforts in this debian package are free software; the copyright
- holder(s) give unlimited permission to copy, distribute and modify it.
