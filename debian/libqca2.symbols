@@ -91,9 +91,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA10SyncThread7Private13agent_startedEv@Base 2.0.2
  _ZN3QCA10SyncThread7Private14agent_call_retEbRK8QVariant@Base 2.0.2
  _ZN3QCA10SyncThread7Private16staticMetaObjectE@Base 2.0.2
- (optional=gcc5)_ZN3QCA10SyncThread7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA10SyncThread7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA10SyncThread7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA10SyncThread7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA10SyncThread7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA10SyncThread7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA10SyncThreadC1EP7QObject@Base 2.0.2
  _ZN3QCA10SyncThreadC2EP7QObject@Base 2.0.2
  _ZN3QCA10SyncThreadD0Ev@Base 2.0.2
@@ -129,9 +129,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA10TokenAsker16staticMetaObjectE@Base 2.0.2
  _ZN3QCA10TokenAsker3askERKNS_12KeyStoreInfoERKNS_13KeyStoreEntryEPv@Base 2.0.2
  _ZN3QCA10TokenAsker6cancelEv@Base 2.0.2
- (optional=gcc5)_ZN3QCA10TokenAsker7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA10TokenAsker7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA10TokenAsker7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA10TokenAsker7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA10TokenAsker7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA10TokenAsker7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA10TokenAskerC1EP7QObject@Base 2.0.2
  _ZN3QCA10TokenAskerC2EP7QObject@Base 2.0.2
  _ZN3QCA10TokenAskerD0Ev@Base 2.0.2
@@ -165,9 +165,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA11DHPublicKeyC2ERKNS_12DHPrivateKeyE@Base 2.0.2
  _ZN3QCA11DHPublicKeyC2ERKNS_7DLGroupERKNS_10BigIntegerERK7QString@Base 2.0.2
  _ZN3QCA11DHPublicKeyC2Ev@Base 2.0.2
- (optional=gcc5)_ZN3QCA11DHPublicKeyD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA11DHPublicKeyD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA11DHPublicKeyD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA11DHPublicKeyD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA11DHPublicKeyD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA11DHPublicKeyD2Ev@Base 2.1.0.3
  _ZN3QCA11HashContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA11HashContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA11HashContext16staticMetaObjectE@Base 2.0.2
@@ -266,18 +266,18 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA12DHPrivateKeyC1Ev@Base 2.0.2
  _ZN3QCA12DHPrivateKeyC2ERKNS_7DLGroupERKNS_10BigIntegerES6_RK7QString@Base 2.0.2
  _ZN3QCA12DHPrivateKeyC2Ev@Base 2.0.2
- (optional=gcc5)_ZN3QCA12DHPrivateKeyD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA12DHPrivateKeyD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA12DHPrivateKeyD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12DHPrivateKeyD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12DHPrivateKeyD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12DHPrivateKeyD2Ev@Base 2.1.0.3
  _ZN3QCA12DSAPublicKeyC1ERKNS_13DSAPrivateKeyE@Base 2.0.2
  _ZN3QCA12DSAPublicKeyC1ERKNS_7DLGroupERKNS_10BigIntegerERK7QString@Base 2.0.2
  _ZN3QCA12DSAPublicKeyC1Ev@Base 2.0.2
  _ZN3QCA12DSAPublicKeyC2ERKNS_13DSAPrivateKeyE@Base 2.0.2
  _ZN3QCA12DSAPublicKeyC2ERKNS_7DLGroupERKNS_10BigIntegerERK7QString@Base 2.0.2
  _ZN3QCA12DSAPublicKeyC2Ev@Base 2.0.2
- (optional=gcc5)_ZN3QCA12DSAPublicKeyD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA12DSAPublicKeyD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA12DSAPublicKeyD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12DSAPublicKeyD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12DSAPublicKeyD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12DSAPublicKeyD2Ev@Base 2.1.0.3
  _ZN3QCA12EventHandler10eventReadyEiRKNS_5EventE@Base 2.0.2
  _ZN3QCA12EventHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA12EventHandler11qt_metacastEPKc@Base 2.0.2
@@ -288,9 +288,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA12EventHandler7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA12EventHandler7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA12EventHandler7Private16staticMetaObjectE@Base 2.0.2
- (optional=gcc5)_ZN3QCA12EventHandler7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA12EventHandler7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA12EventHandler7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12EventHandler7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12EventHandler7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12EventHandler7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA12EventHandler9tokenOkayEi@Base 2.0.2
  _ZN3QCA12EventHandlerC1EP7QObject@Base 2.0.2
  _ZN3QCA12EventHandlerC2EP7QObject@Base 2.0.2
@@ -352,9 +352,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA12RSAPublicKeyC2ERKNS_10BigIntegerES3_RK7QString@Base 2.0.2
  _ZN3QCA12RSAPublicKeyC2ERKNS_13RSAPrivateKeyE@Base 2.0.2
  _ZN3QCA12RSAPublicKeyC2Ev@Base 2.0.2
- (optional=gcc5)_ZN3QCA12RSAPublicKeyD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA12RSAPublicKeyD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA12RSAPublicKeyD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12RSAPublicKeyD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12RSAPublicKeyD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA12RSAPublicKeyD2Ev@Base 2.1.0.3
  _ZN3QCA12SymmetricKey12isWeakDESKeyEv@Base 2.0.2
  _ZN3QCA12SymmetricKeyC1ERK10QByteArray@Base 2.0.2
  _ZN3QCA12SymmetricKeyC1ERKNS_11SecureArrayE@Base 2.0.2
@@ -400,9 +400,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA13DSAPrivateKeyC1Ev@Base 2.0.2
  _ZN3QCA13DSAPrivateKeyC2ERKNS_7DLGroupERKNS_10BigIntegerES6_RK7QString@Base 2.0.2
  _ZN3QCA13DSAPrivateKeyC2Ev@Base 2.0.2
- (optional=gcc5)_ZN3QCA13DSAPrivateKeyD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA13DSAPrivateKeyD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA13DSAPrivateKeyD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13DSAPrivateKeyD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13DSAPrivateKeyD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13DSAPrivateKeyD2Ev@Base 2.1.0.3
  _ZN3QCA13KeyStoreEntry10fromStringERK7QString@Base 2.0.2
  _ZN3QCA13KeyStoreEntry12ensureAccessEv@Base 2.0.2
  _ZN3QCA13KeyStoreEntry15ensureAvailableEv@Base 2.0.2
@@ -430,9 +430,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA13PasswordAsker3askENS_5Event13PasswordStyleERK7QStringPv@Base 2.0.2
  _ZN3QCA13PasswordAsker3askENS_5Event13PasswordStyleERKNS_12KeyStoreInfoERKNS_13KeyStoreEntryEPv@Base 2.0.2
  _ZN3QCA13PasswordAsker6cancelEv@Base 2.0.2
- (optional=gcc5)_ZN3QCA13PasswordAsker7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA13PasswordAsker7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA13PasswordAsker7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13PasswordAsker7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13PasswordAsker7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13PasswordAsker7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA13PasswordAskerC1EP7QObject@Base 2.0.2
  _ZN3QCA13PasswordAskerC2EP7QObject@Base 2.0.2
  _ZN3QCA13PasswordAskerD0Ev@Base 2.0.2
@@ -442,9 +442,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA13RSAPrivateKeyC1Ev@Base 2.0.2
  _ZN3QCA13RSAPrivateKeyC2ERKNS_10BigIntegerES3_S3_S3_S3_RK7QString@Base 2.0.2
  _ZN3QCA13RSAPrivateKeyC2Ev@Base 2.0.2
- (optional=gcc5)_ZN3QCA13RSAPrivateKeyD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA13RSAPrivateKeyD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA13RSAPrivateKeyD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13RSAPrivateKeyD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13RSAPrivateKeyD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13RSAPrivateKeyD2Ev@Base 2.1.0.3
  _ZN3QCA13RandomContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13RandomContext11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13RandomContext16staticMetaObjectE@Base 2.0.2
@@ -469,9 +469,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA13SecureMessage7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA13SecureMessage7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA13SecureMessage7Private16staticMetaObjectE@Base 2.0.2
- (optional=gcc5)_ZN3QCA13SecureMessage7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA13SecureMessage7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA13SecureMessage7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13SecureMessage7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13SecureMessage7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA13SecureMessage7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA13SecureMessage8finishedEv@Base 2.0.2
  _ZN3QCA13SecureMessage9readyReadEv@Base 2.0.2
  _ZN3QCA13SecureMessage9setFormatENS0_6FormatE@Base 2.0.2
@@ -789,9 +789,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA3Hex6updateERKNS_12MemoryRegionE@Base 2.0.2
  _ZN3QCA3HexC1ENS_9DirectionE@Base 2.0.2
  _ZN3QCA3HexC2ENS_9DirectionE@Base 2.0.2
- (optional=gcc5)_ZN3QCA3HexD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA3HexD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA3HexD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA3HexD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA3HexD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA3HexD2Ev@Base 2.1.0.3
  _ZN3QCA3TLS10handshakenEv@Base 2.0.2
  _ZN3QCA3TLS10setSessionERKNS_10TLSSessionE@Base 2.0.2
  _ZN3QCA3TLS11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
@@ -935,9 +935,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA6Base646updateERKNS_12MemoryRegionE@Base 2.0.2
  _ZN3QCA6Base64C1ENS_9DirectionE@Base 2.0.2
  _ZN3QCA6Base64C2ENS_9DirectionE@Base 2.0.2
- (optional=gcc5)_ZN3QCA6Base64D0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA6Base64D1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA6Base64D2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA6Base64D0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA6Base64D1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA6Base64D2Ev@Base 2.1.0.3
  _ZN3QCA6Cipher14supportedTypesERK7QString@Base 2.0.2
  _ZN3QCA6Cipher14withAlgorithmsERK7QStringNS0_4ModeENS0_7PaddingE@Base 2.0.2
  _ZN3QCA6Cipher5clearEv@Base 2.0.2
@@ -1054,9 +1054,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA8DirWatch7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA8DirWatch7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA8DirWatch7Private16staticMetaObjectE@Base 2.0.2
- (optional=gcc5)_ZN3QCA8DirWatch7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA8DirWatch7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA8DirWatch7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA8DirWatch7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA8DirWatch7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA8DirWatch7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA8DirWatch7changedEv@Base 2.0.2
  _ZN3QCA8DirWatchC1ERK7QStringP7QObject@Base 2.0.2
  _ZN3QCA8DirWatchC2ERK7QStringP7QObject@Base 2.0.2
@@ -1133,9 +1133,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA8QPipeEnd7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA8QPipeEnd7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA8QPipeEnd7Private16staticMetaObjectE@Base 2.0.2
- (optional=gcc5)_ZN3QCA8QPipeEnd7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA8QPipeEnd7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA8QPipeEnd7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA8QPipeEnd7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA8QPipeEnd7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA8QPipeEnd7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA8QPipeEnd7releaseEv@Base 2.0.2
  _ZN3QCA8QPipeEnd8finalizeEv@Base 2.0.2
  _ZN3QCA8QPipeEnd9readyReadEv@Base 2.0.2
@@ -1171,9 +1171,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA9FileWatch7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA9FileWatch7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA9FileWatch7Private16staticMetaObjectE@Base 2.0.2
- (optional=gcc5)_ZN3QCA9FileWatch7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA9FileWatch7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA9FileWatch7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9FileWatch7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9FileWatch7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9FileWatch7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA9FileWatch7changedEv@Base 2.0.2
  _ZN3QCA9FileWatchC1ERK7QStringP7QObject@Base 2.0.2
  _ZN3QCA9FileWatchC2ERK7QStringP7QObject@Base 2.0.2
@@ -1204,9 +1204,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA9KeyLoader7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.2
  _ZN3QCA9KeyLoader7Private11qt_metacastEPKc@Base 2.0.2
  _ZN3QCA9KeyLoader7Private16staticMetaObjectE@Base 2.0.2
- (optional=gcc5)_ZN3QCA9KeyLoader7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA9KeyLoader7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA9KeyLoader7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9KeyLoader7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9KeyLoader7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9KeyLoader7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA9KeyLoader8finishedEv@Base 2.0.2
  _ZN3QCA9KeyLoaderC1EP7QObject@Base 2.0.2
  _ZN3QCA9KeyLoaderC2EP7QObject@Base 2.0.2
@@ -1255,9 +1255,9 @@ libqca.so.2 libqca2 #MINVER#
  _ZN3QCA9SafeTimer7Private8fixTimerEv@Base 2.1.0.3
  _ZN3QCA9SafeTimer7PrivateC1EP7QObject@Base 2.1.0.3
  _ZN3QCA9SafeTimer7PrivateC2EP7QObject@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA9SafeTimer7PrivateD0Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA9SafeTimer7PrivateD1Ev@Base 2.1.0.3
- (optional=gcc5)_ZN3QCA9SafeTimer7PrivateD2Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9SafeTimer7PrivateD0Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9SafeTimer7PrivateD1Ev@Base 2.1.0.3
+ (optional=gcc5|arch=!amd64)_ZN3QCA9SafeTimer7PrivateD2Ev@Base 2.1.0.3
  _ZN3QCA9SafeTimer7timeoutEv@Base 2.1.0.3
  _ZN3QCA9SafeTimerC1EP7QObject@Base 2.1.0.3
  _ZN3QCA9SafeTimerC2EP7QObject@Base 2.1.0.3
@@ -1732,9 +1732,12 @@ libqca.so.2 libqca2 #MINVER#
  _ZNK3QCA9SafeTimer8intervalEv@Base 2.1.0.3
  _ZNK3QCA9SafeTimer8isActiveEv@Base 2.1.0.3
  (optional=templinst)_ZNSt6vectorISt4pairIPvjESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 2.0.2
- (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_EPKS3_RKS6_@Base 2.0.2
- (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_PKS3_@Base 2.0.3
- (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_S8_@Base 2.0.2
+ (optional=templinst|arch=amd64)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_@Base 2.1.0.3
+ (optional=templinst|arch=amd64)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_PKS5_@Base 2.1.0.3
+ (optional=templinst|arch=amd64)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_SA_@Base 2.1.0.3
+ (optional=templinst|arch=!amd64)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_EPKS3_RKS6_@Base 2.0.2
+ (optional=templinst|arch=!amd64)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_PKS3_@Base 2.0.3
+ (optional=templinst|arch=!amd64)_ZStplIcSt11char_traitsIcESaIcEESbIT_T0_T1_ERKS6_S8_@Base 2.0.2
  _ZTIN3QCA10CRLContextE@Base 2.0.2
  _ZTIN3QCA10CSRContextE@Base 2.0.2
  _ZTIN3QCA10DSAContextE@Base 2.0.2
