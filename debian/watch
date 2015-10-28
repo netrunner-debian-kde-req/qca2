@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/stable/qca-qt5/([\d.]+)/src/qca-qt5-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/qca/([\d.]+)/src/qca-([\d.]+)\.tar\.xz
