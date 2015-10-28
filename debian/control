@@ -2,10 +2,8 @@ Source: qca2
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Jan Niehusmann <jan@debian.org>,
-           Felix Geyer <fgeyer@debian.org>,
+Uploaders: Felix Geyer <fgeyer@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
-           Modestas Vainius <modax@debian.org>
 Build-Depends: ca-certificates,
                cmake (>= 2.8.12),
                debhelper (>= 9),
